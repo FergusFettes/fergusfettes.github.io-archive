@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fergus Fettes</title>
-    <link>https://fergusfettes.github.io/tags/</link>
+    <link>http://fergusfettes.github.io/tags/</link>
     <description>Recent content in Tags on Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://fergusfettes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 19:09:43 +0100</lastBuildDate>
+    <atom:link href="http://fergusfettes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

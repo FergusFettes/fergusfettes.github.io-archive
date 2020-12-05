@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Fergus Fettes</title>
-    <link>http://fergusfettes.github.io/posts/</link>
-    <description>Recent content in Posts on Fergus Fettes</description>
+    <title>Test on Fergus Fettes</title>
+    <link>http://fergusfettes.github.io/tags/test/</link>
+    <description>Recent content in Test on Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Dec 2020 19:09:43 +0100</lastBuildDate>
-    <atom:link href="http://fergusfettes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://fergusfettes.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Test</title>
