@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Fergus Fettes</title>
-    <link>http://fergusfettes.github.io/posts/</link>
+    <link>https://fergusfettes.github.io/posts/</link>
     <description>Recent content in Posts on Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Dec 2020 19:09:36 +0100</lastBuildDate>
-    <atom:link href="http://fergusfettes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fergusfettes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>First blog post</title>
-      <link>http://fergusfettes.github.io/posts/my-first-post/</link>
+      <link>https://fergusfettes.github.io/posts/my-first-post/</link>
       <pubDate>Sat, 05 Dec 2020 19:09:36 +0100</pubDate>
-      <guid>http://fergusfettes.github.io/posts/my-first-post/</guid>
+      <guid>https://fergusfettes.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is my first hugo post.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Second blog post</title>
-      <link>http://fergusfettes.github.io/posts/my-second-post/</link>
+      <link>https://fergusfettes.github.io/posts/my-second-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://fergusfettes.github.io/posts/my-second-post/</guid>
+      <guid>https://fergusfettes.github.io/posts/my-second-post/</guid>
       <description></description>
     </item>
     
