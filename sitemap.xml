@@ -4,36 +4,25 @@
   
   <url>
     <loc>http://fergusfettes.github.io/</loc>
-    <lastmod>2020-12-05T19:45:32+01:00</lastmod>
+    <lastmod>2020-12-05T20:00:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://fergusfettes.github.io/posts/first-real-microblog-entry/</loc>
+    <lastmod>2020-12-05T20:00:45+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://fergusfettes.github.io/posts/</loc>
-    <lastmod>2020-12-05T19:45:32+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fergusfettes.github.io/posts/test-from-phone/</loc>
-    <lastmod>2020-12-05T19:45:32+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fergusfettes.github.io/tags/</loc>
-    <lastmod>2020-12-05T19:09:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fergusfettes.github.io/tags/test/</loc>
-    <lastmod>2020-12-05T19:09:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://fergusfettes.github.io/posts/test/</loc>
-    <lastmod>2020-12-05T19:09:43+01:00</lastmod>
+    <lastmod>2020-12-05T20:00:45+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://fergusfettes.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://fergusfettes.github.io/tags/</loc>
   </url>
   
 </urlset>

@@ -6,25 +6,41 @@
     <description>Recent content on Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Dec 2020 19:45:17 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 05 Dec 2020 19:56:03 +0100</lastBuildDate>
     <atom:link href="http://fergusfettes.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Test from phone</title>
-      <link>http://fergusfettes.github.io/posts/test-from-phone/</link>
-      <pubDate>Sat, 05 Dec 2020 19:45:17 +0100</pubDate>
-      <guid>http://fergusfettes.github.io/posts/test-from-phone/</guid>
-      <description>&lt;p&gt;This was actually written on my phone&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>http://fergusfettes.github.io/posts/test/</link>
-      <pubDate>Sat, 05 Dec 2020 19:09:43 +0100</pubDate>
-      <guid>http://fergusfettes.github.io/posts/test/</guid>
-      <description>&lt;p&gt;This is some simple stuff purportedly written from my phone.&lt;/p&gt;
-</description>
+      <title>First real microblog entry</title>
+      <link>http://fergusfettes.github.io/posts/first-real-microblog-entry/</link>
+      <pubDate>Sat, 05 Dec 2020 19:56:03 +0100</pubDate>
+      <guid>http://fergusfettes.github.io/posts/first-real-microblog-entry/</guid>
+      <description>&lt;p&gt;Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website. Marvellous.&lt;/p&gt;
+&lt;p&gt;I think I&amp;rsquo;ll stay here for a while, build up some foundations, then head back up the ladder of complexity. Maybe one day I will finish my 3d playground!&lt;/p&gt;
+&lt;p&gt;This microblog is written on my phone in gitjournal, built with Hugo (I still don&amp;rsquo;t have a build pipeline set up so I run the following script whenever I want to update the site), then published with GitHub pages. Marvellous!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd journal
+git pull
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes
+hugo -D
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes/public
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+git push
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
