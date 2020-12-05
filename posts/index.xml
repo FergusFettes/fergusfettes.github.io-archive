@@ -6,8 +6,17 @@
     <description>Recent content in Posts on Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Dec 2020 19:09:43 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 05 Dec 2020 19:45:17 +0100</lastBuildDate>
     <atom:link href="http://fergusfettes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Test from phone</title>
+      <link>http://fergusfettes.github.io/posts/test-from-phone/</link>
+      <pubDate>Sat, 05 Dec 2020 19:45:17 +0100</pubDate>
+      <guid>http://fergusfettes.github.io/posts/test-from-phone/</guid>
+      <description>&lt;p&gt;This was actually written on my phone&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Test</title>
