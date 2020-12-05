@@ -37,10 +37,8 @@ git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$
 git push
 &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
 
-&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
 git add .
 git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
