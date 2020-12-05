@@ -26,6 +26,7 @@ git pull
 
 &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
 cd ffettes
+rm -rf public/*
 hugo -D
 &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
 
