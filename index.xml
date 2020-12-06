@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fergus Fettes</title>
-    <link>http://fergusfettes.github.io/</link>
+    <link>http://www.fergusfettes.com/</link>
     <description>Recent content on Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Dec 2020 19:56:03 +0100</lastBuildDate>
-    <atom:link href="http://fergusfettes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 16:45:38 +0100</lastBuildDate>
+    <atom:link href="http://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>First real microblog entry</title>
-      <link>http://fergusfettes.github.io/posts/first-real-microblog-entry/</link>
-      <pubDate>Sat, 05 Dec 2020 19:56:03 +0100</pubDate>
-      <guid>http://fergusfettes.github.io/posts/first-real-microblog-entry/</guid>
+      <title>Longer Post</title>
+      <link>http://www.fergusfettes.com/posts/longer-post/</link>
+      <pubDate>Sun, 06 Dec 2020 16:45:38 +0100</pubDate>
+      <guid>http://www.fergusfettes.com/posts/longer-post/</guid>
       <description>&lt;p&gt;Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website. Marvellous.&lt;/p&gt;
 &lt;p&gt;I think I&amp;rsquo;ll stay here for a while, build up some foundations, then head back up the ladder of complexity. Maybe one day I will finish my 3d playground!&lt;/p&gt;
 &lt;p&gt;This microblog is written on my phone in gitjournal, built with Hugo (I still don&amp;rsquo;t have a build pipeline set up so I run the following script whenever I want to update the site), then published with GitHub pages. Marvellous!&lt;/p&gt;
@@ -40,6 +40,105 @@ git push
 git add .
 git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>First real microblog entry</title>
+      <link>http://www.fergusfettes.com/micro/first-real-microblog-entry/</link>
+      <pubDate>Sat, 05 Dec 2020 19:56:03 +0100</pubDate>
+      <guid>http://www.fergusfettes.com/micro/first-real-microblog-entry/</guid>
+      <description>&lt;p&gt;Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website. Marvellous.&lt;/p&gt;
+&lt;p&gt;I think I&amp;rsquo;ll stay here for a while, build up some foundations, then head back up the ladder of complexity. Maybe one day I will finish my 3d playground!&lt;/p&gt;
+&lt;p&gt;This microblog is written on my phone in gitjournal, built with Hugo (I still don&amp;rsquo;t have a build pipeline set up so I run the following script whenever I want to update the site), then published with GitHub pages. Marvellous!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd journal
+git pull
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes
+rm -rf public/*
+hugo -D
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes/public
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+git push
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://www.fergusfettes.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.fergusfettes.com/about/</guid>
+      <description>&lt;p&gt;While studying for a Physics MSc. I worked for three years in a molecular biophysics laboratory developing microscopy techniques for studying DNA-protein interactions, including hardware and software engineering and a little bit of wetlab work. After taking a year out to further develop my programming skills I&amp;rsquo;m now working as a python programmer in a tech startup focused on advancing the state-of-the-art in human-machine interactions.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.fergusfettes.com/cv.pdf&#34;&gt;CV&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.fergusfettes.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.fergusfettes.com/contact/</guid>
+      <description>&lt;p class=&#34;error message js-hidden&#34;&gt;You must have Javascript enabled to use this function.&lt;/p&gt;
+&lt;p class=&#34;contact-submitted status message hidden&#34;&gt;Your message was sent.&lt;/p&gt;
+&lt;p class=&#34;contact-error error message hidden&#34;&gt;There was an error sending the message.&lt;/p&gt;
+
+&lt;form class=&#34;contact-form hidden&#34; action=&#34;#&#34; method=&#34;post&#34; accept-charset=&#34;UTF-8&#34;&gt;
+  &lt;label for=&#34;edit-name&#34;&gt;Name&lt;/label&gt;
+  &lt;input type=&#34;text&#34; id=&#34;edit-name&#34; name=&#34;name&#34; placeholder=&#34;Your name&#34; tabindex=&#34;1&#34; required autofocus&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;label for=&#34;edit-mail&#34;&gt;E-mail address&lt;/label&gt;
+  &lt;input type=&#34;email&#34; id=&#34;edit-mail&#34; name=&#34;email&#34; placeholder=&#34;Your e-mail address&#34; tabindex=&#34;2&#34; required&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;input type=&#34;text&#34; id=&#34;edit-url&#34; class=&#34;hidden&#34; name=&#34;url&#34; placeholder=&#34;Skip if you are a human&#34;&gt;
+  &lt;label for=&#34;edit-subject&#34;&gt;Subject&lt;/label&gt;
+  &lt;input type=&#34;text&#34; id=&#34;edit-subject&#34; name=&#34;subject&#34; placeholder=&#34;A short subject&#34; tabindex=&#34;3&#34; required&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;label for=&#34;edit-message&#34;&gt;Message&lt;/label&gt;
+  &lt;textarea id=&#34;edit-message&#34; name=&#34;message&#34; rows=&#34;5&#34; placeholder=&#34;The messages goes here…&#34; tabindex=&#34;4&#34; required&gt;&lt;/textarea&gt;&lt;span&gt;&lt;/span&gt;
+  &lt;button type=&#34;submit&#34; name=&#34;submit&#34; class=&#34;form-submit&#34; disabled&gt;Send message&lt;/button&gt;
+&lt;/form&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>http://www.fergusfettes.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.fergusfettes.com/search/</guid>
+      <description>&lt;p class=&#34;error message js-hidden&#34;&gt;You must have Javascript enabled to use this function.&lt;/p&gt;
+&lt;p class=&#34;search-loading status message hidden&#34;&gt;Loading search index…&lt;/p&gt;
+
+&lt;div class=&#34;search-input hidden&#34;&gt;
+  &lt;form id=&#34;search-form&#34; class=&#34;search-form&#34; action=&#34;#&#34; method=&#34;post&#34; accept-charset=&#34;UTF-8&#34; role=&#34;search&#34;&gt;
+    &lt;label for=&#34;query&#34; class=&#34;visually-hidden&#34;&gt;Search&lt;/label&gt;
+    &lt;input type=&#34;search&#34; id=&#34;query&#34; name=&#34;query&#34; class=&#34;search-text&#34; placeholder=&#34;Enter the terms you wish to search for.&#34; maxlength=&#34;128&#34;&gt;
+    &lt;button type=&#34;submit&#34; name=&#34;submit&#34; class=&#34;form-submit&#34; &gt;Search&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;search-results&#34;&gt;&lt;/div&gt;
+
+&lt;template&gt;
+  &lt;article class=&#34;search-result list-view&#34;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&#34;title title-submitted&#34;&gt;&lt;a href=&#34;#&#34;&gt;Title here&lt;/a&gt;&lt;/h2&gt;
+      &lt;div class=&#34;submitted&#34;&gt;&lt;time class=&#34;created-date&#34;&gt;Date here&lt;/time&gt;&lt;/div&gt;
+    &lt;/header&gt;
+    &lt;div class=&#34;content&#34;&gt;Summary here&lt;/div&gt;
+  &lt;/article&gt;
+&lt;/template&gt;
+
+</description>
     </item>
     
   </channel>

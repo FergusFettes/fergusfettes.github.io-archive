@@ -3,26 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://fergusfettes.github.io/</loc>
+    <loc>http://www.fergusfettes.com/</loc>
+    <lastmod>2020-12-06T16:56:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.fergusfettes.com/posts/longer-post/</loc>
+    <lastmod>2020-12-06T16:56:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.fergusfettes.com/posts/</loc>
+    <lastmod>2020-12-06T16:56:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.fergusfettes.com/micro/first-real-microblog-entry/</loc>
     <lastmod>2020-12-05T20:00:45+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fergusfettes.github.io/posts/first-real-microblog-entry/</loc>
+    <loc>http://www.fergusfettes.com/micro/</loc>
     <lastmod>2020-12-05T20:00:45+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://fergusfettes.github.io/posts/</loc>
-    <lastmod>2020-12-05T20:00:45+01:00</lastmod>
+    <loc>http://www.fergusfettes.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://fergusfettes.github.io/categories/</loc>
+    <loc>http://www.fergusfettes.com/categories/</loc>
   </url>
   
   <url>
-    <loc>http://fergusfettes.github.io/tags/</loc>
+    <loc>http://www.fergusfettes.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.fergusfettes.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.fergusfettes.com/tags/</loc>
   </url>
   
 </urlset>
