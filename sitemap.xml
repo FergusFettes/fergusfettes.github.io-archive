@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.fergusfettes.com/</loc>
-    <lastmod>2020-12-06T16:56:03+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.fergusfettes.com/posts/longer-post/</loc>
     <lastmod>2020-12-06T16:56:03+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.fergusfettes.com/posts/</loc>
+    <lastmod>2020-12-06T16:56:03+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.fergusfettes.com/</loc>
     <lastmod>2020-12-06T16:56:03+01:00</lastmod>
   </url>
   
@@ -33,14 +33,6 @@
   
   <url>
     <loc>http://www.fergusfettes.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.fergusfettes.com/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.fergusfettes.com/search/</loc>
   </url>
   
   <url>
