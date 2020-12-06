@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Website of Fergus Fettes</title>
-    <link>http://www.fergusfettes.com/tags/</link>
+    <link>https://fergusfettes.github.io/tags/</link>
     <description>Recent content in Tags on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www.fergusfettes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://fergusfettes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
