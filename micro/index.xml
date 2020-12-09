@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Micros on Website of Fergus Fettes</title>
-    <link>https://fergusfettes.github.io/micro/</link>
+    <link>https://www.fergusfettes.com/micro/</link>
     <description>Recent content in Micros on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Dec 2020 19:56:03 +0100</lastBuildDate><atom:link href="https://fergusfettes.github.io/micro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 19:56:03 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/micro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First real microblog entry</title>
-      <link>https://fergusfettes.github.io/micro/first-real-microblog-entry/</link>
+      <link>https://www.fergusfettes.com/micro/first-real-microblog-entry/</link>
       <pubDate>Sat, 05 Dec 2020 19:56:03 +0100</pubDate>
       
-      <guid>https://fergusfettes.github.io/micro/first-real-microblog-entry/</guid>
+      <guid>https://www.fergusfettes.com/micro/first-real-microblog-entry/</guid>
       <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing.</description>
     </item>
     

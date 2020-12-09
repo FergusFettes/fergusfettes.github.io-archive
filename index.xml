@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website of Fergus Fettes</title>
-    <link>https://fergusfettes.github.io/</link>
+    <link>https://www.fergusfettes.com/</link>
     <description>Recent content on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Dec 2020 16:45:38 +0100</lastBuildDate><atom:link href="https://fergusfettes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 16:45:38 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Longer Post</title>
-      <link>https://fergusfettes.github.io/posts/longer-post/</link>
+      <link>https://www.fergusfettes.com/posts/longer-post/</link>
       <pubDate>Sun, 06 Dec 2020 16:45:38 +0100</pubDate>
       
-      <guid>https://fergusfettes.github.io/posts/longer-post/</guid>
+      <guid>https://www.fergusfettes.com/posts/longer-post/</guid>
       <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing.</description>
     </item>
     
     <item>
       <title>First real microblog entry</title>
-      <link>https://fergusfettes.github.io/micro/first-real-microblog-entry/</link>
+      <link>https://www.fergusfettes.com/micro/first-real-microblog-entry/</link>
       <pubDate>Sat, 05 Dec 2020 19:56:03 +0100</pubDate>
       
-      <guid>https://fergusfettes.github.io/micro/first-real-microblog-entry/</guid>
+      <guid>https://www.fergusfettes.com/micro/first-real-microblog-entry/</guid>
       <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://fergusfettes.github.io/about/</link>
+      <link>https://www.fergusfettes.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://fergusfettes.github.io/about/</guid>
+      <guid>https://www.fergusfettes.com/about/</guid>
       <description>While studying for a Physics MSc. I worked for three years in a molecular biophysics laboratory developing microscopy techniques for studying DNA-protein interactions, including hardware and software engineering and a little bit of wetlab work.</description>
     </item>
     
