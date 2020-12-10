@@ -6,7 +6,16 @@
     <description>Recent content on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Dec 2020 18:06:22 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 21:56:02 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alacritty Ascii</title>
+      <link>https://www.fergusfettes.com/posts/alacritty-ascii/</link>
+      <pubDate>Thu, 10 Dec 2020 21:56:02 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/posts/alacritty-ascii/</guid>
+      <description>Alacritty is one of the many lovely developer tools that are springing up as the first flush in the Rust revolution. Its a fantastic terminal that I&amp;rsquo;m sure I will have more to say about in due time.</description>
+    </item>
+    
     <item>
       <title>x220 Experiments 1</title>
       <link>https://www.fergusfettes.com/micros/x220-experiments-1/</link>
@@ -51,20 +60,6 @@ Quick specs (original):  Purchase date: 2016 (second hand)</description>
       
       <guid>https://www.fergusfettes.com/about/</guid>
       <description>While studying for a Physics MSc. I worked for three years in a molecular biophysics laboratory developing microscopy techniques for studying DNA-protein interactions, including hardware and software engineering and a little bit of wetlab work.</description>
-    </item>
-    
-    <item>
-      <title>Alacritty Ascii</title>
-      <link>https://www.fergusfettes.com/posts/alacritty-ascii/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.fergusfettes.com/posts/alacritty-ascii/</guid>
-      <description>Notes:
-ssh localhost vlc -I dummy ~/films/film.choice is interactive,
-ssh localhost vlc ~/films/film.choice is not.
-Asciinema cast attached1.
-  (https://asciinema.org/a/GVzf6Uw8ObM1bAlJJ60sHZ20r) &amp;#x21a9;&amp;#xfe0e;
-   </description>
     </item>
     
   </channel>
