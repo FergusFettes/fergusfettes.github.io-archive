@@ -9,19 +9,19 @@
     <lastBuildDate>Wed, 09 Dec 2020 18:06:22 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>x220 Experiments 1</title>
-      <link>https://www.fergusfettes.com/micro/x220-experiments-1/</link>
+      <link>https://www.fergusfettes.com/micros/x220-experiments-1/</link>
       <pubDate>Wed, 09 Dec 2020 18:06:22 +0100</pubDate>
       
-      <guid>https://www.fergusfettes.com/micro/x220-experiments-1/</guid>
+      <guid>https://www.fergusfettes.com/micros/x220-experiments-1/</guid>
       <description>I decided to learn a little more about computer hardware by upgrading my latop.</description>
     </item>
     
     <item>
       <title>Alacritty and ASCII</title>
-      <link>https://www.fergusfettes.com/micro/alacritty-and-ascii/</link>
+      <link>https://www.fergusfettes.com/micros/alacritty-and-ascii/</link>
       <pubDate>Tue, 08 Dec 2020 23:26:55 +0100</pubDate>
       
-      <guid>https://www.fergusfettes.com/micro/alacritty-and-ascii/</guid>
+      <guid>https://www.fergusfettes.com/micros/alacritty-and-ascii/</guid>
       <description>I made my terminal play a film today. I will investigate further and write up some details.</description>
     </item>
     
@@ -36,10 +36,10 @@
     
     <item>
       <title>First real microblog entry</title>
-      <link>https://www.fergusfettes.com/micro/first-real-microblog-entry/</link>
+      <link>https://www.fergusfettes.com/micros/first-real-microblog-entry/</link>
       <pubDate>Sat, 05 Dec 2020 19:56:03 +0100</pubDate>
       
-      <guid>https://www.fergusfettes.com/micro/first-real-microblog-entry/</guid>
+      <guid>https://www.fergusfettes.com/micros/first-real-microblog-entry/</guid>
       <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing.</description>
     </item>
     
@@ -50,6 +50,17 @@
       
       <guid>https://www.fergusfettes.com/about/</guid>
       <description>While studying for a Physics MSc. I worked for three years in a molecular biophysics laboratory developing microscopy techniques for studying DNA-protein interactions, including hardware and software engineering and a little bit of wetlab work.</description>
+    </item>
+    
+    <item>
+      <title>Alacritty Ascii</title>
+      <link>https://www.fergusfettes.com/posts/alacritty-ascii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fergusfettes.com/posts/alacritty-ascii/</guid>
+      <description>Notes:
+ssh localhost vlc -I dummy ~/films/film.choice is interactive,
+ssh localhost vlc ~/films/film.</description>
     </item>
     
   </channel>

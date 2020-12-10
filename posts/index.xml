@@ -16,5 +16,16 @@
       <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing.</description>
     </item>
     
+    <item>
+      <title>Alacritty Ascii</title>
+      <link>https://www.fergusfettes.com/posts/alacritty-ascii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fergusfettes.com/posts/alacritty-ascii/</guid>
+      <description>Notes:
+ssh localhost vlc -I dummy ~/films/film.choice is interactive,
+ssh localhost vlc ~/films/film.</description>
+    </item>
+    
   </channel>
 </rss>
