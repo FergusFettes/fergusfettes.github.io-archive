@@ -13,7 +13,8 @@
       <pubDate>Wed, 09 Dec 2020 18:06:22 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/micros/x220-experiments-1/</guid>
-      <description>I decided to learn a little more about computer hardware by upgrading my latop.</description>
+      <description>I decided to learn a little more about computer hardware by upgrading my latop. I bought a second one for parts/testing.
+Quick specs (original):  Purchase date: 2016 (second hand)</description>
     </item>
     
     <item>
@@ -22,7 +23,7 @@
       <pubDate>Tue, 08 Dec 2020 23:26:55 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/micros/alacritty-and-ascii/</guid>
-      <description>I made my terminal play a film today. I will investigate further and write up some details.</description>
+      <description>I made my terminal play a film today. I will investigate further and write up some details. It&amp;rsquo;s some wizardry with alacritty, I assume it achieves gpu acceleration by pretending to be a screen and running all its content to the GPU.</description>
     </item>
     
     <item>
@@ -31,7 +32,7 @@
       <pubDate>Sat, 05 Dec 2020 19:56:03 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/micros/first-real-microblog-entry/</guid>
-      <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing.</description>
+      <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website.</description>
     </item>
     
   </channel>

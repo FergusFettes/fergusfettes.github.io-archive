@@ -13,7 +13,7 @@
       <pubDate>Sun, 06 Dec 2020 16:45:38 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/posts/longer-post/</guid>
-      <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing.</description>
+      <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website.</description>
     </item>
     
     <item>
@@ -24,7 +24,10 @@
       <guid>https://www.fergusfettes.com/posts/alacritty-ascii/</guid>
       <description>Notes:
 ssh localhost vlc -I dummy ~/films/film.choice is interactive,
-ssh localhost vlc ~/films/film.</description>
+ssh localhost vlc ~/films/film.choice is not.
+Asciinema cast attached1.
+  (https://asciinema.org/a/GVzf6Uw8ObM1bAlJJ60sHZ20r) &amp;#x21a9;&amp;#xfe0e;
+   </description>
     </item>
     
   </channel>
