@@ -6,7 +6,29 @@
     <description>Recent content in Micros on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Dec 2020 15:10:40 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/micros/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Dec 2020 18:20:44 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.fergusfettes.com/micros/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>x220 Experiments 2</title>
+      <link>https://www.fergusfettes.com/micros/x220-experiments-2/</link>
+      <pubDate>Sat, 12 Dec 2020 18:20:44 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/x220-experiments-2/</guid>
+      <description>So my first set of RAM arrived and I installed it. I&amp;rsquo;m starting to get the impression that upgrading your computer is absurdly easy. It seems the laptop took longer than normal to start up.</description>
+    </item>
+    
+    <item>
+      <title>Todos and lists</title>
+      <link>https://www.fergusfettes.com/micros/todos-and-lists/</link>
+      <pubDate>Fri, 11 Dec 2020 12:22:00 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/todos-and-lists/</guid>
+      <description>I&amp;rsquo;m going to add a hidden section for todos, recommendations and other lists, find it here.</description>
+    </item>
+    
     <item>
       <title>x220 Experiments 1</title>
       <link>https://www.fergusfettes.com/micros/x220-experiments-1/</link>

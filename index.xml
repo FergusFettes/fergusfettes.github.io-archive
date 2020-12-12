@@ -6,14 +6,225 @@
     <description>Recent content on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Dec 2020 21:56:02 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Dec 2020 21:11:38 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://www.fergusfettes.com/lists/projects/</link>
+      <pubDate>Sat, 12 Dec 2020 21:11:38 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/projects/</guid>
+      <description>&lt;h1 id=&#34;psychogeographical&#34;&gt;Psychogeographical&lt;/h1&gt;
+&lt;p&gt;Walking&lt;/p&gt;
+&lt;h1 id=&#34;machine-learning&#34;&gt;Machine learning&lt;/h1&gt;
+&lt;p&gt;Find all the strip mines on earth with Francis&lt;/p&gt;
+&lt;h1 id=&#34;exploration&#34;&gt;Exploration&lt;/h1&gt;
+&lt;p&gt;Zackerlfabrik 19th bezirk&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reccis</title>
+      <link>https://www.fergusfettes.com/lists/reccis/</link>
+      <pubDate>Sat, 12 Dec 2020 21:11:00 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/reccis/</guid>
+      <description>&lt;h1 id=&#34;literature&#34;&gt;Literature&lt;/h1&gt;
+&lt;p&gt;Hito steyerl
+bok.org&lt;/p&gt;
+&lt;h1 id=&#34;short-films&#34;&gt;Short films:&lt;/h1&gt;
+&lt;p&gt;Johnathan Glazer
+Down by law
+Trouble in paradise
+Punishment park peter watkins&lt;/p&gt;
+&lt;h1 id=&#34;film&#34;&gt;Film&lt;/h1&gt;
+&lt;p&gt;Cronenberg
+Pasolini&lt;/p&gt;
+&lt;h1 id=&#34;tv&#34;&gt;Tv&lt;/h1&gt;
+&lt;p&gt;Narcos (for real history)
+Babylon Berlin&lt;/p&gt;
+&lt;h1 id=&#34;misc&#34;&gt;Misc&lt;/h1&gt;
+&lt;p&gt;She passed away
+Tim hecker
+Haxan cloak&lt;/p&gt;
+&lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;
+&lt;p&gt;Wera&lt;/p&gt;
+&lt;h1 id=&#34;tech&#34;&gt;Tech&lt;/h1&gt;
+&lt;p&gt;Undistracted&lt;/p&gt;
+&lt;h1 id=&#34;games&#34;&gt;Games&lt;/h1&gt;
+&lt;p&gt;Anno Domini (for German)
+Cuphead&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>x220 Experiments 2</title>
+      <link>https://www.fergusfettes.com/micros/x220-experiments-2/</link>
+      <pubDate>Sat, 12 Dec 2020 18:20:44 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/x220-experiments-2/</guid>
+      <description>&lt;p&gt;So my first set of RAM arrived and I installed it. I&amp;rsquo;m starting to get the impression that upgrading your computer is absurdly easy. It seems the laptop took longer than normal to start up. So ill do a little set of experiments to test this:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;RAM size&lt;/th&gt;
+&lt;th&gt;RAM maker&lt;/th&gt;
+&lt;th&gt;SDD/HDD&lt;/th&gt;
+&lt;th&gt;Laptop&lt;/th&gt;
+&lt;th&gt;Startup Time&lt;/th&gt;
+&lt;th&gt;Suspend off time&lt;/th&gt;
+&lt;th&gt;Suspend on time&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;4 GB&lt;/td&gt;
+&lt;td&gt;Samsung&lt;/td&gt;
+&lt;td&gt;HDD&lt;/td&gt;
+&lt;td&gt;new 1&lt;/td&gt;
+&lt;td&gt;1:46&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4 GB&lt;/td&gt;
+&lt;td&gt;Samsung&lt;/td&gt;
+&lt;td&gt;SSD&lt;/td&gt;
+&lt;td&gt;new 1&lt;/td&gt;
+&lt;td&gt;36&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16GB&lt;/td&gt;
+&lt;td&gt;Crucial&lt;/td&gt;
+&lt;td&gt;HDD&lt;/td&gt;
+&lt;td&gt;new 1&lt;/td&gt;
+&lt;td&gt;1:46&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16GB&lt;/td&gt;
+&lt;td&gt;Samsung&lt;/td&gt;
+&lt;td&gt;HDD&lt;/td&gt;
+&lt;td&gt;new 1&lt;/td&gt;
+&lt;td&gt;1:38&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16GB&lt;/td&gt;
+&lt;td&gt;Crucial&lt;/td&gt;
+&lt;td&gt;SSD&lt;/td&gt;
+&lt;td&gt;new 1&lt;/td&gt;
+&lt;td&gt;36&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16GB&lt;/td&gt;
+&lt;td&gt;Samsung&lt;/td&gt;
+&lt;td&gt;SSD&lt;/td&gt;
+&lt;td&gt;new 1&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8GB&lt;/td&gt;
+&lt;td&gt;Samsung&lt;/td&gt;
+&lt;td&gt;SSD&lt;/td&gt;
+&lt;td&gt;old&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8GB&lt;/td&gt;
+&lt;td&gt;Samsung&lt;/td&gt;
+&lt;td&gt;HDD&lt;/td&gt;
+&lt;td&gt;old&lt;/td&gt;
+&lt;td&gt;1:25&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16GB&lt;/td&gt;
+&lt;td&gt;Samsung&lt;/td&gt;
+&lt;td&gt;SSD&lt;/td&gt;
+&lt;td&gt;old&lt;/td&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16GB&lt;/td&gt;
+&lt;td&gt;Samsung&lt;/td&gt;
+&lt;td&gt;HDD&lt;/td&gt;
+&lt;td&gt;old&lt;/td&gt;
+&lt;td&gt;1:28&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Not quite comprehensive but decent coverage of the combination space. It seems the suspend tests have a lot of variance, probably not a good metric, but the startup times show a clear patterns. This result would surprise noone of course but its nice to see it played out in front of you. Takeaway: SSDs forever. Even when it is running you see a huge difference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Todos and lists</title>
+      <link>https://www.fergusfettes.com/micros/todos-and-lists/</link>
+      <pubDate>Fri, 11 Dec 2020 12:22:00 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/todos-and-lists/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m going to add a hidden section for todos, recommendations and other lists, find it &lt;a href=&#34;lists/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Alacritty Ascii</title>
       <link>https://www.fergusfettes.com/posts/alacritty-ascii/</link>
       <pubDate>Thu, 10 Dec 2020 21:56:02 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/posts/alacritty-ascii/</guid>
-      <description>Alacritty is one of the many lovely developer tools that are springing up as the first flush in the Rust revolution. Its a fantastic terminal that I&amp;rsquo;m sure I will have more to say about in due time.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/alacritty/alacritty&#34;&gt;Alacritty&lt;/a&gt; is one of the many lovely developer tools that are springing up as the first flush in the Rust revolution. Its a fantastic terminal that I&amp;rsquo;m sure I will have more to say about in due time.&lt;/p&gt;
+&lt;p&gt;As &lt;a href=&#34;https://www.fergusfettes.com/micros/alacritty-and-ascii/&#34;&gt;noted&lt;/a&gt;, I discovered something lovely while transferring some files the other day. I was moving my small film collection (currently stretching to 7 titles: &amp;lt;INSERT FILMS&amp;gt;) from one computer to another, and I just wanted to sanity check that the transfer had succeeded. So I sshed into the machine &lt;code&gt;ssh work&lt;/code&gt; and ran &lt;code&gt;vlc -I dummy ~/films/Mullholland\ Dr.mkv&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Imagine my surprise to see the criterion logo appear, animated before me. Here is a nice still from another film to illustrate:
+&lt;img src=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face.png&#34; alt=&#34;face closeup&#34; title=&#34;Closeup of face&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can also look at a copy-paste of the terminal &lt;a href=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face.txt&#34;&gt;here&lt;/a&gt; to prove that it really is ASCII output.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Zooming out, the resolution becomes better and better (&lt;a href=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face_large.txt&#34;&gt;text&lt;/a&gt;), but it starts to jitter quite badly at a certain size.
+&lt;img src=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face_large.png&#34; alt=&#34;large face&#34; title=&#34;Closeup of face&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I thought the ssh connection might be a bottleneck, so I went to the computer to try it on one machine. I had that slightly haunted feeling that the magic might disappear, and when I entered the terminal I suddenly wondered&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How will I get it to work here? If I run &lt;code&gt;vlc -I dummy ~/filmes/Crash.mkv&lt;/code&gt; I&amp;rsquo;ll just get a window.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;but as soon as the thought was there I realised I could just start with &lt;code&gt;ssh localhost&lt;/code&gt;. And it worked. I was watching the &amp;lsquo;Universal&amp;rsquo; logo barge into my terminal.&lt;/p&gt;
+&lt;p&gt;But things got even better. I noticed that my keystrokes were even getting sent back to vlc, so I could skip forward, pause and even quit the film (sometimes it gets stuck and I have to &lt;code&gt;killall vlc&lt;/code&gt; but so it goes).&lt;/p&gt;
+&lt;p&gt;After a little sleuthing, I notice that&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;vlc -I dummy ~/films/film.choice
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;is interactive, but&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;vlc ~/films/film.choice
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;is not. What is this dummy terminal doing after all? Well, the vlc wiki has a little info&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, and they nicely point out that keystrokes are sent back. I find the terminology a little odd, since &amp;lsquo;dummy video output&amp;rsquo; is just normal video output, but I think they are looking at it from a gui-makers perspective. And this seems to be the key&amp;ndash; with the dummy interface, vlc streams the movie to a window. Alacritty is presumably pretending to be a screen or a window of some sort, in order to pass its work to the GPU, so VLC merrily dumps the video stream in there.&lt;/p&gt;
+&lt;p&gt;What I would love to know, and I might take some time to investigate, is how is Alacritty mapping the video stream to ASCII? And why?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I will leave this story here for now. I have two things in mind: one, to investigate further over at the Alacritty github and two, to have some people round for a film, run it through Alacritty-ASCII and run the audio through a digital soundcard or some synths, and make a little performance. I&amp;rsquo;ll update if either of these things transpire.&lt;/p&gt;
+&lt;p&gt;In the meantime, if you want to try it yourself, I have uploaded a slightly rushed video of the effect in action (the size limit on asciinema was not made with 4k ASCII movies in mind, so no hard feelings). Asciinema cast attached&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;And here is a final zoomed in still to admire. In the attached &lt;a href=&#34;https://www.fergusfettes.com/alacritty-ascii/muscle_kid_small.txt&#34;&gt;text&lt;/a&gt; you can see how much of a difference the color makes, presumably a lot of the 8s have the same foreground and background color.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.fergusfettes.com/alacritty-ascii/muscle_kid_small.png&#34; alt=&#34;muscle kid&#34; title=&#34;Kid with muscles&#34;&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.videolan.org/Documentation:Modules/dummy/&#34;&gt;https://wiki.videolan.org/Documentation:Modules/dummy/&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://asciinema.org/a/378193&#34;&gt;https://asciinema.org/a/378193&lt;/a&gt; &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -22,8 +233,50 @@
       <pubDate>Wed, 09 Dec 2020 15:10:40 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/micros/x220-experiments-1/</guid>
-      <description>I decided to learn a little more about computer hardware by upgrading my latop. I bought a second one for parts/testing.
-Quick specs (original):  Purchase date: 2016 (second hand)</description>
+      <description>&lt;p&gt;I decided to learn a little more about computer hardware by upgrading my latop. I bought a second one for parts/testing.&lt;/p&gt;
+&lt;h1 id=&#34;quick-specs-original&#34;&gt;Quick specs (original):&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Purchase date: 2016 (second hand)&lt;br&gt;
+Cost: €300&lt;br&gt;
+Battery life (playing youtube on firefox, ubuntu 20.04): 76 minutes&lt;br&gt;
+Battery type: 9 cell&lt;br&gt;
+RAM: 8GB&lt;br&gt;
+MEM: 150GB SSD&lt;br&gt;
+CPU: Intel Core i5-2520M (2.5-3.2 GHz, 3MB L3 Cache)&lt;br&gt;
+CPUS: 4&lt;br&gt;
+GPU: Intel HD Graphics 3000&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Note on battery life: this laptop has the extended 9-cell battery which was excellent until recently. I&amp;rsquo;m not sure if there was something specific that damaged it. It went from several hours to the above. Also worth noting is that its self-assessment was wildly innacurate, it said it had less than ten percent left after 10m, but in fact this was about a tenth of the way through. Also I realised after an hour that the screen brightness was low which might make a difference, but since the biggest issue was obviously the battery self-assessment it doesn&amp;rsquo;t matter too much.&lt;/p&gt;
+&lt;h1 id=&#34;quick-specs-new-1&#34;&gt;Quick specs (new 1):&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Purchase date: 09.12.2020&lt;br&gt;
+Cost: €150&lt;br&gt;
+Battery life (playing youtube on firefox, ubuntu 20.04): 112 minutes&lt;br&gt;
+Battery type: 6 cell&lt;br&gt;
+RAM: 4GB&lt;br&gt;
+MEM: 300GB HDD&lt;br&gt;
+CPU: Intel Core i5-2520M (2.5-3.2 GHz, 3MB L3 Cache)&lt;br&gt;
+CPUS: 4&lt;br&gt;
+GPU: Intel HD Graphics 3000&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The battery on this one is better. Not only does it know what is going on (showed consistent times throughout), it also lasts longer. After swapping the battery packs, it is clear that the first one is faulty, not the laptop. Thank god for a test machine.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hahahugoshortcode-s0-hbhb&#34;&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://storage.googleapis.com/schau-wien-images/fergus/compare.jpg&#34;
+         alt=&#34;Can you spot the new one?&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Can you spot the new one?&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/h2&gt;
+&lt;p&gt;From what I read, I can get 16GB of RAM, and I&amp;rsquo;ll change the SSD and the battery and see if I can get a new one for cheaper than my old one with better specs across the board.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m choosing to do this on the x220 since it is the most popular hacktop, so there is loads of info about what works and what doesn&amp;rsquo;t. And the good news is, there are versions with better chips (though they are more expensive) so even when I have fully upgraded my one, it will still be possible to go further. Hopefully this way I can survive until a new generation of decent machines comes out (with smartphone chips, a la the new macbook).&lt;/p&gt;
+&lt;p&gt;Final note: the new one is matt black, the other was shiny. And the keyboards have a different touch.&lt;/p&gt;
+&lt;p&gt;New commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;lscpu               &lt;span style=&#34;color:#75715e&#34;&gt;# cpu overview&lt;/span&gt;
+cat /proc/cpuinfo               &lt;span style=&#34;color:#75715e&#34;&gt;# Good place to go for cpu info&lt;/span&gt;
+sudo lshw -C display                &lt;span style=&#34;color:#75715e&#34;&gt;# For gpu info&lt;/span&gt;
+sudo lsblk -d -o name,rota                &lt;span style=&#34;color:#75715e&#34;&gt;# lsblk is great for when you are meddling with mounts and disks, but this was especially cool-- it finds the &amp;#39;rotatability&amp;#39; of all devices, so you can check if you have an ssd or an hdd. This also found the dvd reader on my new dockingstation!&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -32,7 +285,47 @@ Quick specs (original):  Purchase date: 2016 (second hand)</description>
       <pubDate>Tue, 08 Dec 2020 23:26:55 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/micros/alacritty-and-ascii/</guid>
-      <description>I made my terminal play a film today. I will investigate further and write up some details. It&amp;rsquo;s some wizardry with alacritty, I assume it achieves gpu acceleration by pretending to be a screen and running all its content to the GPU.</description>
+      <description>&lt;p&gt;I made my terminal play a film today. I will investigate further and write up some details. It&amp;rsquo;s some wizardry with alacritty, I assume it achieves gpu acceleration by pretending to be a screen and running all its content to the GPU. But how this translates into an entire movie being blasted through my terminal I&amp;rsquo;m still not sure.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll investigate further and do a full write-up.&lt;/p&gt;
+&lt;p&gt;The key:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;ssh localhost &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;vlc -I dummy ~/films/Crash&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Todo</title>
+      <link>https://www.fergusfettes.com/lists/todo/</link>
+      <pubDate>Sun, 06 Dec 2020 21:27:16 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/todo/</guid>
+      <description>&lt;h1 id=&#34;replace-the-following&#34;&gt;Replace the following&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;slack&lt;/li&gt;
+&lt;li&gt;jira&lt;/li&gt;
+&lt;li&gt;VPN&lt;/li&gt;
+&lt;li&gt;shortcuts&lt;/li&gt;
+&lt;li&gt;hosts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;skybeds&#34;&gt;Skybeds&lt;/h1&gt;
+&lt;p&gt;Small room extras:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;move main light&lt;/li&gt;
+&lt;li&gt;curtain with long pole&lt;/li&gt;
+&lt;li&gt;pole holder for curtain and light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Secret Nuclear Bunker&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;multi socket with switch&lt;/li&gt;
+&lt;li&gt;lamp&lt;/li&gt;
+&lt;li&gt;move main light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Extras:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;shelves&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;site&#34;&gt;Site&lt;/h1&gt;
+&lt;p&gt;Change RSS to posts&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +334,32 @@ Quick specs (original):  Purchase date: 2016 (second hand)</description>
       <pubDate>Sun, 06 Dec 2020 16:45:38 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/posts/longer-post/</guid>
-      <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website.</description>
+      <description>&lt;p&gt;Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website. Marvellous.&lt;/p&gt;
+&lt;p&gt;I think I&amp;rsquo;ll stay here for a while, build up some foundations, then head back up the ladder of complexity. Maybe one day I will finish my 3d playground!&lt;/p&gt;
+&lt;p&gt;This microblog is written on my phone in gitjournal, built with Hugo (I still don&amp;rsquo;t have a build pipeline set up so I run the following script whenever I want to update the site), then published with GitHub pages. Marvellous!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd journal
+git pull
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes
+rm -rf public/*
+hugo -D
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes/public
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+git push
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -50,7 +368,32 @@ Quick specs (original):  Purchase date: 2016 (second hand)</description>
       <pubDate>Sat, 05 Dec 2020 19:56:03 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/micros/first-real-microblog-entry/</guid>
-      <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website.</description>
+      <description>&lt;p&gt;Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website. Marvellous.&lt;/p&gt;
+&lt;p&gt;I think I&amp;rsquo;ll stay here for a while, build up some foundations, then head back up the ladder of complexity. Maybe one day I will finish my 3d playground!&lt;/p&gt;
+&lt;p&gt;This microblog is written on my phone in gitjournal, built with Hugo (I still don&amp;rsquo;t have a build pipeline set up so I run the following script whenever I want to update the site), then published with GitHub pages. Marvellous!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd journal
+git pull
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes
+rm -rf public/*
+hugo -D
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes/public
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+git push
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -59,8 +402,12 @@ Quick specs (original):  Purchase date: 2016 (second hand)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.fergusfettes.com/about/</guid>
-      <description>While studying for a Physics MSc. I worked for three years in a molecular biophysics laboratory developing microscopy techniques for studying DNA-protein interactions, including hardware and software engineering and a little bit of wetlab work.</description>
+      <description>&lt;p&gt;I grew up in a fishing village in the north of Scotland. I learned to be steady on my feet running over seaweed covered rocks. We moved to a farm. I learned to climb trees. Then I grew up and moved to the big city, and climbed on slimy rooftops and up gutters. Then I became civilized, and went to university.&lt;/p&gt;
+&lt;p&gt;While studying for a Physics MSc. I worked for three years in a molecular biophysics laboratory developing microscopy techniques for studying DNA-protein interactions, including hardware and software engineering and a little bit of wetlab work. After taking a year out to further develop my programming skills I&amp;rsquo;m now working as a python programmer in a tech startup.&lt;/p&gt;
+&lt;p&gt;I was civilized by artists in Leipzig, they took me in and told me how to survive in the 21st century. I&amp;rsquo;m now living in Vienna, continuing to learn these lessons.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
 </rss>
+

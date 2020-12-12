@@ -13,7 +13,43 @@
       <pubDate>Thu, 10 Dec 2020 21:56:02 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/posts/alacritty-ascii/</guid>
-      <description>Alacritty is one of the many lovely developer tools that are springing up as the first flush in the Rust revolution. Its a fantastic terminal that I&amp;rsquo;m sure I will have more to say about in due time.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/alacritty/alacritty&#34;&gt;Alacritty&lt;/a&gt; is one of the many lovely developer tools that are springing up as the first flush in the Rust revolution. Its a fantastic terminal that I&amp;rsquo;m sure I will have more to say about in due time.&lt;/p&gt;
+&lt;p&gt;As &lt;a href=&#34;https://www.fergusfettes.com/micros/alacritty-and-ascii/&#34;&gt;noted&lt;/a&gt;, I discovered something lovely while transferring some files the other day. I was moving my small film collection (currently stretching to 7 titles: &amp;lt;INSERT FILMS&amp;gt;) from one computer to another, and I just wanted to sanity check that the transfer had succeeded. So I sshed into the machine &lt;code&gt;ssh work&lt;/code&gt; and ran &lt;code&gt;vlc -I dummy ~/films/Mullholland\ Dr.mkv&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Imagine my surprise to see the criterion logo appear, animated before me. Here is a nice still from another film to illustrate:
+&lt;img src=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face.png&#34; alt=&#34;face closeup&#34; title=&#34;Closeup of face&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You can also look at a copy-paste of the terminal &lt;a href=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face.txt&#34;&gt;here&lt;/a&gt; to prove that it really is ASCII output.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Zooming out, the resolution becomes better and better (&lt;a href=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face_large.txt&#34;&gt;text&lt;/a&gt;), but it starts to jitter quite badly at a certain size.
+&lt;img src=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face_large.png&#34; alt=&#34;large face&#34; title=&#34;Closeup of face&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I thought the ssh connection might be a bottleneck, so I went to the computer to try it on one machine. I had that slightly haunted feeling that the magic might disappear, and when I entered the terminal I suddenly wondered&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How will I get it to work here? If I run &lt;code&gt;vlc -I dummy ~/filmes/Crash.mkv&lt;/code&gt; I&amp;rsquo;ll just get a window.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;but as soon as the thought was there I realised I could just start with &lt;code&gt;ssh localhost&lt;/code&gt;. And it worked. I was watching the &amp;lsquo;Universal&amp;rsquo; logo barge into my terminal.&lt;/p&gt;
+&lt;p&gt;But things got even better. I noticed that my keystrokes were even getting sent back to vlc, so I could skip forward, pause and even quit the film (sometimes it gets stuck and I have to &lt;code&gt;killall vlc&lt;/code&gt; but so it goes).&lt;/p&gt;
+&lt;p&gt;After a little sleuthing, I notice that&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;vlc -I dummy ~/films/film.choice
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;is interactive, but&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;vlc ~/films/film.choice
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;is not. What is this dummy terminal doing after all? Well, the vlc wiki has a little info&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, and they nicely point out that keystrokes are sent back. I find the terminology a little odd, since &amp;lsquo;dummy video output&amp;rsquo; is just normal video output, but I think they are looking at it from a gui-makers perspective. And this seems to be the key&amp;ndash; with the dummy interface, vlc streams the movie to a window. Alacritty is presumably pretending to be a screen or a window of some sort, in order to pass its work to the GPU, so VLC merrily dumps the video stream in there.&lt;/p&gt;
+&lt;p&gt;What I would love to know, and I might take some time to investigate, is how is Alacritty mapping the video stream to ASCII? And why?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I will leave this story here for now. I have two things in mind: one, to investigate further over at the Alacritty github and two, to have some people round for a film, run it through Alacritty-ASCII and run the audio through a digital soundcard or some synths, and make a little performance. I&amp;rsquo;ll update if either of these things transpire.&lt;/p&gt;
+&lt;p&gt;In the meantime, if you want to try it yourself, I have uploaded a slightly rushed video of the effect in action (the size limit on asciinema was not made with 4k ASCII movies in mind, so no hard feelings). Asciinema cast attached&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;And here is a final zoomed in still to admire. In the attached &lt;a href=&#34;https://www.fergusfettes.com/alacritty-ascii/muscle_kid_small.txt&#34;&gt;text&lt;/a&gt; you can see how much of a difference the color makes, presumably a lot of the 8s have the same foreground and background color.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.fergusfettes.com/alacritty-ascii/muscle_kid_small.png&#34; alt=&#34;muscle kid&#34; title=&#34;Kid with muscles&#34;&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.videolan.org/Documentation:Modules/dummy/&#34;&gt;https://wiki.videolan.org/Documentation:Modules/dummy/&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://asciinema.org/a/378193&#34;&gt;https://asciinema.org/a/378193&lt;/a&gt; &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -22,8 +58,34 @@
       <pubDate>Sun, 06 Dec 2020 16:45:38 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/posts/longer-post/</guid>
-      <description>Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website.</description>
+      <description>&lt;p&gt;Hello world! I&amp;rsquo;m continuing my slightly anachronistic (or preposterous) tour of Web publishing. I started with a threejs megaproject, and now I&amp;rsquo;ve travelled all the way back (via simple paperjs attempts) to a static http website. Marvellous.&lt;/p&gt;
+&lt;p&gt;I think I&amp;rsquo;ll stay here for a while, build up some foundations, then head back up the ladder of complexity. Maybe one day I will finish my 3d playground!&lt;/p&gt;
+&lt;p&gt;This microblog is written on my phone in gitjournal, built with Hugo (I still don&amp;rsquo;t have a build pipeline set up so I run the following script whenever I want to update the site), then published with GitHub pages. Marvellous!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd journal
+git pull
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes
+rm -rf public/*
+hugo -D
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+cd ffettes/public
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+git push
+&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+git add .
+git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
 </rss>
+

@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.fergusfettes.com/lists/</loc>
+    <lastmod>2020-12-12T21:11:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/lists/projects/</loc>
+    <lastmod>2020-12-12T21:11:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/</loc>
+    <lastmod>2020-12-12T21:11:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/lists/reccis/</loc>
+    <lastmod>2020-12-12T21:11:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/micros/</loc>
+    <lastmod>2020-12-12T18:20:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/micros/x220-experiments-2/</loc>
+    <lastmod>2020-12-12T18:20:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/micros/todos-and-lists/</loc>
+    <lastmod>2020-12-11T12:23:19+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.fergusfettes.com/posts/alacritty-ascii/</loc>
     <lastmod>2020-12-10T21:56:02+01:00</lastmod>
   </url>
@@ -13,16 +48,6 @@
   </url>
   
   <url>
-    <loc>https://www.fergusfettes.com/</loc>
-    <lastmod>2020-12-10T21:56:02+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/micros/</loc>
-    <lastmod>2020-12-09T18:06:22+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.fergusfettes.com/micros/x220-experiments-1/</loc>
     <lastmod>2020-12-09T18:06:22+01:00</lastmod>
   </url>
@@ -30,6 +55,11 @@
   <url>
     <loc>https://www.fergusfettes.com/micros/alacritty-and-ascii/</loc>
     <lastmod>2020-12-08T23:31:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/lists/todo/</loc>
+    <lastmod>2020-12-06T21:27:16+01:00</lastmod>
   </url>
   
   <url>
