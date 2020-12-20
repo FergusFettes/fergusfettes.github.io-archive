@@ -26,103 +26,600 @@
       <pubDate>Sun, 20 Dec 2020 13:52:49 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/lists/music1/</guid>
-      <description>&lt;p&gt;Liszt - El Contrbandista
-Rachmaninoff - Morceuax de Fantasie
-Camile Saint-Saens - Introduction + Ronda Capricioso
-Berlioz - Symphonie Fantastique
-Sibelius - Lemminkainen
-Faure - Elegie op. 24
-Faure Piano Q No.1 op. 15
-Listz - Sonata in Bm
-Carl Vine - Sonata 1
-Rachmaninoff - Prelude in Gm
-Rachmaninoff - Liturgy of St John Chrysostom
-Alkan
-Glass - Violin Concerto 1
-Wienikowski
-Scriabin - Preludes
-Rachmaninoff - Six Moments Musiceux
-Maria Tipo
-Scarlatti: Sonatas K454, 425, 491, 397, 519
-Arpeggione Sonata
-Sibelius: Violin Sonata in D
-Toivo Kuula - male choir
-Variations on a Theme of Corelli
-Pablo de Sarasate
-Ravel - String Quartet Fm
-Ravel - Daphnis et Chloe
-Orff - Catullus Cantata
-Pergolesi - Stabat Mater
-Dvorak - Stabat Mater
-Szymonokski - Stabat Mater
-Gergiev
-Oistrakh
-Prokofiev - Piano Sonata 2, 4, 8
-Prokofiev - Romeo and Juliet
-Borodon - Prince Igor
-Massenet - Don Qixot
-Turandot
-Bach - Piano Partitas
-Bach - Violin Partitas
-Brahms - Symphony 1
-Shostakovich - Violin Concerto no. 1
-Shostakovich - Symphony no. 5
-Frederica von Stade
-Stockhausen - Stimmung
-Martha Argerich
-Respighi - Piano works, Sonata in F, Sei Pezzi, Tre Preludi su Melodie Gregorian
-Takashi Yoshimatsu
-Medtner - Skazki
-Godowski
-Bartok - Micorkosmos
-Scriabin - Sonatas
-Alice Ader
-Shostakovich - Symphony for Strings 2 Furioso
-Siirala - Passacagalia
-Esther Budiarjo
-Barenboim/Argerich - Piano Duos
-Schumman - Six Studies no. 5
-Debussy - En blanc et Noir
-Hans Eisler
-Adolph von Henselt
-Rimsky-Korsakov - Piano Concerto
-Chopin Waltz op. 64 no. 2
-Messiaen - Les Corps Glorieux
-Feldman - Triadic Memories
-Nancarrow - Studies for Player Piano
-Ysaye - Six Sonatas for solo Violin
-Crumb - Makrocosmos
-Iannix Xennakis - Pleiades
-Angelique Ionatos - Sappho
-Schoenberg  Pierrot Lunaire
-Arvo Paart - Symphonies
-Nancarrow - Tango, Piece no 2., Trio
-Ligeti - Piano Etudes
-Yago Mahugo - Royer
-Terry Riley - The Book of Abbeyazzad
-Meredith Monk
-Liszt/Wagner - Tannhauser: Overture
-Liszt/Wagner
-Wagner - Tannhauser
-Wagner - Ring Cycle
-Dvorak - Ruskala
-Florance Price - Dances in the Canbrakes
-Liszt - Annees de Pelerinage
-Scriabin - Poem of Fire
-Tsegue-Maryam Guebrou - Ethiopiques
-Crumb - Vox Balaenae
-Scriabin - Piano Concerto F#m
-Mahler - 10 Symphonies - Abaddo
-Mahler - Symphony no. 4 part 4: Sehr Behaglich
-Jeremy Denk - Ligeti/Beethoven
-Jeremy Denk - c.1300-c.2000
-Herbert Howells - Piano Music, Vol. 1
-Ockeghem - Complete Songs
-Godowski - Esther Budiarjo - Jave Suite
-Medtner - Sonata-Skazka
-Medtner - Sonata Em (&amp;ldquo;Night Wind&amp;rdquo;)
-Glass - Etudes
-Srauss - Also sprach Zarathustra&lt;/p&gt;
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Composer&lt;/th&gt;
+&lt;th&gt;Performer&lt;/th&gt;
+&lt;th&gt;Piece&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Liszt&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;El Contrbandista&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rachmaninoff&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Morceuax de Fantasie&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Camile Saint-Saens&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Introduction + Ronda Capricioso&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Berlioz&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Symphonie Fantastique&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sibelius&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Lemminkainen&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Faure&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Elegie op. 24&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Faure&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Piano Q No.1 op. 15&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Listz&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Sonata in Bm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Carl Vine&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Sonata 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rachmaninoff&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Prelude in Gm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rachmaninoff&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Liturgy of St John Chrysostom&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alkan&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Glass&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Violin Concerto 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Wienikowski&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scriabin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Preludes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rachmaninoff&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Six Moments Musiceux&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Maria Tipo&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scarlatti&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Sonatas K454, 425, 491, 397, 519&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Arpeggione Sonata&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sibelius&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Violin Sonata in D&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Toivo Kuula&lt;/td&gt;
+&lt;td&gt;male choir&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Variations on a Theme of Corelli&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Pablo de Sarasate&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ravel&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;String Quartet Fm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ravel&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Daphnis et Chloe&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Orff&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Catullus Cantata&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pergolesi&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Stabat Mater&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dvorak&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Stabat Mater&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Szymonokski&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Stabat Mater&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Gergiev&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Oistrakh&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prokofiev&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Piano Sonata 2, 4, 8&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prokofiev&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Romeo and Juliet&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Borodon&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Prince Igor&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Massenet&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Don Qixot&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Turandot&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bach&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Piano Partitas&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bach&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Violin Partitas&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Brahms&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Symphony 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shostakovich&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Violin Concerto no. 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shostakovich&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Symphony no. 5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Frederica von Stade&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stockhausen&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Stimmung&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Martha Argerich&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Respighi&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Piano works, Sonata in F, Sei Pezzi, Tre Preludi su Melodie Gregorian&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Takashi Yoshimatsu&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Medtner&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Skazki&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Godowski&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bartok&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Micorkosmos&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scriabin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Sonatas&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Alice Ader&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Shostakovich&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Symphony for Strings 2 Furioso&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Siirala&lt;/td&gt;
+&lt;td&gt;Passacagalia&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Esther Budiarjo&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Barenboim/Argerich&lt;/td&gt;
+&lt;td&gt;Piano Duos&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Schumman&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Six Studies no. 5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Debussy&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;En blanc et Noir&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hans Eisler&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adolph von Henselt&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rimsky-Korsakov&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Piano Concerto&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chopin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Waltz op. 64 no. 2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Messiaen&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Les Corps Glorieux&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Feldman&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Triadic Memories&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nancarrow&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Studies for Player Piano&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ysaye&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Six Sonatas for solo Violin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Crumb&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Makrocosmos&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Iannix Xennakis&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Pleiades&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Angelique Ionatos&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Sappho&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Schoenberg&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Pierrot Lunaire&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Arvo Paart&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Symphonies&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nancarrow&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Tango, Piece no 2., Trio&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ligeti&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Piano Etudes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Yago Mahugo&lt;/td&gt;
+&lt;td&gt;Royer&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Terry Riley&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The Book of Abbeyazzad&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Meredith Monk&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Liszt/Wagner&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Tannhauser: Overture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Liszt/Wagner&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Wagner&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Tannhauser&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Wagner&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Ring Cycle&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dvorak&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Ruskala&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Florance Price&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Dances in the Canbrakes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Liszt&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Annees de Pelerinage&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scriabin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Poem of Fire&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tsegue-Maryam Guebrou&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Ethiopiques&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Crumb&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Vox Balaenae&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scriabin&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Piano Concerto F#m&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mahler&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10 Symphonies - Abaddo&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mahler&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Symphony no. 4 part 4: Sehr Behaglich&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Jeremy Denk&lt;/td&gt;
+&lt;td&gt;Ligeti/Beethoven&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Jeremy Denk&lt;/td&gt;
+&lt;td&gt;c.1300-c.2000&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Herbert Howells&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Piano Music, Vol. 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ockeghem&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Complete Songs&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Godowski&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Esther Budiarjo - Jave Suite&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Medtner&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Sonata-Skazka&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Medtner&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Sonata Em (&amp;ldquo;Night Wind&amp;rdquo;)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Glass&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Etudes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Srauss&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Also sprach Zarathustra&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
