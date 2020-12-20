@@ -21,21 +21,9 @@
     </item>
     
     <item>
-      <title>Reccis</title>
-      <link>https://www.fergusfettes.com/lists/reccis/</link>
-      <pubDate>Sun, 13 Dec 2020 18:47:37 +0100</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/reccis/</guid>
-      <description>Literature Hito steyerl bok.org
-Short films: Johnathan Glazer Down by law Trouble in paradise Punishment park peter watkins
-Film Cronenberg Pasolini Svenkmajer Gilliam
-Tv Narcos (for real history) Babylon Berlin</description>
-    </item>
-    
-    <item>
       <title>Todo</title>
       <link>https://www.fergusfettes.com/lists/todo/</link>
-      <pubDate>Sat, 12 Dec 2020 23:49:29 +0100</pubDate>
+      <pubDate>Sun, 06 Dec 2020 21:27:16 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/lists/todo/</guid>
       <description>Replace the following  slack jira VPN shortcuts hosts  Skybeds Small room extras:
@@ -45,12 +33,24 @@ Tv Narcos (for real history) Babylon Berlin</description>
     <item>
       <title>Projects</title>
       <link>https://www.fergusfettes.com/lists/projects/</link>
-      <pubDate>Sat, 12 Dec 2020 21:11:38 +0100</pubDate>
+      <pubDate>Thu, 26 Nov 2020 23:18:37 +0100</pubDate>
       
       <guid>https://www.fergusfettes.com/lists/projects/</guid>
       <description>Psychogeographical Walking
 Machine learning Find all the strip mines on earth with Francis
 Exploration Zackerlfabrik 19th bezirk</description>
+    </item>
+    
+    <item>
+      <title>Reccis</title>
+      <link>https://www.fergusfettes.com/lists/reccis/</link>
+      <pubDate>Tue, 10 Nov 2020 20:26:36 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/reccis/</guid>
+      <description>Literature Hito steyerl bok.org
+Short films: Johnathan Glazer Down by law Trouble in paradise Punishment park peter watkins
+Film Cronenberg Pasolini Svenkmajer Gilliam
+Tv Narcos (for real history) Babylon Berlin</description>
     </item>
     
   </channel>

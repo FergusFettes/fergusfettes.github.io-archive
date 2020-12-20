@@ -554,13 +554,13 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Mahler&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;10 Symphonies - Abaddo&lt;/td&gt;
+&lt;td&gt;Abbado&lt;/td&gt;
+&lt;td&gt;10 Symphonies&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Mahler&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Abbado&lt;/td&gt;
 &lt;td&gt;Symphony no. 4 part 4: Sehr Behaglich&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -590,8 +590,8 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Godowski&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Esther Budiarjo - Jave Suite&lt;/td&gt;
+&lt;td&gt;Esther Budiarjo&lt;/td&gt;
+&lt;td&gt;Jave Suite&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -620,97 +620,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Reccis</title>
-      <link>https://www.fergusfettes.com/lists/reccis/</link>
-      <pubDate>Sun, 13 Dec 2020 18:47:37 +0100</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/reccis/</guid>
-      <description>&lt;h1 id=&#34;literature&#34;&gt;Literature&lt;/h1&gt;
-&lt;p&gt;Hito steyerl
-bok.org&lt;/p&gt;
-&lt;h1 id=&#34;short-films&#34;&gt;Short films:&lt;/h1&gt;
-&lt;p&gt;Johnathan Glazer
-Down by law
-Trouble in paradise
-Punishment park peter watkins&lt;/p&gt;
-&lt;h1 id=&#34;film&#34;&gt;Film&lt;/h1&gt;
-&lt;p&gt;Cronenberg
-Pasolini
-Svenkmajer
-Gilliam&lt;/p&gt;
-&lt;h1 id=&#34;tv&#34;&gt;Tv&lt;/h1&gt;
-&lt;p&gt;Narcos (for real history)
-Babylon Berlin&lt;/p&gt;
-&lt;h1 id=&#34;misc&#34;&gt;Misc&lt;/h1&gt;
-&lt;p&gt;She passed away
-Tim hecker
-Haxan cloak&lt;/p&gt;
-&lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;
-&lt;p&gt;Wera&lt;/p&gt;
-&lt;h1 id=&#34;tech&#34;&gt;Tech&lt;/h1&gt;
-&lt;p&gt;Undistracted&lt;/p&gt;
-&lt;h1 id=&#34;games&#34;&gt;Games&lt;/h1&gt;
-&lt;p&gt;Anno Domini (for German)
-Cuphead&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Todo</title>
-      <link>https://www.fergusfettes.com/lists/todo/</link>
-      <pubDate>Sat, 12 Dec 2020 23:49:29 +0100</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/todo/</guid>
-      <description>&lt;h1 id=&#34;replace-the-following&#34;&gt;Replace the following&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;slack&lt;/li&gt;
-&lt;li&gt;jira&lt;/li&gt;
-&lt;li&gt;VPN&lt;/li&gt;
-&lt;li&gt;shortcuts&lt;/li&gt;
-&lt;li&gt;hosts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;skybeds&#34;&gt;Skybeds&lt;/h1&gt;
-&lt;p&gt;Small room extras:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;move main light&lt;/li&gt;
-&lt;li&gt;curtain with long pole&lt;/li&gt;
-&lt;li&gt;pole holder for curtain and light&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Secret Nuclear Bunker&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;multi socket with switch&lt;/li&gt;
-&lt;li&gt;lamp&lt;/li&gt;
-&lt;li&gt;move main light&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Extras:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;shelves&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;site&#34;&gt;Site&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Mirror on hyper and ipfs&lt;/li&gt;
-&lt;li&gt;Fix tabs (orange slider should move)&lt;/li&gt;
-&lt;li&gt;Make CV have same style as site&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://www.fergusfettes.com/lists/projects/</link>
-      <pubDate>Sat, 12 Dec 2020 21:11:38 +0100</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/projects/</guid>
-      <description>&lt;h1 id=&#34;psychogeographical&#34;&gt;Psychogeographical&lt;/h1&gt;
-&lt;p&gt;Walking&lt;/p&gt;
-&lt;h1 id=&#34;machine-learning&#34;&gt;Machine learning&lt;/h1&gt;
-&lt;p&gt;Find all the strip mines on earth with Francis&lt;/p&gt;
-&lt;h1 id=&#34;exploration&#34;&gt;Exploration&lt;/h1&gt;
-&lt;p&gt;Zackerlfabrik 19th bezirk&lt;/p&gt;
 </description>
     </item>
     
@@ -951,6 +860,46 @@ sudo lsblk -d -o name,rota                &lt;span style=&#34;color:#75715e&#34;
     </item>
     
     <item>
+      <title>Todo</title>
+      <link>https://www.fergusfettes.com/lists/todo/</link>
+      <pubDate>Sun, 06 Dec 2020 21:27:16 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/todo/</guid>
+      <description>&lt;h1 id=&#34;replace-the-following&#34;&gt;Replace the following&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;slack&lt;/li&gt;
+&lt;li&gt;jira&lt;/li&gt;
+&lt;li&gt;VPN&lt;/li&gt;
+&lt;li&gt;shortcuts&lt;/li&gt;
+&lt;li&gt;hosts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;skybeds&#34;&gt;Skybeds&lt;/h1&gt;
+&lt;p&gt;Small room extras:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;move main light&lt;/li&gt;
+&lt;li&gt;curtain with long pole&lt;/li&gt;
+&lt;li&gt;pole holder for curtain and light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Secret Nuclear Bunker&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;multi socket with switch&lt;/li&gt;
+&lt;li&gt;lamp&lt;/li&gt;
+&lt;li&gt;move main light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Extras:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;shelves&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;site&#34;&gt;Site&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Mirror on hyper and ipfs&lt;/li&gt;
+&lt;li&gt;Fix tabs (orange slider should move)&lt;/li&gt;
+&lt;li&gt;Make CV have same style as site&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Longer Post</title>
       <link>https://www.fergusfettes.com/posts/longer-post/</link>
       <pubDate>Sun, 06 Dec 2020 16:45:38 +0100</pubDate>
@@ -1016,6 +965,57 @@ git push
 git add .
 git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://www.fergusfettes.com/lists/projects/</link>
+      <pubDate>Thu, 26 Nov 2020 23:18:37 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/projects/</guid>
+      <description>&lt;h1 id=&#34;psychogeographical&#34;&gt;Psychogeographical&lt;/h1&gt;
+&lt;p&gt;Walking&lt;/p&gt;
+&lt;h1 id=&#34;machine-learning&#34;&gt;Machine learning&lt;/h1&gt;
+&lt;p&gt;Find all the strip mines on earth with Francis&lt;/p&gt;
+&lt;h1 id=&#34;exploration&#34;&gt;Exploration&lt;/h1&gt;
+&lt;p&gt;Zackerlfabrik 19th bezirk&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reccis</title>
+      <link>https://www.fergusfettes.com/lists/reccis/</link>
+      <pubDate>Tue, 10 Nov 2020 20:26:36 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/reccis/</guid>
+      <description>&lt;h1 id=&#34;literature&#34;&gt;Literature&lt;/h1&gt;
+&lt;p&gt;Hito steyerl
+bok.org&lt;/p&gt;
+&lt;h1 id=&#34;short-films&#34;&gt;Short films:&lt;/h1&gt;
+&lt;p&gt;Johnathan Glazer
+Down by law
+Trouble in paradise
+Punishment park peter watkins&lt;/p&gt;
+&lt;h1 id=&#34;film&#34;&gt;Film&lt;/h1&gt;
+&lt;p&gt;Cronenberg
+Pasolini
+Svenkmajer
+Gilliam&lt;/p&gt;
+&lt;h1 id=&#34;tv&#34;&gt;Tv&lt;/h1&gt;
+&lt;p&gt;Narcos (for real history)
+Babylon Berlin&lt;/p&gt;
+&lt;h1 id=&#34;misc&#34;&gt;Misc&lt;/h1&gt;
+&lt;p&gt;She passed away
+Tim hecker
+Haxan cloak&lt;/p&gt;
+&lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;
+&lt;p&gt;Wera&lt;/p&gt;
+&lt;h1 id=&#34;tech&#34;&gt;Tech&lt;/h1&gt;
+&lt;p&gt;Undistracted&lt;/p&gt;
+&lt;h1 id=&#34;games&#34;&gt;Games&lt;/h1&gt;
+&lt;p&gt;Anno Domini (for German)
+Cuphead&lt;/p&gt;
+</description>
     </item>
     
     <item>

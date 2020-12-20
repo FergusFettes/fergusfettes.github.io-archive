@@ -28,21 +28,6 @@
   </url>
   
   <url>
-    <loc>https://www.fergusfettes.com/lists/reccis/</loc>
-    <lastmod>2020-12-13T18:47:37+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/lists/todo/</loc>
-    <lastmod>2020-12-12T23:49:29+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/lists/projects/</loc>
-    <lastmod>2020-12-12T21:11:38+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.fergusfettes.com/micros/x220-experiments-2/</loc>
     <lastmod>2020-12-12T18:20:44+01:00</lastmod>
   </url>
@@ -73,6 +58,11 @@
   </url>
   
   <url>
+    <loc>https://www.fergusfettes.com/lists/todo/</loc>
+    <lastmod>2020-12-12T23:49:29+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.fergusfettes.com/posts/longer-post/</loc>
     <lastmod>2020-12-06T16:56:03+01:00</lastmod>
   </url>
@@ -80,6 +70,16 @@
   <url>
     <loc>https://www.fergusfettes.com/micros/first-real-microblog-entry/</loc>
     <lastmod>2020-12-05T20:00:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/lists/projects/</loc>
+    <lastmod>2020-12-12T21:11:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/lists/reccis/</loc>
+    <lastmod>2020-12-13T18:47:37+01:00</lastmod>
   </url>
   
   <url>
