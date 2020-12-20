@@ -6,10 +6,41 @@
     <description>Recent content in Lists on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 21:11:38 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 20 Dec 2020 13:52:49 +0100</lastBuildDate>
     
 	<atom:link href="https://www.fergusfettes.com/lists/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Classical Music I Heard and Enjoyed</title>
+      <link>https://www.fergusfettes.com/lists/music1/</link>
+      <pubDate>Sun, 20 Dec 2020 13:52:49 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/music1/</guid>
+      <description>Liszt - El Contrbandista Rachmaninoff - Morceuax de Fantasie Camile Saint-Saens - Introduction + Ronda Capricioso Berlioz - Symphonie Fantastique Sibelius - Lemminkainen Faure - Elegie op. 24 Faure Piano Q No.</description>
+    </item>
+    
+    <item>
+      <title>Reccis</title>
+      <link>https://www.fergusfettes.com/lists/reccis/</link>
+      <pubDate>Sun, 13 Dec 2020 18:47:37 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/reccis/</guid>
+      <description>Literature Hito steyerl bok.org
+Short films: Johnathan Glazer Down by law Trouble in paradise Punishment park peter watkins
+Film Cronenberg Pasolini Svenkmajer Gilliam
+Tv Narcos (for real history) Babylon Berlin</description>
+    </item>
+    
+    <item>
+      <title>Todo</title>
+      <link>https://www.fergusfettes.com/lists/todo/</link>
+      <pubDate>Sat, 12 Dec 2020 23:49:29 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/todo/</guid>
+      <description>Replace the following  slack jira VPN shortcuts hosts  Skybeds Small room extras:
+ move main light curtain with long pole pole holder for curtain and light  Secret Nuclear Bunker</description>
+    </item>
     
     <item>
       <title>Projects</title>
@@ -20,29 +51,6 @@
       <description>Psychogeographical Walking
 Machine learning Find all the strip mines on earth with Francis
 Exploration Zackerlfabrik 19th bezirk</description>
-    </item>
-    
-    <item>
-      <title>Reccis</title>
-      <link>https://www.fergusfettes.com/lists/reccis/</link>
-      <pubDate>Sat, 12 Dec 2020 21:11:00 +0100</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/reccis/</guid>
-      <description>Literature Hito steyerl bok.org
-Short films: Johnathan Glazer Down by law Trouble in paradise Punishment park peter watkins
-Film Cronenberg Pasolini
-Tv Narcos (for real history) Babylon Berlin
-Misc She passed away Tim hecker Haxan cloak</description>
-    </item>
-    
-    <item>
-      <title>Todo</title>
-      <link>https://www.fergusfettes.com/lists/todo/</link>
-      <pubDate>Sun, 06 Dec 2020 21:27:16 +0100</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/todo/</guid>
-      <description>Replace the following  slack jira VPN shortcuts hosts  Skybeds Small room extras:
- move main light curtain with long pole pole holder for curtain and light  Secret Nuclear Bunker</description>
     </item>
     
   </channel>
