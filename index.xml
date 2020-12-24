@@ -6,7 +6,32 @@
     <description>Recent content on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Dec 2020 13:07:13 +0000</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Dec 2020 13:37:19 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Post</title>
+      <link>https://www.fergusfettes.com/micros/new_post/</link>
+      <pubDate>Thu, 24 Dec 2020 13:37:19 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/new_post/</guid>
+      <description>&lt;h1 id=&#34;hello&#34;&gt;Hello.&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;this is a quote&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Christmas</title>
+      <link>https://www.fergusfettes.com/micros/christmas/</link>
+      <pubDate>Thu, 24 Dec 2020 12:26:09 +0000</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/christmas/</guid>
+      <description>&lt;p&gt;Home for Christmas, distributig all the computers and tablets I have been playing with in the last week. I&amp;rsquo;m keeping the foldable bluetooth keyboard though, soo my keyboard and phone function as a nice pocketable writing setup.&lt;/p&gt;
+&lt;p&gt;Bought Rimworld. Very fun. It is very relxaing and pleasant to play a Dwarf Fortress clone that is not full of bugs and incredibly complex to play. Maybe their steam version will fix some interface problems, but it realy seems like Rimworld has learnt almost every useful lesson from DF and just made it much cleaner and simpler to work with.&lt;/p&gt;
+&lt;p&gt;It should be noted that it is still very clear how different they are in terms of depth of simulation. Rimworld is no replacement for DF. But perhaps we will start to see somethinng emerge that is the convergence between playability and depth.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Useful QR Codes</title>
       <link>https://www.fergusfettes.com/micros/qr-codes/</link>
@@ -970,7 +995,7 @@ git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$
     <item>
       <title>Projects</title>
       <link>https://www.fergusfettes.com/lists/projects/</link>
-      <pubDate>Thu, 26 Nov 2020 23:18:37 +0100</pubDate>
+      <pubDate>Thu, 26 Nov 2020 22:18:37 +0000</pubDate>
       
       <guid>https://www.fergusfettes.com/lists/projects/</guid>
       <description>&lt;h1 id=&#34;psychogeographical&#34;&gt;Psychogeographical&lt;/h1&gt;
@@ -979,13 +1004,15 @@ git commit -am &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$
 &lt;p&gt;Find all the strip mines on earth with Francis&lt;/p&gt;
 &lt;h1 id=&#34;exploration&#34;&gt;Exploration&lt;/h1&gt;
 &lt;p&gt;Zackerlfabrik 19th bezirk&lt;/p&gt;
+&lt;h1 id=&#34;collab&#34;&gt;Collab&lt;/h1&gt;
+&lt;p&gt;Ribosome concept for e&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Reccis</title>
       <link>https://www.fergusfettes.com/lists/reccis/</link>
-      <pubDate>Tue, 10 Nov 2020 20:26:36 +0100</pubDate>
+      <pubDate>Tue, 10 Nov 2020 19:26:36 +0000</pubDate>
       
       <guid>https://www.fergusfettes.com/lists/reccis/</guid>
       <description>&lt;h1 id=&#34;literature&#34;&gt;Literature&lt;/h1&gt;
@@ -1007,7 +1034,8 @@ Babylon Berlin&lt;/p&gt;
 &lt;h1 id=&#34;misc&#34;&gt;Misc&lt;/h1&gt;
 &lt;p&gt;She passed away
 Tim hecker
-Haxan cloak&lt;/p&gt;
+Haxan cloak
+Chennai festival of classical music&lt;/p&gt;
 &lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;
 &lt;p&gt;Wera&lt;/p&gt;
 &lt;h1 id=&#34;tech&#34;&gt;Tech&lt;/h1&gt;
@@ -1015,6 +1043,8 @@ Haxan cloak&lt;/p&gt;
 &lt;h1 id=&#34;games&#34;&gt;Games&lt;/h1&gt;
 &lt;p&gt;Anno Domini (for German)
 Cuphead&lt;/p&gt;
+&lt;h1 id=&#34;code&#34;&gt;Code&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://gamelisp.rs/playground/#tennis&#34;&gt;https://gamelisp.rs/playground/#tennis&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
