@@ -150,7 +150,7 @@ To do this, I&amp;rsquo;m going to try setting up my free micro instance1 in the
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                793 Words
+                                811 Words
                                 
                             </div>
                         </div>
@@ -206,8 +206,8 @@ To do this, I&amp;rsquo;m going to try setting up my free micro instance1 in the
 <p>Okay not too terrible.</p>
 <p>So now I have a snapshot with some basic things installed, I can try running a hperdrive host. Obviously I don&rsquo;t need all my command-line tools and everything to really run it, but its nice to have this snapshot available for future machines. And when I get it all running stably, I can create a minimal snapshot with only the server I want so it runs more smoothly.</p>
 <p>To make my hyperdrive, I&rsquo;m just going to open up the Beaker browser and see how it is these days, it&rsquo;s been almost six months since I used it and it&rsquo;s developing rapidly. Oh! They have a &lsquo;create hyperdrive from git repo&rsquo; button now! This gets better and better.</p>
-<p>So I&rsquo;m not hosted on the Beaker network. <a href="hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/">URL</a>.</p>
-<p>Okay so it seems the way Hugo generates sites, based on the CNAME that I supplied, means that all the links from the frontpage on beaker go straight to the clearnet version at <a href="http://www.fergusfettes.com">www.fergusfettes.com</a>. This is slightly annoying but I&rsquo;ll not work on it now, since all the rest of the stuff is actually there, it just isn&rsquo;t linked correctly. <a href="hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/posts/this-post/">This post</a> on the hyperspace, for example.</p>
+<p>So I&rsquo;m now hosted on the Beaker network. <a href="hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/">URL</a>.</p>
+<p>Okay so it seems the way Hugo generates sites, based on the CNAME that I supplied, means that all the links from the frontpage on beaker go straight to the clearnet version at <a href="http://www.fergusfettes.com">www.fergusfettes.com</a>. This is slightly annoying but I&rsquo;ll not work on it now, since all the rest of the stuff is actually there, it just isn&rsquo;t linked correctly. <a href="hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/posts/distributed-mirrors/">This post</a> on the hyperspace, for example.</p>
 <p>Another thing to note, is I would need to host all the images in hyperspace too to be really complete. However, as it is now, it is a great demonstration of how nicely the hyper protocol interacts with http.</p>
 <p>So now I&rsquo;m restarting my micro instance with the hyperdrive installed. Starting hyperspace (<code>hyperspace start</code>), and hyperdrive (<code>hyperdrive start</code>). Playing around with the hyperdrive cli, I can get info about my local hyperdrvie once I have cd&rsquo;ed into it: <code>cd Hyperdrive; hyperdrive info --root</code>.</p>
 <p>Now I&rsquo;ll try mounting the hyperdrive that was created on my laptop by the Beaker browser. I copy the <a href="hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/">URL</a> ID (aka. without the &lsquo;hyper://') and serve it with</p>
@@ -221,6 +221,7 @@ hyperdrive seed /home/ffettes/Hyperdrive/c2b2403c8aa02cfdff740614ffc437cd09f243d
 <p>So now my old website is hosted in three places, whoever was hosting it before, my micro instance, and the browser I am currently viewing it from. See the little three in the top right:
 <img src="https://storage.googleapis.com/schau-wien-images/fergus/beaker_screenshot.png" alt="First Beaker Blog Attempt"></p>
 <p>And now this blog is hosted there too! Excellent. Now lets see how the IPFS fares!</p>
+<p>UPDATE: It was obviously <a href="hyper://25c225f019a7f93ec8aa52799a0d428925c1f82f4ad012bcf9f75c3a64052de1">Kicks Condor</a> who was hosting it before, so I&rsquo;m hosting their drive now too.</p>
 <h1 id="ipfs-host">IPFS Host</h1>
 <p>I&rsquo;ve never actually played with IPFS before so this section might take a while to get updated.</p>
 <section class="footnotes" role="doc-endnotes">
