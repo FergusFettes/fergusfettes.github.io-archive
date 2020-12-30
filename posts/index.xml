@@ -6,7 +6,78 @@
     <description>Recent content in Posts on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Dec 2020 16:01:39 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Dec 2020 18:03:06 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mirroring in the Hyperspace (and the IPFS?)</title>
+      <link>https://www.fergusfettes.com/posts/distributed-mirrors/</link>
+      <pubDate>Tue, 29 Dec 2020 18:03:06 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/posts/distributed-mirrors/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m going to mirror my blog in &lt;a href=&#34;https://github.com/hyperspace-org/hyperdrive-service&#34;&gt;Hyperspace&lt;/a&gt; (aka the backend of the &lt;a href=&#34;https://beakerbrowser.com/&#34;&gt;Beaker browser&lt;/a&gt;, if you don&amp;rsquo;t know about it I suggest you check that out first).&lt;/p&gt;
+&lt;p&gt;To do this, I&amp;rsquo;m going to try setting up my free micro instance&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; in the gcloud as a hyperdrive host.&lt;/p&gt;
+&lt;h1 id=&#34;hyperdrive-host&#34;&gt;Hyperdrive Host&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve had trouble doing big installs on a micro instance before. For reference, here are the specs of a micro instance:
+| RAM | Cores | Mem |
+| &amp;mdash; | &amp;mdash; | &amp;mdash; |
+| 0.6GB | 0.2 (aka a shared core!) | 32GB |
+I run my &lt;a href=&#34;https://raw.githubusercontent.com/FergusFettes/dotfiles/master/scripts/new_laptop_installation.yaml&#34;&gt;ansible script&lt;/a&gt; against it, and it dies. I try to install and run a docker image, it dies. It is not made for grand works. Or even minor works.&lt;/p&gt;
+&lt;p&gt;So in order to get everything nicely installed and prepared I decided to make a &amp;lsquo;&lt;a href=&#34;https://raw.githubusercontent.com/FergusFettes/dotfiles/master/scripts/gcloud/small-computer.sh&#34;&gt;standard simple computer&lt;/a&gt;&#39;. This is a decently-proportioned machine I can run in the cloud for generating snapshots that can be used as the base image for smaller, gentler machines. It does all the installations without crashing.&lt;/p&gt;
+&lt;p&gt;I also used the opportunity try try out a preemtible instance. This is an instance that google can kill whenever, and is about 3x cheaper than a normal machine. Since I am just running this machine to do little tasks in the cloud, I don&amp;rsquo;t care if it gets killed sometimes. However, I didn&amp;rsquo;t realise that my free cloud credits can&amp;rsquo;t be used for preemtible instances, I only found this out after. This means&amp;ndash; shock horror! I will actually get billed for this usage. Lets see how much.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;SKU&lt;/th&gt;
+&lt;th&gt;Service&lt;/th&gt;
+&lt;th&gt;Usage&lt;/th&gt;
+&lt;th&gt;Cost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Preemptible E2 Instance Core running in Americas&lt;/td&gt;
+&lt;td&gt;Compute Engine&lt;/td&gt;
+&lt;td&gt;1.63 hour&lt;/td&gt;
+&lt;td&gt;€0.01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Preemptible E2 Instance Ram running in Americas&lt;/td&gt;
+&lt;td&gt;Compute Engine&lt;/td&gt;
+&lt;td&gt;6.5 gibibyte hour&lt;/td&gt;
+&lt;td&gt;€0.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Okay not too terrible.&lt;/p&gt;
+&lt;p&gt;So now I have a snapshot with some basic things installed, I can try running a hperdrive host. Obviously I don&amp;rsquo;t need all my command-line tools and everything to really run it, but its nice to have this snapshot available for future machines. And when I get it all running stably, I can create a minimal snapshot with only the server I want so it runs more smoothly.&lt;/p&gt;
+&lt;p&gt;To make my hyperdrive, I&amp;rsquo;m just going to open up the Beaker browser and see how it is these days, it&amp;rsquo;s been almost six months since I used it and it&amp;rsquo;s developing rapidly. Oh! They have a &amp;lsquo;create hyperdrive from git repo&amp;rsquo; button now! This gets better and better.&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;m not hosted on the Beaker network. &lt;a href=&#34;hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/&#34;&gt;URL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Okay so it seems the way Hugo generates sites, based on the CNAME that I supplied, means that all the links from the frontpage on beaker go straight to the clearnet version at &lt;a href=&#34;http://www.fergusfettes.com&#34;&gt;www.fergusfettes.com&lt;/a&gt;. This is slightly annoying but I&amp;rsquo;ll not work on it now, since all the rest of the stuff is actually there, it just isn&amp;rsquo;t linked correctly. &lt;a href=&#34;hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/posts/this-post/&#34;&gt;This post&lt;/a&gt; on the hyperspace, for example.&lt;/p&gt;
+&lt;p&gt;Another thing to note, is I would need to host all the images in hyperspace too to be really complete. However, as it is now, it is a great demonstration of how nicely the hyper protocol interacts with http.&lt;/p&gt;
+&lt;p&gt;So now I&amp;rsquo;m restarting my micro instance with the hyperdrive installed. Starting hyperspace (&lt;code&gt;hyperspace start&lt;/code&gt;), and hyperdrive (&lt;code&gt;hyperdrive start&lt;/code&gt;). Playing around with the hyperdrive cli, I can get info about my local hyperdrvie once I have cd&amp;rsquo;ed into it: &lt;code&gt;cd Hyperdrive; hyperdrive info --root&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now I&amp;rsquo;ll try mounting the hyperdrive that was created on my laptop by the Beaker browser. I copy the &lt;a href=&#34;hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/&#34;&gt;URL&lt;/a&gt; ID (aka. without the &amp;lsquo;hyper://&#39;) and serve it with&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hyperdrive mount cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737
+hyperdrive seed /home/ffettes/Hyperdrive/cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(after the mount there is handy output telling you what to do next :D).&lt;/p&gt;
+&lt;p&gt;Having a look around the &lt;a href=&#34;https://userlist.beakerbrowser.com/&#34;&gt;beaker user list&lt;/a&gt;, I found my first attempt at a beaker blog is still being hosted (I&amp;rsquo;m @frgnym)! I feel so touched! Someone out there is still on my website! I&amp;rsquo;ll seed it too:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hyperdrive mount c2b2403c8aa02cfdff740614ffc437cd09f243d98f84ebe0eb37a86eedf677bb
+hyperdrive seed /home/ffettes/Hyperdrive/c2b2403c8aa02cfdff740614ffc437cd09f243d98f84ebe0eb37a86eedf677bb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Okay awesome. I&amp;rsquo;m not only newly mirrored on the hyper network, my old website is still on there. So great. That was incredibly easy. Maybe I&amp;rsquo;ll start using the beaker browser as my primary browser. (I always say that.)&lt;/p&gt;
+&lt;p&gt;So now my old website is hosted in three places, whoever was hosting it before, my micro instance, and the browser I am currently viewing it from. See the little three in the top right:
+&lt;img src=&#34;https://storage.googleapis.com/schau-wien-images/fergus/beaker_screenshot.png&#34; alt=&#34;First Beaker Blog Attempt&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And now this blog is hosted there too! Excellent. Now lets see how the IPFS fares!&lt;/p&gt;
+&lt;h1 id=&#34;ipfs-host&#34;&gt;IPFS Host&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ve never actually played with IPFS before so this section might take a while to get updated.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;With the Google Cloud Platform free developer package, you get a teeny little machine in the cloud for free forever. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
     <item>
       <title>Music-I-Like</title>
       <link>https://www.fergusfettes.com/posts/music-i-like/</link>
