@@ -150,7 +150,7 @@ To do this, I&amp;rsquo;m going to try setting up my free micro instance1 in the
                     <div class="Box mt-3 position-relative">
                         <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
                             <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                                811 Words
+                                930 Words
                                 
                             </div>
                         </div>
@@ -222,6 +222,11 @@ hyperdrive seed /home/ffettes/Hyperdrive/c2b2403c8aa02cfdff740614ffc437cd09f243d
 <img src="https://storage.googleapis.com/schau-wien-images/fergus/beaker_screenshot.png" alt="First Beaker Blog Attempt"></p>
 <p>And now this blog is hosted there too! Excellent. Now lets see how the IPFS fares!</p>
 <p>UPDATE: It was obviously <a href="hyper://25c225f019a7f93ec8aa52799a0d428925c1f82f4ad012bcf9f75c3a64052de1">Kicks Condor</a> who was hosting it before, so I&rsquo;m hosting their drive now too.</p>
+<p>UPDATE2: So, the micro host wasn&rsquo;t actually working. I ran a couple tests, turns out I used the complete wrong command. I should have used the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hyperdrive mount some_random_name c2b2403c8aa02cfdff740614ffc437cd09f243d98f84ebe0eb37a86eedf677bb
+hyperdrive seed /home/ffettes/Hyperdrive/some_random_name
+</code></pre></div><p>The random name doesn&rsquo;t seen to affect the seeded drive. &lsquo;hyperdrive mount X&rsquo; creates a new drive called x and creates a new key for it, so I had folders named after all my old drives with new keys and no content.</p>
+<p>Anyway I fixed all the mounts and now I see the IP of my micro host in the top right under the hosts. In other news, this means that there were three people hosting my old blog before, and now there are 4!</p>
 <h1 id="ipfs-host">IPFS Host</h1>
 <p>I&rsquo;ve never actually played with IPFS before so this section might take a while to get updated.</p>
 <section class="footnotes" role="doc-endnotes">

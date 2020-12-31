@@ -79,6 +79,11 @@ hyperdrive seed /home/ffettes/Hyperdrive/c2b2403c8aa02cfdff740614ffc437cd09f243d
 &lt;img src=&#34;https://storage.googleapis.com/schau-wien-images/fergus/beaker_screenshot.png&#34; alt=&#34;First Beaker Blog Attempt&#34;&gt;&lt;/p&gt;
 &lt;p&gt;And now this blog is hosted there too! Excellent. Now lets see how the IPFS fares!&lt;/p&gt;
 &lt;p&gt;UPDATE: It was obviously &lt;a href=&#34;hyper://25c225f019a7f93ec8aa52799a0d428925c1f82f4ad012bcf9f75c3a64052de1&#34;&gt;Kicks Condor&lt;/a&gt; who was hosting it before, so I&amp;rsquo;m hosting their drive now too.&lt;/p&gt;
+&lt;p&gt;UPDATE2: So, the micro host wasn&amp;rsquo;t actually working. I ran a couple tests, turns out I used the complete wrong command. I should have used the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hyperdrive mount some_random_name c2b2403c8aa02cfdff740614ffc437cd09f243d98f84ebe0eb37a86eedf677bb
+hyperdrive seed /home/ffettes/Hyperdrive/some_random_name
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The random name doesn&amp;rsquo;t seen to affect the seeded drive. &amp;lsquo;hyperdrive mount X&amp;rsquo; creates a new drive called x and creates a new key for it, so I had folders named after all my old drives with new keys and no content.&lt;/p&gt;
+&lt;p&gt;Anyway I fixed all the mounts and now I see the IP of my micro host in the top right under the hosts. In other news, this means that there were three people hosting my old blog before, and now there are 4!&lt;/p&gt;
 &lt;h1 id=&#34;ipfs-host&#34;&gt;IPFS Host&lt;/h1&gt;
 &lt;p&gt;I&amp;rsquo;ve never actually played with IPFS before so this section might take a while to get updated.&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
