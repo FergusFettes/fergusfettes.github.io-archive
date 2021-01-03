@@ -6,7 +6,37 @@
     <description>Recent content on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Dec 2020 18:03:06 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 15:36:38 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algae and Civilization</title>
+      <link>https://www.fergusfettes.com/micros/algal-oceans/</link>
+      <pubDate>Sun, 03 Jan 2021 15:36:38 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/algal-oceans/</guid>
+      <description>&lt;p&gt;I have heard many examples of marine life that is &amp;lsquo;blooming&amp;rsquo; (figuratively or literally) in the current climate. That ecosystems are collapsing and &lt;a href=&#34;https://ocean.si.edu/ocean-life/plants-algae/scientists-work-predict-and-prevent-algae-blooms&#34;&gt;algae&lt;/a&gt; or &lt;a href=&#34;https://eos.org/research-spotlights/jellies-transfer-a-significant-amount-of-carbon-to-the-deep-ocean&#34;&gt;jellyfish&lt;/a&gt; are thriving in the ruins. In these articles there is often what might seem like a strange lack of optimism for these facts&amp;ndash; it is clear that the Earth as a dynamic system is responding to rapid change in ways that counter or slow that change, trying to maintain the equilibrium it had, resisting the extremely rapid change that it is undergoing. I think it is worth spelling out exactly why there is this lack of optimism.&lt;/p&gt;
+&lt;p&gt;In the NYRB&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; article I just read, they are discussing algae, and they mention the &lt;a href=&#34;https://en.wikipedia.org/wiki/Great_Oxidation_Event&#34;&gt;first spectacular extinction&lt;/a&gt; that algae bought about. These kingdom-spanning organisms created the conditions for life as we know it. Surely they will be able to maintain the conditions that they have created and sustained for the last 2,000,000,000 years.&lt;/p&gt;
+&lt;p&gt;And they surely will. At least, there is no reason why not. But the reality of this scenario is terrifying. A scenario in which we rely upon jellyfish and algae to maintain an equilibrium on Earth even remotely holocene-like is a scenario in which the following happen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;there are mass extinctions among fishes and other marine life&lt;/li&gt;
+&lt;li&gt;there are mass extinctions among birds and land animals&lt;/li&gt;
+&lt;li&gt;the global green belt shifts dramatically, causing mass migrations and huge loss of arable land&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That last one implies a future in which we actually have more and more contact with algae, as we turn towards growing more and more of our food in bioreactors. (This will be the apotheosis of the cultured meat industry, and mushrooms will also thrive at this time of course.)&lt;/p&gt;
+&lt;p&gt;The simple point is that yes, algae will flourish in the coming climes, and will put the breaks on the change (though not enough). But the broader point is a more interesting one&amp;ndash; the crucial point is that algae are much older and simpler life-forms than the ones they are replacing. The crucial point is that, due to the massive changes being wrought upon the world, organisms that have evolved to fill limited ecological niches (aka most organisms larger than a cockroach, with some notable exceptions) will increasingly face extinction.&lt;/p&gt;
+&lt;p&gt;It reminds me of the process of turning differentiated (eg. skin) cells into stem cells. They are stressed into returning to a pluripotent state from which they can differentiate back into any cell that can be grown. Similarly, the Earth is returning from its myriad differentiated forms into a primordial soup.&lt;/p&gt;
+&lt;p&gt;The issue in this case is we are not talking about undoing the work of a week or a month, however long it took a skin cell to differentiate, we are talking about undoing the work of billions of years. Many people have pointed this out before&amp;ndash; we will be alone on this planet with the rats and bats and cockroaches, and other creatures that can live on the length and breadth of the earth. The thing that I haven&amp;rsquo;t heard so often, is that the oceans and the land will also be teeming with life, but it will be simpler life, less differentiated. The primordial soup will return, and it will be all around us.&lt;/p&gt;
+&lt;p&gt;It is ironic in fact, that as we race toward a technological annihilation, it is not &lt;a href=&#34;https://en.wikipedia.org/wiki/Gray_goo&#34;&gt;grey goo&lt;/a&gt; that will in the end surround us and strangle us, but green goo.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;New York Review of Books &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
     <item>
       <title>Mirroring in the Hyperspace and the IPFS</title>
       <link>https://www.fergusfettes.com/posts/distributed-mirrors/</link>
@@ -148,6 +178,7 @@ hyperdrive seed /home/ffettes/Hyperdrive/some_random_name
 &lt;p&gt;would be worth getting their free trial to play at the party&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The playlist in this room was created in close collaboration with the youtube and spotify platlists. It will be performed by the youtube and spotify playlists. The technical assistants will choose between the alogorithms occasionally.&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

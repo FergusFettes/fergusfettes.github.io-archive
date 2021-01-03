@@ -6,10 +6,19 @@
     <description>Recent content in Micros on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Dec 2020 20:59:14 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jan 2021 15:36:38 +0100</lastBuildDate>
     
 	<atom:link href="https://www.fergusfettes.com/micros/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Algae and Civilization</title>
+      <link>https://www.fergusfettes.com/micros/algal-oceans/</link>
+      <pubDate>Sun, 03 Jan 2021 15:36:38 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/algal-oceans/</guid>
+      <description>I have heard many examples of marine life that is &amp;lsquo;blooming&amp;rsquo; (figuratively or literally) in the current climate. That ecosystems are collapsing and algae or jellyfish are thriving in the ruins.</description>
+    </item>
     
     <item>
       <title>AI themed dinner party</title>

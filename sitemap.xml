@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.fergusfettes.com/micros/algal-oceans/</loc>
+    <lastmod>2021-01-03T16:39:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/micros/</loc>
+    <lastmod>2021-01-03T16:39:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/</loc>
+    <lastmod>2021-01-03T16:39:38+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.fergusfettes.com/posts/distributed-mirrors/</loc>
     <lastmod>2020-12-29T18:03:06+01:00</lastmod>
   </url>
@@ -13,17 +28,7 @@
   </url>
   
   <url>
-    <loc>https://www.fergusfettes.com/</loc>
-    <lastmod>2020-12-29T18:03:16+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.fergusfettes.com/micros/ai-dinner/</loc>
-    <lastmod>2020-12-28T20:59:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/micros/</loc>
     <lastmod>2020-12-28T20:59:14+01:00</lastmod>
   </url>
   
