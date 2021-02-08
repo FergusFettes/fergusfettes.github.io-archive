@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script type="application/javascript" src='https://www.fergusfettes.com/js/theme-mode.js'></script>
+    <link rel="stylesheet" href='https://www.fergusfettes.com/css/frameworks.min.css' />
+    <link rel="stylesheet" href='https://www.fergusfettes.com/css/github.min.css' />
+    <link rel="stylesheet" href='https://www.fergusfettes.com/css/github-style.css' />
+    <link rel="stylesheet" href='https://www.fergusfettes.com/css/light.css' />
+    <link rel="stylesheet" href='https://www.fergusfettes.com/css/dark.css' />
+    <link rel="stylesheet" href='https://www.fergusfettes.com/css/syntax.css' />
+    <title>Paint in VR - Website of Fergus Fettes</title>
+    
+    <link rel="icon" type="image/x-icon" href='https://www.fergusfettes.com/images/favicon.ico'>
+    
+    <meta name="theme-color" content="#1e2327">
+
+    
+    <meta name="description"
+  content="Background I bought myself a VR headset. My justification was some trailers for &amp;lsquo;Infinite Office&amp;rsquo;, and my love of portability&amp;ndash; if it is true that you can have 5x screens from one laptop strapped to your head, then it&amp;rsquo;s really a gamechanger in terms of portability." />
+<meta name="keywords"
+  content='' />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://www.fergusfettes.com/posts/oculus-paint/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Paint in VR - Website of Fergus Fettes" />
+<meta name="twitter:description"
+  content="Background I bought myself a VR headset. My justification was some trailers for &amp;lsquo;Infinite Office&amp;rsquo;, and my love of portability&amp;ndash; if it is true that you can have 5x screens from one laptop strapped to your head, then it&amp;rsquo;s really a gamechanger in terms of portability." />
+<meta name="twitter:site" content="https://www.fergusfettes.com" />
+<meta name="twitter:creator" content="" />
+<meta name="twitter:image"
+  content="https://www.fergusfettes.com">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Paint in VR - Website of Fergus Fettes">
+<meta property="og:description"
+  content="Background I bought myself a VR headset. My justification was some trailers for &amp;lsquo;Infinite Office&amp;rsquo;, and my love of portability&amp;ndash; if it is true that you can have 5x screens from one laptop strapped to your head, then it&amp;rsquo;s really a gamechanger in terms of portability." />
+<meta property="og:url" content="https://www.fergusfettes.com/posts/oculus-paint/" />
+<meta property="og:site_name" content="Paint in VR" />
+<meta property="og:image"
+  content="https://www.fergusfettes.com">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2021-02-06 23:10:29 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <div style="position: relative">
+  <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap open Details--on">
+    <div class="Header-item mobile-none" style="margin-top: -4px; margin-bottom: -4px;">
+      <a class="Header-link" href="https://www.fergusfettes.com">
+        <svg class="octicon" height="32" viewBox="0 0 16 16" version="1.1" width="32">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </a>
+    </div>
+    <div class="Header-item d-md-none">
+      <button class="Header-link btn-link js-details-target" type="button"
+        onclick="document.querySelector('#header-search').style.display = document.querySelector('#header-search').style.display == 'none'? 'block': 'none'">
+        <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24">
+          <path fill-rule="evenodd"
+            d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <div style="display: none;" id="header-search"
+      class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
+      <div
+        class="Header-search header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to">
+        <div class="position-relative">
+          <form target="_blank" action="https://www.google.com/search" accept-charset="UTF-8" method="get"
+            autocomplete="off">
+            <label
+              class="Header-search-label form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+              <input type="text"
+                class="Header-search-input form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+                name="q" value="" placeholder="Search" autocomplete="off">
+              <input type="hidden" name="q" value="site:https://www.fergusfettes.com">
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+      <a class="Header-link " href="https://www.fergusfettes.com">
+        <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+          width="32">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </a>
+    </div>
+    <div class="Header-item" style="margin-right: 0;">
+      <a href="javascript:void(0)" class="Header-link no-select" onclick="switchTheme()">
+        <svg style="fill: var(--color-profile-color-modes-toggle-moon);" class="no-select" viewBox="0 0 16 16"
+          version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M4.52208 7.71754C7.5782 7.71754 10.0557 5.24006 10.0557 2.18394C10.0557 1.93498 10.0392 1.68986 10.0074 1.44961C9.95801 1.07727 10.3495 0.771159 10.6474 0.99992C12.1153 2.12716 13.0615 3.89999 13.0615 5.89383C13.0615 9.29958 10.3006 12.0605 6.89485 12.0605C3.95334 12.0605 1.49286 10.001 0.876728 7.24527C0.794841 6.87902 1.23668 6.65289 1.55321 6.85451C2.41106 7.40095 3.4296 7.71754 4.52208 7.71754Z">
+          </path>
+        </svg>
+      </a>
+    </div>
+  </header>
+</div>
+  
+<div>
+  <main>
+    <div class="gisthead pagehead bg-gray-light pb-0 pt-3 mb-4">
+      <div class="px-0">
+        <div class="mb-3 d-flex px-3 px-md-3 px-lg-5">
+          <div class="flex-auto min-width-0 width-fit mr-3">
+            <div class="d-flex">
+              <div class="d-none d-md-block">
+                <a class="avatar mr-2 flex-shrink-0" href="https://www.fergusfettes.com">
+                  <img class=" avatar-user"
+                    src="https://www.fergusfettes.com/images/profile.jpg"
+                    width="32" height="32"></a>
+              </div>
+              <div class="d-flex flex-column">
+                <h1 class="break-word f3 text-normal mb-md-0 mb-1">
+                  <span class="author">
+                    <a href="https://www.fergusfettes.com">Fergus Fettes</a></span><span
+                    class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
+                      href="https://www.fergusfettes.com/posts/oculus-paint/">Paint in VR</a></strong>
+                </h1>
+                <div class="note m-0">
+                  Created <relative-time datetime="Sat, 06 Feb 2021 23:10:29 &#43;0100"
+                    class="no-wrap">
+                    Sat, 06 Feb 2021 23:10:29 &#43;0100</relative-time>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg px-3 new-discussion-timeline">
+      <div class="repository-content gist-content">
+        <div>
+          <div class="js-gist-file-update-container js-task-list-container file-box">
+            <div id="file-pytest" class="file my-2">
+              <div class="file-header d-flex flex-md-items-center flex-items-start">
+                <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
+                  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                    1395 Words
+                    
+
+                  </div>
+                  <div class="file-actions flex-order-2 pt-0">
+                    
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="Box-body px-5 pb-5">
+                <article class="markdown-body entry-content container-lg"><h2 id="background">Background</h2>
+<p>I bought myself a VR headset. My justification was some trailers for &lsquo;Infinite Office&rsquo;, and my love of portability&ndash; if it is true that you can have 5x screens from one laptop strapped to your head, then it&rsquo;s really a gamechanger in terms of portability.</p>
+<p>As it happens, I enjoy the office space (though there are still many kinks to be worked out, naturally&ndash; for instance it doesn&rsquo;t support multiple screens yet on Linux), but I am not going to talk about Oculus for work right now.</p>
+<p>The second thing that I bought it for, was to encourage myself to get back into JavaScript development. I consider JavasScript development to be quite unpleasant, I don&rsquo;t like the tools or the workflows, but it is what so much of our life is built on, so I want to continue learning more until I am at least at a sort of journeyman-competency.</p>
+<p>So here is my journey to making a small app in JavaScript-VR.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>First I went over my old JS experinements/work, refactoring a little and refamiliarising myself with the concepts. I ran some of my old 3D geometry monstrosities, and signed up as an oculus developer.</p>
+<p>The first hurdle I hit was serving my creations to the headset. WebXR only works over https. But there are built-in execptions for localhost, so I had to get the Oculus to think it was at my localhost&ndash; sounds like a job for port forwarding.</p>
+<p>I started with the oculus <a href="https://developer.oculus.com/documentation/oculus-browser/browser-remote-debugging/">chrome debugging</a> guide. I find myself using something called &lsquo;adb&rsquo;&ndash; I assume this is the android debugger. This is exciting! I&rsquo;m now an adroid developer apparently.</p>
+<pre><code>$ adb devices
+List of devices attached
+1WMHH83CNH0522  device
+</code></pre><p>I found the IP of the machine and tried to ssh in:</p>
+<pre><code>$ adb shell ip route
+192.168.1.0/24 dev wlan0 proto kernel scope link src 192.168.1.185
+$ ssh -fNR 1234:localhost:1234 192.168.1.185
+</code></pre><p>but to no avail. A moment or two googling later I found the command:</p>
+<pre><code>$ adb reverse tcp:1234 tcp:1234                                                                                                                                   ] ffettes@ondewo-xmg-01
+</code></pre><p>and we&rsquo;re away! I can now open locally hosted sites on my Oculus! And I imagine I have also learned some stuff that will be useful for using my phone as a webcam or other such tricks, very excellent.</p>
+<h2 id="copying-code">Copying Code</h2>
+<p>I first try running some of the <a href="https://threejs.org/docs/#manual/en/introduction/How-to-create-VR-content">ThreeJS examples</a> locally, then I pick <a href="https://threejs.org/examples/#webxr_vr_paint">the one I want</a>, refactor it (I hate HTTP and JS in one document, and I tend to backup all the ThreeJS files I am using in my own src file to avoid too much dependency hell when building), and commit it to my new <a href="https://github.com/FergusFettes/javascript-playground">javascript playground</a>.</p>
+<p>Fortunately, their demo is very limited in scope. This is fortunate because I gives me something to do! It only uses two triggers for everything&ndash; you can paint, and resize your tool. I will add some buttons. To learn the correct names for the events, I&rsquo;m copying <a href="https://immersive-web.github.io/webxr-samples/controller-state.html">this example</a> from the lovely list of WebXR Samples. In fact I&rsquo;ve cloned the whole repo so I can read through it.</p>
+<h2 id="debugging">Debugging</h2>
+<p>Reading through lots of WebXR and ThreeJS libraries, I&rsquo;m still not sure how to mesh them together&ndash; specifically I can&rsquo;t figure out what the button-press events are called. So I&rsquo;m going back to the <a href="https://developer.oculus.com/documentation/oculus-browser/browser-remote-debugging/">debug</a> guide to actually catch the events as they are happening.</p>
+<p>So now I have chrome on my laptop debugging the session in the Oculus. Snazzy.</p>
+<p>I try the Event Listener Breakpoints but no dice. Maybe its too new of a feature? Anyway I stick a breakpoint in the render loop and try to trigger it&ndash; my headset only functions when you are wearing it, so I have to have one eye in the headset and one the debugger, but eventually I manager to capture an event. I&rsquo;ll eventually try to find a way to leave the headset running when I&rsquo;m not wearing it.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">controller1</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;selectstart&#39;</span>, () =&gt; {<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;hello&#39;</span>)})
+</code></pre></div><p>From that captured event I get a nice log dump of all the features&ndash;</p>
+<pre><code>...
+gamepad: Gamepad {id: &quot;&quot;, index: -1, connected: true, timestamp: 734840.0999999994, mapping: &quot;xr-standard&quot;, …}
+gripSpace: XRSpace {}
+handedness: &quot;right&quot;
+profiles: (4) [&quot;oculus-touch-v3&quot;, &quot;oculus-touch-v2&quot;, &quot;oculus-touch&quot;, &quot;generic-trigger-squeeze-thumbstick&quot;]
+targetRayMode: &quot;tracked-pointer&quot;
+...
+</code></pre><p>So that is something to work with!</p>
+<h2 id="progress">Progress</h2>
+<p>Before tryig to integrate any of the fancy stuff from the WebXR example page (fancy just meaning &lsquo;basic graphics&rsquo;, but they write all the vertices themselves so it looks a lot more than some simple ThreeJS stuff), I decided to make a quick sanity check so I can really set stuff up to work nicely. So here I am just dumping all the events from the gamepads into the console:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">render</span>() {
+  <span style="color:#a6e22e">session</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">xr</span>.<span style="color:#a6e22e">getSession</span>();
+
+  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">session</span>) {
+    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">source</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">session</span>.<span style="color:#a6e22e">inputSources</span>) {
+      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">source</span>.<span style="color:#a6e22e">gamepad</span>) {
+        <span style="color:#a6e22e">ProcessGamepad</span>(<span style="color:#a6e22e">source</span>.<span style="color:#a6e22e">gamepad</span>, <span style="color:#a6e22e">source</span>.<span style="color:#a6e22e">handedness</span>);
+      }
+    }
+  }
+
+  <span style="color:#a6e22e">handleController</span>( <span style="color:#a6e22e">controller1</span> );
+  <span style="color:#a6e22e">handleController</span>( <span style="color:#a6e22e">controller2</span> );
+
+  <span style="color:#a6e22e">renderer</span>.<span style="color:#a6e22e">render</span>( <span style="color:#a6e22e">scene</span>, <span style="color:#a6e22e">camera</span> );
+}
+
+
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ProcessGamepad</span>(<span style="color:#a6e22e">gamepad</span>, <span style="color:#a6e22e">hand</span>, <span style="color:#a6e22e">pose</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">hand</span>)
+  <span style="color:#a6e22e">update_state</span>(<span style="color:#a6e22e">gamepad</span>)
+};
+
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">update_state</span> (<span style="color:#a6e22e">gamepad</span>) {
+  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">gamepad</span>.<span style="color:#a6e22e">buttons</span>.<span style="color:#a6e22e">length</span>; <span style="color:#f92672">++</span><span style="color:#a6e22e">i</span>) {
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">gamepad</span>.<span style="color:#a6e22e">buttons</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">pressed</span>){
+      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;button pressed: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;, value: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">gamepad</span>.<span style="color:#a6e22e">buttons</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">value</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;, touched: &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">gamepad</span>.<span style="color:#a6e22e">buttons</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">touched</span>)
+    }
+  }
+  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">j</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">gamepad</span>.<span style="color:#a6e22e">axes</span>.<span style="color:#a6e22e">length</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">+=</span><span style="color:#ae81ff">2</span>, <span style="color:#f92672">++</span><span style="color:#a6e22e">j</span>) {
+    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">gamepad</span>.<span style="color:#a6e22e">axes</span>[<span style="color:#a6e22e">i</span>], <span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">gamepad</span>.<span style="color:#a6e22e">axes</span>.<span style="color:#a6e22e">length</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">gamepad</span>.<span style="color:#a6e22e">axes</span>[<span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>);
+  }
+}
+</code></pre></div><p>I start it up and it works! My Oculus controller has buttons 0, 1, 4 and 5, and 3 is the joystick click. I assume 2 is reseved for the oculus button on the right controller, though maybe I can use it on the left one. It also has sensitive axes on buttons 0 and 1, and the joystick. Plus position information! A veritable wealth of possibilities.</p>
+<p>I&rsquo;ll continue with this tomorrow.</p>
+<h2 id="archaeology">Archaeology</h2>
+<p>I spent an age trying to add colors to the TubePainter module. I got very confused by it because I couldn&rsquo;t believe that they hadn&rsquo;t added the functionality to change the color, but I guess the project is really a stub.</p>
+<p>In fact the more I look into VR development the puzzles I am spotting. I looks like there was a major boom in VR about five years ago, most of the libraries I&rsquo;m working with were started back then. But then they seem to have somewhat petered out. Maybe we are currently in a little VR-winter, as the initial hype overshot all reality. Maybe we are heading into a thaw now. Lets see.</p>
+<p>Furthermore, notes after a day or two of regular Oculus useage&ndash; it definitely takes a toll on the eyes. Everything has a somewhat hallucinagenic quality when you come out of it, like an acid comedown. I&rsquo;m not sure if this effect will diminish or grow with continued usage. I can see it being very problematic for people who suffer from <a href="https://en.wikipedia.org/wiki/Hallucinogen_persisting_perception_disorder#:~:text=Hallucinogen%20persisting%20perception%20disorder%20(HPPD,of%20mental%20intoxication%20experienced%20before.">HPPD</a>.</p>
+<p>Or maybe all the Oculus Developers are elsewhere, working with the Unreal Engine or Unity or someeuch. Maybe ThreeJS isn&rsquo;t cool. But I must say I am impressed by how much this thing can run, I spend 20 minutes filling my vision with layer upon layer of multicoloured swirls, without noticing any drop in quality or responsivness.</p>
+<p>The next part I have to integrate is the VR answer to the <a href="https://github.com/dataarts/dat.guiVR">dat-gui</a> library. Also made 4 years ago.</p>
+<h2 id="frustration">Frustration</h2>
+<p>Once again I am reminded of how much I hate the JS workflow. I need to improve this somehow. With the Oculus it is particularly bad&ndash; make a change, serve the change, pick up headset, wait for it to start up, then when it is runnign start up the debugger with a keyboard shortcut, then take it off and do some debugging. Repeat.</p>
+<p>I will eventually work on a better workflow by integrating <a href="https://github.com/brianpeiris/RiftSketch">RiftSketch</a>. That will be a joy I think, if I can code and manipulate objects all in VR. That is the goal.</p>
+<h2 id="features">Features</h2>
+<p>So after an age of fiddling with GUIs I gave up for the moment and satisfied myself with two new features:</p>
+<ul>
+<li>random color generation</li>
+<li>(with or without changing the color of your little cloud of cubes)</li>
+<li>buffer deletion (specific to each hand, so you can delete work in one hand only)</li>
+</ul>
+<p>Obviously both of these things can be much upgraded, a C-z feature and better color choosing. But I think it is enough to have some fun with just now so I will push it to github so I can use it untethered. I&rsquo;ll make it available at paint.fergusfettes.com.</p>
+</article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+  <div class="footer container-xl width-full p-responsive">
+  <div
+    class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mr-lg-4" href="https://www.fergusfettes.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24">
+        <path fill-rule="evenodd"
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+        </path>
+      </svg>
+    </a>
+    <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      
+      <li class="mr-3 mr-lg-0">Theme by <a href='https://github.com/MeiK2333/github-style'>github-style</a></li>
+      
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+
+
+</div>
+</body>
+
+<script type="application/javascript" src="https://www.fergusfettes.com/js/github-style.js"></script>
+
+
+
+</html>
