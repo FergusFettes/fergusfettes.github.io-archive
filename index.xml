@@ -6,7 +6,39 @@
     <description>Recent content on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Feb 2021 23:10:29 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 00:25:24 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RiftSketch</title>
+      <link>https://www.fergusfettes.com/micros/riftsketch/</link>
+      <pubDate>Tue, 09 Feb 2021 00:25:24 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/riftsketch/</guid>
+      <description>&lt;p&gt;If finally played with &lt;a href=&#34;https://github.com/brianpeiris/RiftSketch&#34;&gt;RiftSketch&lt;/a&gt; today. It is amazing.&lt;/p&gt;
+&lt;p&gt;What is more amazing however is &lt;a href=&#34;https://hn.algolia.com/?q=riftsketch&#34;&gt;this&lt;/a&gt;. Particularly the last hopefuly comment about how &amp;lsquo;in a few years we will all be using Dockercraft&amp;rsquo;, which I then googled&amp;ndash; looks fun. And I noticed the ThreeJS VR stuff that I was diving into the other day all seems to have been made 4-5 years ago.&lt;/p&gt;
+&lt;p&gt;It is starting to look more and more like we are in a VR-winter just now, as the initial hype came to nothing. Lets hope we are pulling out of it.&lt;/p&gt;
+&lt;p&gt;In the meantime, I have to figure out how to implement vim inside a ThreeJS text area. This is what I have to start me off:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  _setupDomTextArea(file) {
+    const domTextArea = document.createElement(&amp;quot;textarea&amp;quot;);
+    domTextArea.id = file.name;
+    domTextArea.addEventListener(&amp;quot;keyup&amp;quot;, e =&amp;gt; {
+      const contents = e.target.value;
+      if (contents === file.contents) {
+        return;
+      }
+      file.contents = contents;
+      this._readCode();
+    });
+    domTextArea.addEventListener(&amp;quot;keydown&amp;quot;, e =&amp;gt; {
+      e.stopPropagation();
+    });
+    document.body.append(domTextArea);
+    this._keyboardHandler.bindKeyboardShortcuts(domTextArea, file);
+    return domTextArea;
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Wish me luck!&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>Paint in VR</title>
       <link>https://www.fergusfettes.com/posts/oculus-paint/</link>
@@ -103,6 +135,23 @@ targetRayMode: &amp;quot;tracked-pointer&amp;quot;
 &lt;li&gt;buffer deletion (specific to each hand, so you can delete work in one hand only)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Obviously both of these things can be much upgraded, a C-z feature and better color choosing. But I think it is enough to have some fun with just now so I will push it to github so I can use it untethered. I&amp;rsquo;ll make it available at paint.fergusfettes.com.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Help Yourself</title>
+      <link>https://www.fergusfettes.com/micros/update_upgrade/</link>
+      <pubDate>Tue, 19 Jan 2021 15:24:47 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/update_upgrade/</guid>
+      <description>&lt;p&gt;Always try to run this on any machine :)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;docker run -itv /etc/:/root/temp ubuntu bash
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;or fuckit, real oneliner:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;&lt;code&gt;docker run -v /etc/:/root/temp ubuntu bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/blockquote&gt;
 </description>
     </item>
     
@@ -327,17 +376,6 @@ hyperdrive seed /home/ffettes/Hyperdrive/some_random_name
 &lt;p&gt;I worry very much about how we are all doing now. And how we will be doing by springtime. They have invented a new Tier of lockdown over here. They are desperately trying to keep us alive until the vaccine is ready.&lt;/p&gt;
 &lt;p&gt;I had what probably amounts to a massive breakdown this year, and I am not particularly prone to these things. This may have been on the cards, but it was no doubt hastened and worsened by the virus. I have no doubt that many people are suffering the same or worse, and the density and frequency of meltdowns is a very important factor in the functioning of a society.&lt;/p&gt;
 &lt;p&gt;Perhaps appropriately, this year I learned about Nick Land, and accelerationism. I learned that there are some who would like to push the self-destructive tendencies of capitalism to an extreme and watch it collapse. I feel like it is more possible than ever, in this tense and bitter air. Pent-up energies building into something.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Todo, 2021</title>
-      <link>https://www.fergusfettes.com/lists/todo-2021/</link>
-      <pubDate>Sun, 27 Dec 2020 23:37:04 +0100</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/todo-2021/</guid>
-      <description>&lt;p&gt;(aka.  New Years Resolutions)&lt;/p&gt;
-&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
 </description>
     </item>
     
@@ -2986,20 +3024,7 @@ sudo lsblk -d -o name,rota                &lt;span style=&#34;color:#75715e&#34;
       <pubDate>Sun, 06 Dec 2020 20:27:16 +0000</pubDate>
       
       <guid>https://www.fergusfettes.com/lists/todo/</guid>
-      <description>&lt;h1 id=&#34;schau&#34;&gt;Schau&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Contact Damian&lt;/li&gt;
-&lt;li&gt;combine JavaScript and Hugo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;replace-the-following&#34;&gt;Replace the following&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;slack&lt;/li&gt;
-&lt;li&gt;jira&lt;/li&gt;
-&lt;li&gt;VPN&lt;/li&gt;
-&lt;li&gt;shortcuts&lt;/li&gt;
-&lt;li&gt;hosts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;skybeds&#34;&gt;Skybeds&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;skybeds&#34;&gt;Skybeds&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Small room extras:&lt;/p&gt;
@@ -3050,6 +3075,17 @@ sudo lsblk -d -o name,rota                &lt;span style=&#34;color:#75715e&#34;
 &lt;ul&gt;
 &lt;li&gt;Fix tabs (orange slider should move)&lt;/li&gt;
 &lt;li&gt;Make CV have same style as site&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;dev-tools&#34;&gt;Dev tools&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;nq&lt;/li&gt;
+&lt;li&gt;parallel&lt;/li&gt;
+&lt;li&gt;teleport&lt;/li&gt;
+&lt;li&gt;sc-im&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;other-tools&#34;&gt;Other tools&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;mpv&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -3123,7 +3159,8 @@ Punishment park peter watkins&lt;/p&gt;
 &lt;p&gt;Cronenberg
 Pasolini
 Svenkmajer
-Gilliam&lt;/p&gt;
+Gilliam
+Arnold Dennis Africa docus&lt;/p&gt;
 &lt;h1 id=&#34;tv&#34;&gt;Tv&lt;/h1&gt;
 &lt;p&gt;Narcos (for real history)
 Babylon Berlin&lt;/p&gt;

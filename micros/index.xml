@@ -6,10 +6,31 @@
     <description>Recent content in Micros on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jan 2021 15:36:38 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 09 Feb 2021 00:25:24 +0100</lastBuildDate>
     
 	<atom:link href="https://www.fergusfettes.com/micros/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RiftSketch</title>
+      <link>https://www.fergusfettes.com/micros/riftsketch/</link>
+      <pubDate>Tue, 09 Feb 2021 00:25:24 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/riftsketch/</guid>
+      <description>If finally played with RiftSketch today. It is amazing.
+What is more amazing however is this. Particularly the last hopefuly comment about how &amp;lsquo;in a few years we will all be using Dockercraft&amp;rsquo;, which I then googled&amp;ndash; looks fun.</description>
+    </item>
+    
+    <item>
+      <title>Help Yourself</title>
+      <link>https://www.fergusfettes.com/micros/update_upgrade/</link>
+      <pubDate>Tue, 19 Jan 2021 15:24:47 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/update_upgrade/</guid>
+      <description>Always try to run this on any machine :)
+docker run -itv /etc/:/root/temp ubuntu bash  or fuckit, real oneliner:
+  docker run -v /etc/:/root/temp ubuntu bash  </description>
+    </item>
     
     <item>
       <title>Algae and Civilization</title>

@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.fergusfettes.com/micros/</loc>
+    <lastmod>2021-02-09T00:25:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/micros/riftsketch/</loc>
+    <lastmod>2021-02-09T00:25:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/</loc>
+    <lastmod>2021-02-09T00:25:24+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.fergusfettes.com/posts/oculus-paint/</loc>
     <lastmod>2021-02-06T23:10:29+01:00</lastmod>
   </url>
@@ -13,17 +28,12 @@
   </url>
   
   <url>
-    <loc>https://www.fergusfettes.com/</loc>
-    <lastmod>2021-02-06T23:10:29+01:00</lastmod>
+    <loc>https://www.fergusfettes.com/micros/update_upgrade/</loc>
+    <lastmod>2021-01-19T15:24:47+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.fergusfettes.com/micros/algal-oceans/</loc>
-    <lastmod>2021-01-03T16:39:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/micros/</loc>
     <lastmod>2021-01-03T16:39:38+01:00</lastmod>
   </url>
   
@@ -49,12 +59,7 @@
   
   <url>
     <loc>https://www.fergusfettes.com/lists/</loc>
-    <lastmod>2021-01-10T18:31:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/lists/todo-2021/</loc>
-    <lastmod>2020-12-27T23:37:04+01:00</lastmod>
+    <lastmod>2021-01-21T20:39:39+00:00</lastmod>
   </url>
   
   <url>
@@ -129,7 +134,7 @@
   
   <url>
     <loc>https://www.fergusfettes.com/lists/todo/</loc>
-    <lastmod>2021-01-10T18:31:07+00:00</lastmod>
+    <lastmod>2021-01-12T22:54:19+00:00</lastmod>
   </url>
   
   <url>
@@ -144,7 +149,7 @@
   
   <url>
     <loc>https://www.fergusfettes.com/lists/reccis/</loc>
-    <lastmod>2020-12-21T11:02:49+00:00</lastmod>
+    <lastmod>2021-01-21T20:39:39+00:00</lastmod>
   </url>
   
   <url>
