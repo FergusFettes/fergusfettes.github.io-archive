@@ -6,7 +6,40 @@
     <description>Recent content on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Feb 2021 00:25:24 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 09:21:12 +0100</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python2</title>
+      <link>https://www.fergusfettes.com/micros/python2/</link>
+      <pubDate>Tue, 09 Feb 2021 09:21:12 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/python2/</guid>
+      <description>&lt;p&gt;Its funny watching Python2 finally actually being phased out from a lot of projects:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Remove python 2.7
+
+Python 2 is no longer supported
+
+https://www.python.org/doc/sunset-python-2/
+ master (#1070)
+@MarkEWaite
+MarkEWaite committed 14 days ago 
+1 parent f0fcfef commit e41730bba24afbadfdb7e3fc13d6c16c5448429c
+Showing  with 1 addition and 1 deletion.
+ 2  8/debian/buster/hotspot/Dockerfile 
+@@ -2,7 +2,7 @@ FROM adoptopenjdk/openjdk8:jdk8u282-b08-debian
+
+# Install latest git lfs on Debian per https://github.com/git-lfs/git-lfs/wiki/Installation#debian-and-ubuntu
+# Avoid JENKINS-59569 - git LFS 2.7.1 fails clone with reference repository
+RUN apt-get update &amp;amp;&amp;amp; apt-get upgrade -y &amp;amp;&amp;amp; apt-get install -y git curl gpg unzip libfreetype6 libfontconfig1 procps python wget &amp;amp;&amp;amp; curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash &amp;amp;&amp;amp; apt-get install -y git-lfs &amp;amp;&amp;amp; git lfs install &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/*
+RUN apt-get update &amp;amp;&amp;amp; apt-get upgrade -y &amp;amp;&amp;amp; apt-get install -y git curl gpg unzip libfreetype6 libfontconfig1 procps wget &amp;amp;&amp;amp; curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash &amp;amp;&amp;amp; apt-get install -y git-lfs &amp;amp;&amp;amp; git lfs install &amp;amp;&amp;amp; rm -rf /var/lib/apt/lists/*
+
+ARG user=jenkins
+ARG group=jenkins
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I was lucky to start developing just at the cusp. Many of the projects I looked at said &amp;lsquo;We us python3 becuase it is the future.&amp;rsquo; Many said &amp;lsquo;We use python2 because everthing is written in python2&amp;rsquo;. Luckily I chose to start with python3, and the rest is history.&lt;/p&gt;
+&lt;p&gt;However, I am currently, as it reaches EOL, struggling to write a python2 project to incorporate a massive old project into our work. And all around me I see the signs like the above that the dinosaurs are finally dying.&lt;/p&gt;
+&lt;p&gt;The end of an era I suppose. One that I never knew or cared for, but it was clearly quite the thing, that transition.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>RiftSketch</title>
       <link>https://www.fergusfettes.com/micros/riftsketch/</link>
@@ -144,6 +177,12 @@ targetRayMode: &amp;quot;tracked-pointer&amp;quot;
 &lt;/ul&gt;
 &lt;p&gt;All of this mixed with my paint program of course! It&amp;rsquo;s going to be mental.&lt;/p&gt;
 &lt;p&gt;In all seriousness, in the short term, if I can integrate that JS Vim implementation into RiftSketch I will be a happy man.&lt;/p&gt;
+&lt;p&gt;This process is teaching me a great deal about JavaScript. That should go without saying. In the last hour I learned:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how to use prettier and eslint to lint my stuff&lt;/li&gt;
+&lt;li&gt;how to reverse engineer files from .maps&lt;/li&gt;
+&lt;li&gt;more about building/packaing etc (still trying to use parcel for everything since it is nice and minimal)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

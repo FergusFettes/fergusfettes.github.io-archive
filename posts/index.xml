@@ -112,6 +112,12 @@ targetRayMode: &amp;quot;tracked-pointer&amp;quot;
 &lt;/ul&gt;
 &lt;p&gt;All of this mixed with my paint program of course! It&amp;rsquo;s going to be mental.&lt;/p&gt;
 &lt;p&gt;In all seriousness, in the short term, if I can integrate that JS Vim implementation into RiftSketch I will be a happy man.&lt;/p&gt;
+&lt;p&gt;This process is teaching me a great deal about JavaScript. That should go without saying. In the last hour I learned:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how to use prettier and eslint to lint my stuff&lt;/li&gt;
+&lt;li&gt;how to reverse engineer files from .maps&lt;/li&gt;
+&lt;li&gt;more about building/packaing etc (still trying to use parcel for everything since it is nice and minimal)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
