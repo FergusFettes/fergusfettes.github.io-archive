@@ -165,7 +165,7 @@
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    1395 Words
+                    1532 Words
                     
 
                   </div>
@@ -267,6 +267,15 @@ targetRayMode: &quot;tracked-pointer&quot;
 <li>buffer deletion (specific to each hand, so you can delete work in one hand only)</li>
 </ul>
 <p>Obviously both of these things can be much upgraded, a C-z feature and better color choosing. But I think it is enough to have some fun with just now so I will push it to github so I can use it untethered. I&rsquo;ll make it available at paint.fergusfettes.com.</p>
+<h2 id="further-investigations">Further Investigations</h2>
+<p>So I played with RiftSketch. It is wonderful. It just needs a propery editor. I had a look around the internet (even asked on <a href="https://www.reddit.com/r/vim/comments/lfpefb/implementing_vim_inside_threejs/">reddit</a>) then found <a href="https://coolwanglu.github.io/vim.js/streamlinejs/vim.html">what I needed</a>. In the process I stumled across some other stuff that might come in useful. At the end of the day what I need is this:</p>
+<ul>
+<li><a href="https://coolwanglu.github.io/vim.js/streamlinejs/vim.html">Vim Javascript Implimentation</a> for my editor</li>
+<li><a href="https://github.com/brianpeiris/RiftSketch">RiftSketch</a> for the framework</li>
+<li><a href="https://threejs.org/editor/">ThreeJS Editor</a> tools stolen from here. Actually maybe I can just skip RiftSketch and add Vim and a VRButton directly to that. But I would feel bad if I left RiftSketch behind.</li>
+</ul>
+<p>All of this mixed with my paint program of course! It&rsquo;s going to be mental.</p>
+<p>In all seriousness, in the short term, if I can integrate that JS Vim implementation into RiftSketch I will be a happy man.</p>
 </article>
               </div>
             </div>

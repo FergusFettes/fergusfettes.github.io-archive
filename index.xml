@@ -135,6 +135,15 @@ targetRayMode: &amp;quot;tracked-pointer&amp;quot;
 &lt;li&gt;buffer deletion (specific to each hand, so you can delete work in one hand only)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Obviously both of these things can be much upgraded, a C-z feature and better color choosing. But I think it is enough to have some fun with just now so I will push it to github so I can use it untethered. I&amp;rsquo;ll make it available at paint.fergusfettes.com.&lt;/p&gt;
+&lt;h2 id=&#34;further-investigations&#34;&gt;Further Investigations&lt;/h2&gt;
+&lt;p&gt;So I played with RiftSketch. It is wonderful. It just needs a propery editor. I had a look around the internet (even asked on &lt;a href=&#34;https://www.reddit.com/r/vim/comments/lfpefb/implementing_vim_inside_threejs/&#34;&gt;reddit&lt;/a&gt;) then found &lt;a href=&#34;https://coolwanglu.github.io/vim.js/streamlinejs/vim.html&#34;&gt;what I needed&lt;/a&gt;. In the process I stumled across some other stuff that might come in useful. At the end of the day what I need is this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://coolwanglu.github.io/vim.js/streamlinejs/vim.html&#34;&gt;Vim Javascript Implimentation&lt;/a&gt; for my editor&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/brianpeiris/RiftSketch&#34;&gt;RiftSketch&lt;/a&gt; for the framework&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://threejs.org/editor/&#34;&gt;ThreeJS Editor&lt;/a&gt; tools stolen from here. Actually maybe I can just skip RiftSketch and add Vim and a VRButton directly to that. But I would feel bad if I left RiftSketch behind.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of this mixed with my paint program of course! It&amp;rsquo;s going to be mental.&lt;/p&gt;
+&lt;p&gt;In all seriousness, in the short term, if I can integrate that JS Vim implementation into RiftSketch I will be a happy man.&lt;/p&gt;
 </description>
     </item>
     
