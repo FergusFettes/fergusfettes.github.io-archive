@@ -6,10 +6,28 @@
     <description>Recent content in Lists on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Dec 2020 18:22:26 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 27 Feb 2021 16:51:07 +0000</lastBuildDate>
     
 	<atom:link href="https://www.fergusfettes.com/lists/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://www.fergusfettes.com/lists/vim_todos/</link>
+      <pubDate>Sat, 27 Feb 2021 16:51:07 +0000</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/vim_todos/</guid>
+      <description>Vim todos Native  Global marks I use global marks for things like my .vimrc (V), .zshrc (Z), and other config files that I edit semi-regularly. Definitely a useful tool for the box.</description>
+    </item>
+    
+    <item>
+      <title>Todos from reading Zsh Manual</title>
+      <link>https://www.fergusfettes.com/lists/todo_zsh/</link>
+      <pubDate>Sat, 20 Feb 2021 18:26:12 +0000</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/todo_zsh/</guid>
+      <description>Syntax gleanings  2&amp;gt;&amp;amp;1 | =&amp;gt; |&amp;amp;  Things to try  Path replacement   Cd a     Cd a b     Your in b   time x global alias:   alias -g sdf=/home/$USER     cp test sdf =&amp;gt; file test is sent to home     test =&amp;gt; write directly into the file &amp;lsquo;test&amp;rsquo;</description>
+    </item>
     
     <item>
       <title>Spotify Stars from the Current Times (2020-2021)</title>
@@ -79,6 +97,15 @@ Collab Ribosome concept for e</description>
 Short films: Johnathan Glazer Down by law Trouble in paradise Punishment park peter watkins
 Film Cronenberg Pasolini Svenkmajer Gilliam Arnold Dennis Africa docus
 Tv Narcos (for real history) Babylon Berlin</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.fergusfettes.com/lists/tips_megafile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fergusfettes.com/lists/tips_megafile/</guid>
+      <description>HEADER {{{  date: 2021-02-21T19:16:38+01:00 modified: 2021-02-21T19:16:43+01:00 title: Linux Tips Megafile }}} Vim {{{ Spellchecker {{{ ,o &amp;ndash; turn on the spellchecker [s or ]s &amp;ndash; go to next/prev word zg &amp;ndash; add word to personal wordlist z= &amp;ndash; check list of spelling</description>
     </item>
     
   </channel>

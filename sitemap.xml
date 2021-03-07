@@ -3,18 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.fergusfettes.com/lists/vim_todos/</loc>
+    <lastmod>2021-02-27T17:21:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/lists/</loc>
+    <lastmod>2021-03-02T19:27:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/</loc>
+    <lastmod>2021-03-02T19:27:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/lists/todo_zsh/</loc>
+    <lastmod>2021-02-22T23:58:37+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.fergusfettes.com/micros/</loc>
-    <lastmod>2021-02-09T09:21:14+01:00</lastmod>
+    <lastmod>2021-02-16T22:55:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/micros/organization/</loc>
+    <lastmod>2021-02-16T22:55:21+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.fergusfettes.com/micros/python2/</loc>
     <lastmod>2021-02-09T09:21:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/</loc>
-    <lastmod>2021-02-09T22:31:37+01:00</lastmod>
   </url>
   
   <url>
@@ -55,16 +75,6 @@
   <url>
     <loc>https://www.fergusfettes.com/micros/ribosome/</loc>
     <lastmod>2020-12-28T20:59:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/micros/reflections-on-2020/</loc>
-    <lastmod>2020-12-28T00:02:16+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.fergusfettes.com/lists/</loc>
-    <lastmod>2021-01-21T20:39:39+00:00</lastmod>
   </url>
   
   <url>
@@ -139,7 +149,7 @@
   
   <url>
     <loc>https://www.fergusfettes.com/lists/todo/</loc>
-    <lastmod>2021-01-12T22:54:19+00:00</lastmod>
+    <lastmod>2021-03-02T19:27:34+00:00</lastmod>
   </url>
   
   <url>
@@ -155,6 +165,10 @@
   <url>
     <loc>https://www.fergusfettes.com/lists/reccis/</loc>
     <lastmod>2021-01-21T20:39:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fergusfettes.com/lists/tips_megafile/</loc>
   </url>
   
   <url>

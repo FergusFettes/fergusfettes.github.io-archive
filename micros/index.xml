@@ -6,10 +6,20 @@
     <description>Recent content in Micros on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Feb 2021 09:21:12 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 16 Feb 2021 22:55:17 +0100</lastBuildDate>
     
 	<atom:link href="https://www.fergusfettes.com/micros/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Organization and Archiving</title>
+      <link>https://www.fergusfettes.com/micros/organization/</link>
+      <pubDate>Tue, 16 Feb 2021 22:55:17 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/organization/</guid>
+      <description>I have (once again) spent some time organizing and archiving my digital detritus. Here is how things are at the moment:
+ increasingly, all personal writings are in a private git repo.</description>
+    </item>
     
     <item>
       <title>Python2</title>
@@ -69,15 +79,6 @@ Videos  One hour of imaginary celebrities   this video was playing in the backgr
       <guid>https://www.fergusfettes.com/micros/ribosome/</guid>
       <description>I want to gather some material about the ribosome for a potential collaboration. Here is a small link-list.
 Videos  WEHI TV  Images  Goodsell  Papers  Find that beautiful paper showing ribosome production from the Helicase conference!</description>
-    </item>
-    
-    <item>
-      <title>Reflections on 2020</title>
-      <link>https://www.fergusfettes.com/micros/reflections-on-2020/</link>
-      <pubDate>Mon, 28 Dec 2020 00:02:16 +0100</pubDate>
-      
-      <guid>https://www.fergusfettes.com/micros/reflections-on-2020/</guid>
-      <description>It is increasingly obvious that the toll of this year will be long and slow in the coming. You feel it in every little interaction, people are different. It will take people a long time, it will take society a long time, to recover.</description>
     </item>
     
     <item>
