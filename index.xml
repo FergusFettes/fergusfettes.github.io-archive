@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Feb 2021 16:51:07 +0000</lastBuildDate><atom:link href="https://www.fergusfettes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Vim todos</title>
       <link>https://www.fergusfettes.com/lists/vim_todos/</link>
       <pubDate>Sat, 27 Feb 2021 16:51:07 +0000</pubDate>
       
@@ -87,7 +87,7 @@
     <item>
       <title>Organization and Archiving</title>
       <link>https://www.fergusfettes.com/micros/organization/</link>
-      <pubDate>Tue, 16 Feb 2021 22:55:17 +0100</pubDate>
+      <pubDate>Tue, 16 Feb 2021 21:55:17 +0000</pubDate>
       
       <guid>https://www.fergusfettes.com/micros/organization/</guid>
       <description>&lt;p&gt;I have (once again) spent some time organizing and archiving my digital detritus. Here is how things are at the moment:&lt;/p&gt;
@@ -103,7 +103,7 @@
 &lt;li&gt;256GB SD: my &amp;lsquo;big external hard drive&amp;rsquo;, nothing on it but Pasolini movies at the moment, I intent to fill it with films&lt;/li&gt;
 &lt;li&gt;128GB SD: 108GB of roms and a retropi&lt;/li&gt;
 &lt;li&gt;128GB SD: 108GB of roms and a retropi (I had three at one point, but christmas)&lt;/li&gt;
-&lt;li&gt;128GB SD: &amp;lsquo;sound server&amp;rsquo; this was my raspi music machine, plugged into speakers, though it only has a could of GB of music at the moment (mostly Japanese City Pop).&lt;/li&gt;
+&lt;li&gt;128GB SD: &amp;lsquo;sound server&amp;rsquo; this was my raspi music machine, plugged into speakers, though it only has a couldn&amp;rsquo;t ifglpliloi of GB of music at the momengpt (mostly Japanese City Pop).&lt;/li&gt;
 &lt;li&gt;32GB SD: operating system for a jetson nano, plus kodi (I tried using the jetson nano as a media center before I realised it doesn&amp;rsquo;t have a soundcard)&lt;/li&gt;
 &lt;li&gt;32GB SD: probably another test raspi or jetson setup, raspi lights don&amp;rsquo;t flash properly when I put it in though&lt;/li&gt;
 &lt;li&gt;16GB SD: raspi setup of unknown state and provinence. Didn&amp;rsquo;t look very interesting last time I checked.&lt;/li&gt;
@@ -203,7 +203,7 @@ List of devices attached
 192.168.1.0/24 dev wlan0 proto kernel scope link src 192.168.1.185
 $ ssh -fNR 1234:localhost:1234 192.168.1.185
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;but to no avail. A moment or two googling later I found the command:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ adb reverse tcp:1234 tcp:1234                                                                                                                                   ] ffettes@ondewo-xmg-01
+&lt;pre&gt;&lt;code&gt;$ adb reverse tcp:1234 tcp:1234
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and we&amp;rsquo;re away! I can now open locally hosted sites on my Oculus! And I imagine I have also learned some stuff that will be useful for using my phone as a webcam or other such tricks, very excellent.&lt;/p&gt;
 &lt;h2 id=&#34;copying-code&#34;&gt;Copying Code&lt;/h2&gt;
 &lt;p&gt;I first try running some of the &lt;a href=&#34;https://threejs.org/docs/#manual/en/introduction/How-to-create-VR-content&#34;&gt;ThreeJS examples&lt;/a&gt; locally, then I pick &lt;a href=&#34;https://threejs.org/examples/#webxr_vr_paint&#34;&gt;the one I want&lt;/a&gt;, refactor it (I hate HTTP and JS in one document, and I tend to backup all the ThreeJS files I am using in my own src file to avoid too much dependency hell when building), and commit it to my new &lt;a href=&#34;https://github.com/FergusFettes/javascript-playground&#34;&gt;javascript playground&lt;/a&gt;.&lt;/p&gt;
@@ -291,6 +291,31 @@ targetRayMode: &amp;quot;tracked-pointer&amp;quot;
 &lt;li&gt;how to reverse engineer files from .maps&lt;/li&gt;
 &lt;li&gt;more about building/packaing etc (still trying to use parcel for everything since it is nice and minimal)&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Streaming Oculus</title>
+      <link>https://www.fergusfettes.com/posts/oculus-streaming/</link>
+      <pubDate>Sat, 06 Feb 2021 23:10:29 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/posts/oculus-streaming/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Oculus streaming is still a bit of a shitshow. Or, maybe thats unfair, but its very facebook. Streaming works where they want it to work (eg. your newsfeed).&lt;/p&gt;
+&lt;p&gt;I want to stream to radio.schau-wien.at, where I am experimenting with livestreaming/broadcasting.&lt;/p&gt;
+&lt;p&gt;So lets get back into android development!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m on a different laptop now so I have to relearn everything from last time. My devices are gone, my permsission are gone. Lets see.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ adb devices
+List of devices attached
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;:sad:&lt;/p&gt;
+&lt;p&gt;Okay, turns out to become an android developer you literally have to &lt;em&gt;tap the build number of your phone seven times&lt;/em&gt;. It even gives you little hints like &amp;lsquo;you are now 4 steps from becoming a developer!&#39;. Nice little easter-egg.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ adb devices
+List of devices attached
+21525d14        device
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Okay and heres I one-liner a ran directly from SO:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;adb exec-out screenrecord --output-format=h264 - |
+   ffplay -framerate 60 -probesize 32 -sync video  -
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Daamn that was easy.&lt;/p&gt;
 </description>
     </item>
     
@@ -3213,44 +3238,18 @@ sudo lsblk -d -o name,rota                &lt;span style=&#34;color:#75715e&#34;
 &lt;li&gt;teleport&lt;/li&gt;
 &lt;li&gt;sc-im&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;linux&#34;&gt;Linux&lt;/h1&gt;
+&lt;h2 id=&#34;i3&#34;&gt;i3&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;use mod+ctrl+space to find window&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;other-tools&#34;&gt;Other tools&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;mpv&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;rampump&#34;&gt;Rampump&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Ask Ron about bending copper pipe&lt;/li&gt;
-&lt;li&gt;plastic bottle, catchment&lt;/li&gt;
-&lt;li&gt;100m pipe BUY&lt;/li&gt;
-&lt;li&gt;ring seals BUY&lt;/li&gt;
-&lt;li&gt;wall strap&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;pool-house&#34;&gt;Pool house&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Sorting drawers&lt;/li&gt;
-&lt;li&gt;holding boxes&lt;/li&gt;
-&lt;li&gt;Stanley&lt;/li&gt;
-&lt;li&gt;paintbrush&lt;/li&gt;
-&lt;li&gt;big stuff barrel&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;solar&#34;&gt;solar&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;new controller&lt;/li&gt;
-&lt;li&gt;lights inside&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;farm&#34;&gt;Farm&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Print maps&lt;/li&gt;
-&lt;li&gt;Order a skip&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h1 id=&#34;si&#34;&gt;SI&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Weekly line manager checkin&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;max-salary&#34;&gt;Max salary&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;3 hrs starting fence and tree&lt;/li&gt;
-&lt;li&gt;2.5 hrs holes digging&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -3343,323 +3342,6 @@ Chennai festival of classical music&lt;/p&gt;
 Cuphead&lt;/p&gt;
 &lt;h1 id=&#34;code&#34;&gt;Code&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://gamelisp.rs/playground/#tennis&#34;&gt;https://gamelisp.rs/playground/#tennis&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.fergusfettes.com/lists/tips_megafile/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/tips_megafile/</guid>
-      <description>&lt;h1 id=&#34;header-&#34;&gt;HEADER {{{&lt;/h1&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;title-linux-tips-megafile&#34;&gt;date: 2021-02-21T19:16:38+01:00
-modified: 2021-02-21T19:16:43+01:00
-title: Linux Tips Megafile&lt;/h2&gt;
-&lt;h1 id=&#34;heading&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;vim-&#34;&gt;Vim {{{&lt;/h1&gt;
-&lt;h1 id=&#34;spellchecker-&#34;&gt;Spellchecker {{{&lt;/h1&gt;
-&lt;p&gt;,o              &amp;ndash; turn on the spellchecker
-[s or ]s        &amp;ndash; go to next/prev word
-zg              &amp;ndash; add word to personal wordlist
-z=              &amp;ndash; check list of spelling&lt;/p&gt;
-&lt;h1 id=&#34;heading-1&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;session-&#34;&gt;Session {{{&lt;/h1&gt;
-&lt;p&gt;,s      &amp;ndash; make session
-,ss     &amp;ndash; save as default session&lt;/p&gt;
-&lt;h1 id=&#34;heading-2&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;runs-&#34;&gt;Runs {{{&lt;/h1&gt;
-&lt;p&gt;,rr         &amp;ndash; saves then runs the program.
-&amp;ndash; in rust, it does a cargo run&lt;/p&gt;
-&lt;h1 id=&#34;heading-3&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;terminal-&#34;&gt;Terminal {{{&lt;/h1&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;N              &amp;ndash; go to &amp;lsquo;Terminal-Normal&amp;rsquo;-mode, where you can move around nicely
-a or i              &amp;ndash; return to terminal&lt;/p&gt;
-&lt;p&gt;&amp;lt;c-&amp;gt;&lt;!-- raw HTML omitted --&gt;          &amp;ndash; go to terminal normal mode from nvim&lt;/p&gt;
-&lt;h1 id=&#34;heading-4&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;plugins-&#34;&gt;Plugins {{{&lt;/h1&gt;
-&lt;h1 id=&#34;racer-&#34;&gt;Racer {{{&lt;/h1&gt;
-&lt;p&gt;au FileType rust nmap gd &lt;!-- raw HTML omitted --&gt;(rust-def)
-au FileType rust nmap gs &lt;!-- raw HTML omitted --&gt;(rust-def-split)
-au FileType rust nmap gx &lt;!-- raw HTML omitted --&gt;(rust-def-vertical)
-au FileType rust nmap &lt;!-- raw HTML omitted --&gt;gd &lt;!-- raw HTML omitted --&gt;(rust-doc)&lt;/p&gt;
-&lt;h1 id=&#34;heading-5&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;nerdtree-&#34;&gt;NerdTree {{{&lt;/h1&gt;
-&lt;p&gt;F3              &amp;ndash; view the NERDtree
-F2              &amp;ndash; find the current file and open in NERDtree&lt;/p&gt;
-&lt;h1 id=&#34;heading-6&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;silversearcher-&#34;&gt;SilverSearcher {{{&lt;/h1&gt;
-&lt;p&gt;,a              &amp;ndash; search for things within files
-:Ag [options] {pattern} [{directory}]&lt;/p&gt;
-&lt;p&gt;#&amp;rdquo; Within Quickmenu
-e    to open file and close the quickfix window
-o    to open (same as enter)
-go   to preview file (open but maintain focus on ag.vim results)
-t    to open in new tab
-T    to open in new tab silently
-h    to open in horizontal split
-H    to open in horizontal split silently
-v    to open in vertical split
-gv   to open in vertical split silently
-q    to close the quickfix window&lt;/p&gt;
-&lt;h1 id=&#34;heading-7&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;ctrlp-&#34;&gt;CtrlP {{{&lt;/h1&gt;
-&lt;p&gt;Once CtrlP is open:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Press &amp;lt;F5&amp;gt; to purge the cache for the current directory to get new files, remove deleted files and apply new ignore options.
-Press &amp;lt;c-f&amp;gt; and &amp;lt;c-b&amp;gt; to cycle between modes.
-Press &amp;lt;c-d&amp;gt; to switch to filename only search instead of full path.
-Press &amp;lt;c-r&amp;gt; to switch to regexp mode.
-Use &amp;lt;c-j&amp;gt;, &amp;lt;c-k&amp;gt; or the arrow keys to navigate the result list.
-Use &amp;lt;c-t&amp;gt; or &amp;lt;c-v&amp;gt;, &amp;lt;c-x&amp;gt; to open the selected entry in a new tab or in a new split.
-Use &amp;lt;c-n&amp;gt;, &amp;lt;c-p&amp;gt; to select the next/previous string in the prompt&#39;s history.
-Use &amp;lt;c-y&amp;gt; to create a new file and its parent directories.
-Use &amp;lt;c-z&amp;gt; to mark/unmark multiple files and &amp;lt;c-o&amp;gt; to open them.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Run :help ctrlp-mappings or submit ? in CtrlP for more mapping help.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Submit two or more dots .. to go up the directory tree by one or multiple levels.
-End the input string with a colon : followed by a command to execute it on the opening file(s):
-Use :25 to jump to line 25.
-Use :diffthis when opening multiple files to run :diffthis on the first 4 files.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&#34;heading-8&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;gitgutter-&#34;&gt;GitGutter {{{&lt;/h1&gt;
-&lt;p&gt;[c or ]c            &amp;ndash; move between hunks
-,hp                 &amp;ndash; preview
-,hs                 &amp;ndash; stage
-,hu                 &amp;ndash; undo&lt;/p&gt;
-&lt;p&gt;Check out :GitGutterFold for an interesting diff-like view&lt;/p&gt;
-&lt;h1 id=&#34;heading-9&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;fugitive-&#34;&gt;Fugitive {{{&lt;/h1&gt;
-&lt;p&gt;noremap &lt;!-- raw HTML omitted --&gt;ga :Gwrite&lt;!-- raw HTML omitted --&gt;      &amp;ndash; Stage the current file
-noremap &lt;!-- raw HTML omitted --&gt;gc :Gcommit&lt;!-- raw HTML omitted --&gt;
-noremap &lt;!-- raw HTML omitted --&gt;gp :Gpush&lt;!-- raw HTML omitted --&gt;
-noremap &lt;!-- raw HTML omitted --&gt;gpl :Gpull&lt;!-- raw HTML omitted --&gt;
-noremap &lt;!-- raw HTML omitted --&gt;gs :Gstatus&lt;!-- raw HTML omitted --&gt;
-noremap &lt;!-- raw HTML omitted --&gt;gb :Gblame&lt;!-- raw HTML omitted --&gt;
-noremap &lt;!-- raw HTML omitted --&gt;gd :Gvdiff&lt;!-- raw HTML omitted --&gt;
-noremap &lt;!-- raw HTML omitted --&gt;gr :Gremove&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;h1 id=&#34;heading-10&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;fzf-&#34;&gt;FZF {{{&lt;/h1&gt;
-&lt;p&gt;Token 	Match type 	Description
-sbtrkt 	fuzzy-match 	Items that match sbtrkt
-&amp;lsquo;wild 	exact-match (quoted) 	Items that include wild
-^music 	prefix-exact-match 	Items that start with music
-.mp3$ 	suffix-exact-match 	Items that end with .mp3
-!fire 	inverse-exact-match 	Items that do not include fire
-!^music 	inverse-prefix-exact-match 	Items that do not start with music
-!.mp3$ 	inverse-suffix-exact-match 	Items that do not end with .mp3&lt;/p&gt;
-&lt;h1 id=&#34;heading-11&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;ale-&#34;&gt;Ale {{{&lt;/h1&gt;
-&lt;h1 id=&#34;heading-12&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;goyo-&#34;&gt;Goyo {{{&lt;/h1&gt;
-&lt;p&gt;,f              &amp;ndash; turns on Goyo, beautiful reading mode
-&amp;ndash; (also turns on Limelight)&lt;/p&gt;
-&lt;h1 id=&#34;heading-13&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;heading-14&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;misc-&#34;&gt;Misc {{{&lt;/h1&gt;
-&lt;p&gt;:w !sudo tee %      &amp;ndash; fore write to readonly file
-&lt;!-- raw HTML omitted --&gt;               &amp;ndash; turn off terminal output (freeze)
-&lt;!-- raw HTML omitted --&gt;               &amp;ndash; unfreeze&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;z              &amp;ndash; close scratch
-&lt;!-- raw HTML omitted --&gt;               &amp;ndash; jump back
-g&lt;!-- raw HTML omitted --&gt;              &amp;ndash; word count
-:22!sort  (==&amp;gt; :.,.+22!sort)    &amp;ndash; sort the following 22 lines&lt;/p&gt;
-&lt;p&gt;:execute #normal! mqA;&amp;lt;esc&amp;gt;`q&amp;rdquo; &amp;ndash; inserts a semicolon at the end of the line&lt;/p&gt;
-&lt;p&gt;/[(,)]              &amp;ndash; search for something, then
-:s//\r&amp;amp;/g           &amp;ndash; use that same search again, makea newline then paste the search hit (&amp;amp;), this will add a newline before any parenthesis or comma&lt;/p&gt;
-&lt;p&gt;let @q=&#39;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;q&amp;rsquo;    &amp;ndash; edit the &amp;lsquo;q&amp;rsquo; register&lt;/p&gt;
-&lt;h1 id=&#34;heading-15&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;-vi&#34;&gt;}}} vi&lt;/h1&gt;
-&lt;h1 id=&#34;langs-&#34;&gt;Langs {{{&lt;/h1&gt;
-&lt;h1 id=&#34;rust-&#34;&gt;Rust {{{&lt;/h1&gt;
-&lt;p&gt;cargo new PROJNAME  &amp;ndash; create new cargo project
-cargo [build/run] 	&amp;ndash; build the file [and runs it]
-&amp;ndash;release	&amp;ndash; flag for release version
-cargo check		&amp;ndash; checks the code runs, can be much faster than build&lt;/p&gt;
-&lt;h1 id=&#34;-rust&#34;&gt;}}} rust&lt;/h1&gt;
-&lt;h1 id=&#34;rustwasmjavascript-&#34;&gt;Rust+WASM+Javascript {{{&lt;/h1&gt;
-&lt;p&gt;After completeing the setup (&lt;a href=&#34;https://rustwasm.github.io/docs/book/game-of-life/setup.html&#34;&gt;https://rustwasm.github.io/docs/book/game-of-life/setup.html&lt;/a&gt;) (except installing with a node version manager instead, such as &lt;a href=&#34;https://github.com/nvm-sh/nvm&#34;&gt;https://github.com/nvm-sh/nvm&lt;/a&gt; so the thingy works without sudo) do the following:&lt;/p&gt;
-&lt;p&gt;Server:
-npm run start           &amp;ndash; create a local server (and leave it running)
-and go to localhost:8080 to view the webpage :)&lt;/p&gt;
-&lt;p&gt;Updates:
-wasm-pack build         &amp;ndash; (&lt;!-- raw HTML omitted --&gt;rw) will rewrite the wasm binaries so itll serve something new the next time the website loads&lt;/p&gt;
-&lt;h1 id=&#34;heading-16&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;-langs&#34;&gt;}}} langs&lt;/h1&gt;
-&lt;h1 id=&#34;linux-&#34;&gt;Linux {{{&lt;/h1&gt;
-&lt;p&gt;man hier    # info about the filesystem herirarchy&lt;/p&gt;
-&lt;h1 id=&#34;tty-&#34;&gt;tty {{{&lt;/h1&gt;
-&lt;p&gt;Alt+&lt;!-- raw HTML omitted --&gt;                  &amp;ndash; find the right tty! It&amp;rsquo;s not in 1, it&amp;rsquo;s probably 63 or something&lt;/p&gt;
-&lt;p&gt;Kill a tty:
-who -u      &amp;ndash; find the sucker
-kill -9 PID&lt;/p&gt;
-&lt;p&gt;who -u                      &amp;ndash; to find users and their ttys
-echo #HAHAHAHA&amp;rdquo; | write USER USERS_TTY&lt;/p&gt;
-&lt;p&gt;}}}&lt;/p&gt;
-&lt;h1 id=&#34;print-&#34;&gt;print {{{&lt;/h1&gt;
-&lt;p&gt;lpstat          &amp;ndash; print status (-R for list of jobs)
-lpq             &amp;ndash; print queue
-lp -i 2 -H resume &amp;ndash; resumes job number 2 (jobs found in lpq above)
-}}}&lt;/p&gt;
-&lt;h1 id=&#34;i3-&#34;&gt;i3 {{{&lt;/h1&gt;
-&lt;p&gt;mod+Shift+-		&amp;ndash; move scratchpad, this is an invisible window where you can store things
-mod+-			&amp;ndash; scratchpad show, returns the first thing from the scratchpad
-}}}&lt;/p&gt;
-&lt;h1 id=&#34;gnome-&#34;&gt;gnome {{{&lt;/h1&gt;
-&lt;p&gt;Alt+F2 + r      &amp;ndash; restart gnome server
-}}}&lt;/p&gt;
-&lt;h1 id=&#34;zshell-&#34;&gt;[Z]shell {{{&lt;/h1&gt;
-&lt;p&gt;bindkey &amp;lsquo;^[l&amp;rsquo; forward-char 	&amp;ndash; makes alt+l autocomplete
-bindkey &amp;lsquo;^[k&amp;rsquo; forward-word 	&amp;ndash; makes alt+k autocomplete word by word&lt;/p&gt;
-&lt;p&gt;ctrl+x                      &amp;ndash; enters execution mode, allows you to see all the zsh special commands&lt;/p&gt;
-&lt;p&gt;compgen -c [a][b]	&amp;ndash;list commands [aliases] [builtins]&lt;/p&gt;
-&lt;h1 id=&#34;-zsh&#34;&gt;}}} zsh&lt;/h1&gt;
-&lt;h1 id=&#34;searching-&#34;&gt;Searching {{{&lt;/h1&gt;
-&lt;p&gt;man -k &lt;!-- raw HTML omitted --&gt; 			&amp;ndash; useful way of searching for commands relating to a particular thing&lt;/p&gt;
-&lt;h1 id=&#34;heading-17&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;file-info-&#34;&gt;File Info {{{&lt;/h1&gt;
-&lt;p&gt;pwd 				                &amp;ndash; current dir
-head/tail [number of lines] [path]  &amp;ndash; print a certian number of lines from a file
-sort [path] 			            &amp;ndash; prints the lines sorted
-nl [path] 			                &amp;ndash; numbered lines
-wc [path] 			                &amp;ndash; word count!&lt;/p&gt;
-&lt;h1 id=&#34;heading-18&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;filesystemparitioning-&#34;&gt;Filesystem/Paritioning {{{&lt;/h1&gt;
-&lt;p&gt;du -hs ./ 			&amp;ndash; check size of directory&lt;/p&gt;
-&lt;p&gt;find -type l -exec bash -c &amp;lsquo;ln -f #$(readlink -m &amp;ldquo;$0&amp;rdquo;)&amp;rdquo; &amp;ldquo;$0&amp;rdquo;&amp;rsquo; {} ;
-&amp;ndash; changes symbolic links to hard links&lt;/p&gt;
-&lt;p&gt;mkfs.ext4 /dev/sdb 		&amp;ndash; make a filesystem on a device you partitioned with parted&lt;/p&gt;
-&lt;h1 id=&#34;nfs-network-filesystem&#34;&gt;NFS (Network Filesystem)&lt;/h1&gt;
-&lt;p&gt;#&amp;rdquo; on server
-sudo su&lt;/p&gt;
-&lt;p&gt;apt install nfs-kernel-server
-mkdir -p /mnt/sharedfolder
-chown nobody:nogroup /mnt/sharedfolder
-chmod 777 /mnt/sharedfolder
-vi /etc/exports
-#&amp;rdquo; =====&amp;gt; add the following
-/mnt/sharedfolder &lt;!-- raw HTML omitted --&gt;.0/24(rw,sync,no_subtree_check)
-#&amp;rdquo; &amp;lt;===== for allowing your whole subnet, you can also just allow specific ips if you want
-exportfs -a
-systemctl restart nfs-kernel-server&lt;/p&gt;
-&lt;p&gt;#&amp;rdquo; on client&lt;/p&gt;
-&lt;p&gt;sudo su&lt;/p&gt;
-&lt;p&gt;apt install nfs-common
-mkdir /mnt/sharedfolder
-mount &lt;!-- raw HTML omitted --&gt;:/mnt/sharedfolder /mnt/sharedfolder&lt;/p&gt;
-&lt;h1 id=&#34;actual-usage&#34;&gt;actual usage&lt;/h1&gt;
-&lt;p&gt;df -h&lt;/p&gt;
-&lt;h1 id=&#34;disk-size&#34;&gt;disk size&lt;/h1&gt;
-&lt;p&gt;lsblk&lt;/p&gt;
-&lt;h1 id=&#34;heading-19&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;guiwindowing-&#34;&gt;GUI/Windowing {{{&lt;/h1&gt;
-&lt;p&gt;sudo vi $(sudo find /sys/ -type f -iname &amp;lsquo;&lt;em&gt;brightness&lt;/em&gt;&amp;rsquo; | fzy)
-&amp;ndash; use this to find the brightness file, to manually change the brightness. max is 3000&lt;/p&gt;
-&lt;p&gt;xwininfo -tree -root | less 	&amp;ndash; to see a list of all available windows in a nice tree
-xprop -root 			&amp;ndash; to see a dump of all the windows, then
-xprop -id &lt;!-- raw HTML omitted --&gt; 		&amp;ndash; to look through all the individual windows, then pick one for details&lt;/p&gt;
-&lt;h1 id=&#34;heading-20&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;wifi-&#34;&gt;Wifi {{{&lt;/h1&gt;
-&lt;p&gt;nmcli dev wifi 			&amp;ndash; check local wifi
-nmcli device wifi connect &amp;lsquo;NAME&amp;rsquo; password &amp;lsquo;PASS&amp;rsquo; &amp;ndash; connect to a new wifi&lt;/p&gt;
-&lt;h1 id=&#34;heading-21&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;deviceio-&#34;&gt;DeviceIO {{{&lt;/h1&gt;
-&lt;p&gt;dd if=FILENAME of=DEVICE bs=1MB &amp;ndash; write iso file to usb device (make sure to sudo umount the device first)&lt;/p&gt;
-&lt;p&gt;amixer -D pulse sset Master 80%     &amp;ndash; volume control&lt;/p&gt;
-&lt;p&gt;sudo lpstat -s			            &amp;ndash; printers&lt;/p&gt;
-&lt;p&gt;Mounting a USB:
--&lt;em&gt;Either&lt;/em&gt;-
-lsblk			                    &amp;ndash; list block deviced, safe
-sudo blkid		&amp;ndash; block attributes
-sudo fdisk -l		&amp;ndash; software for manipulating partitions
--Then-
-sudo mkdir /media/usb	&amp;ndash; &lt;a href=&#34;https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/media.html&#34;&gt;https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/media.html&lt;/a&gt;
--Then-
-sudo mount /dev/[DEVICE] /media/usb
--Finally-
-sudo umount /media/usb&lt;/p&gt;
-&lt;h1 id=&#34;heading-22&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;maths-&#34;&gt;Maths {{{&lt;/h1&gt;
-&lt;p&gt;factor 1234			&amp;ndash; factors numbers!
-}}}&lt;/p&gt;
-&lt;h1 id=&#34;system-info-&#34;&gt;System Info {{{&lt;/h1&gt;
-&lt;p&gt;systemctl status    &amp;ndash; system information
-xrandr              &amp;ndash; cli screen settings
-arandr              &amp;ndash; gui for screens
-top 				&amp;ndash; for performance overview
-sensors 			&amp;ndash; temperature
-ps aux | egrep &amp;lsquo;fergus&amp;rsquo; 	&amp;ndash; epic quantity of information about running processes, needs to be grepped
-jobs 				&amp;ndash; shows list of jobs, us fg [num] to bring one of them back
-which [command] 		&amp;ndash; shows location of file in system
-file [path] 			&amp;ndash; tells you what the file is
-chmod [number] [file] 		&amp;ndash; number is three numbers representing a string of 9 binary, so 111 is &amp;ndash;o&amp;ndash;o&amp;ndash;o
-xev 				&amp;ndash; lets you see key events
-free -g 			&amp;ndash; free ram
-lscpu         &amp;ndash; cpu info
-cat /proc/cpuinfo      &amp;ndash; cpu info
-sudo lshw -C display   # gpu info
-sudo lsblk -d -o name,rota    &amp;ndash; search for rotational devices! (used to check if you have an ssd or a hdd :D)&lt;/p&gt;
-&lt;h1 id=&#34;heading-23&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;pacman-&#34;&gt;Pacman {{{&lt;/h1&gt;
-&lt;p&gt;pacman -Qe | fzy        &amp;ndash; to look through installed packages
-pamac search -a &lt;!-- raw HTML omitted --&gt;  &amp;ndash; to search the AUR
-pamac build &lt;!-- raw HTML omitted --&gt;      &amp;ndash; to build from the AUR
-}}}&lt;/p&gt;
-&lt;h1 id=&#34;usersgroups-&#34;&gt;Users/Groups {{{&lt;/h1&gt;
-&lt;p&gt;groups fergus                               &amp;ndash; check which groups im in
-getent group | awk -F : &amp;lsquo;{print $1}&amp;rsquo;        &amp;ndash; displays all the groups on the system
-sudo usermod -aG docker $USER               &amp;ndash; adds the user to the docker group&lt;/p&gt;
-&lt;p&gt;Change shell etc.
-sudo vi /etc/passwd&lt;/p&gt;
-&lt;p&gt;}}}&lt;/p&gt;
-&lt;h1 id=&#34;docker-&#34;&gt;Docker {{{&lt;/h1&gt;
-&lt;p&gt;sudo systemctl start docker     &amp;ndash;start docker
-sudo systemctl enable docker    &amp;ndash;enable docker&lt;/p&gt;
-&lt;h2 id=&#34;list-docker-cli-commands&#34;&gt;List Docker CLI commands&lt;/h2&gt;
-&lt;p&gt;docker
-docker container &amp;ndash;help&lt;/p&gt;
-&lt;h2 id=&#34;display-docker-version-and-info&#34;&gt;Display Docker version and info&lt;/h2&gt;
-&lt;p&gt;docker &amp;ndash;version
-docker version
-docker info&lt;/p&gt;
-&lt;h2 id=&#34;execute-docker-image&#34;&gt;Execute Docker image&lt;/h2&gt;
-&lt;p&gt;docker run hello-world
-docker run -it busybox          &amp;ndash;run a little container in a tty&lt;/p&gt;
-&lt;h2 id=&#34;list-docker-images&#34;&gt;List Docker images&lt;/h2&gt;
-&lt;p&gt;docker image ls&lt;/p&gt;
-&lt;h2 id=&#34;list-docker-containers-running-all-all-in-quiet-mode&#34;&gt;List Docker containers (running, all, all in quiet mode)&lt;/h2&gt;
-&lt;p&gt;docker container ls
-docker container ls &amp;ndash;all
-docker container ls -aq
-docker ps -a                    &amp;ndash;list containers&lt;/p&gt;
-&lt;p&gt;docker rm &lt;!-- raw HTML omitted --&gt;                 &amp;ndash;will give you options to delete your old contianers&lt;/p&gt;
-&lt;p&gt;do run -dit &amp;ndash;name sip&lt;!-- raw HTML omitted --&gt; sip_ubu       &amp;ndash;do N times to get N containers, automatically connected via the docker bridge
-do network inspect bridge               &amp;ndash;check those containers are there&lt;/p&gt;
-&lt;p&gt;do network create &amp;ndash;driver bridge &lt;!-- raw HTML omitted --&gt;    &amp;ndash; then add &amp;ndash;network &lt;!-- raw HTML omitted --&gt; when running a container
-do network connect &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;
-}}}&lt;/p&gt;
-&lt;h1 id=&#34;pdf-&#34;&gt;PDF {{{&lt;/h1&gt;
-&lt;p&gt;gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=merged.pdf mine1.pdf mine2.pdf&lt;/p&gt;
-&lt;h1 id=&#34;heading-24&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;ssh-&#34;&gt;ssh {{{&lt;/h1&gt;
-&lt;p&gt;ssh-keygen -t rsa -b 4096 -C #COMMENT (normally an email)&amp;rdquo; -f ~/.ssh/id_rsa -N &amp;quot;&amp;rdquo;
-ssh-copy-id &lt;a href=&#34;mailto:user@172.17.0.1&#34;&gt;user@172.17.0.1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;netcat -l 38787
-netcat 34.90.161.202 38787&lt;/p&gt;
-&lt;h1 id=&#34;heading-25&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;cron-&#34;&gt;Cron {{{&lt;/h1&gt;
-&lt;h1 id=&#34;this-will-create-a-cronjob-that-runs-at-5-to-5-and-outputs-errors-to-the-syslog&#34;&gt;This will create a cronjob that runs at 5 to 5 and outputs errors to the syslog.&lt;/h1&gt;
-&lt;p&gt;55 4 * * * rm -rf /home/ffettes/alles/* 2&amp;gt;&amp;amp;1 | logger -t custom_tag&lt;/p&gt;
-&lt;h1 id=&#34;heading-26&#34;&gt;}}}&lt;/h1&gt;
-&lt;h1 id=&#34;-lin&#34;&gt;}}} lin&lt;/h1&gt;
-&lt;h1 id=&#34;git-&#34;&gt;Git {{{&lt;/h1&gt;
-&lt;h1 id=&#34;if-you-have-cached-something-then-added-it-to-gitignore&#34;&gt;if you have cached something then added it to .gitignore,&lt;/h1&gt;
-&lt;h1 id=&#34;git-commit--am-git-cache-cleared&#34;&gt;git rm -r &amp;ndash;cached .
-git add .
-git commit -am #git cache cleared&amp;rdquo;&lt;/h1&gt;
-&lt;h1 id=&#34;heading-27&#34;&gt;}}}&lt;/h1&gt;
-&lt;p&gt;&amp;quot; vim:foldmethod=marker:foldlevel=0&lt;/p&gt;
 </description>
     </item>
     

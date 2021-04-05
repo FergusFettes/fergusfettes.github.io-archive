@@ -165,7 +165,7 @@
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    1587 Words
+                    1585 Words
                     
 
                   </div>
@@ -194,7 +194,7 @@ List of devices attached
 192.168.1.0/24 dev wlan0 proto kernel scope link src 192.168.1.185
 $ ssh -fNR 1234:localhost:1234 192.168.1.185
 </code></pre><p>but to no avail. A moment or two googling later I found the command:</p>
-<pre><code>$ adb reverse tcp:1234 tcp:1234                                                                                                                                   ] ffettes@ondewo-xmg-01
+<pre><code>$ adb reverse tcp:1234 tcp:1234
 </code></pre><p>and we&rsquo;re away! I can now open locally hosted sites on my Oculus! And I imagine I have also learned some stuff that will be useful for using my phone as a webcam or other such tricks, very excellent.</p>
 <h2 id="copying-code">Copying Code</h2>
 <p>I first try running some of the <a href="https://threejs.org/docs/#manual/en/introduction/How-to-create-VR-content">ThreeJS examples</a> locally, then I pick <a href="https://threejs.org/examples/#webxr_vr_paint">the one I want</a>, refactor it (I hate HTTP and JS in one document, and I tend to backup all the ThreeJS files I am using in my own src file to avoid too much dependency hell when building), and commit it to my new <a href="https://github.com/FergusFettes/javascript-playground">javascript playground</a>.</p>

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title></title>
+      <title>Vim todos</title>
       <link>https://www.fergusfettes.com/lists/vim_todos/</link>
       <pubDate>Sat, 27 Feb 2021 16:51:07 +0000</pubDate>
       
@@ -97,15 +97,6 @@ Collab Ribosome concept for e</description>
 Short films: Johnathan Glazer Down by law Trouble in paradise Punishment park peter watkins
 Film Cronenberg Pasolini Svenkmajer Gilliam Arnold Dennis Africa docus
 Tv Narcos (for real history) Babylon Berlin</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.fergusfettes.com/lists/tips_megafile/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.fergusfettes.com/lists/tips_megafile/</guid>
-      <description>HEADER {{{  date: 2021-02-21T19:16:38+01:00 modified: 2021-02-21T19:16:43+01:00 title: Linux Tips Megafile }}} Vim {{{ Spellchecker {{{ ,o &amp;ndash; turn on the spellchecker [s or ]s &amp;ndash; go to next/prev word zg &amp;ndash; add word to personal wordlist z= &amp;ndash; check list of spelling</description>
     </item>
     
   </channel>

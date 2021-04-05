@@ -30,7 +30,7 @@ List of devices attached
 192.168.1.0/24 dev wlan0 proto kernel scope link src 192.168.1.185
 $ ssh -fNR 1234:localhost:1234 192.168.1.185
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;but to no avail. A moment or two googling later I found the command:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ adb reverse tcp:1234 tcp:1234                                                                                                                                   ] ffettes@ondewo-xmg-01
+&lt;pre&gt;&lt;code&gt;$ adb reverse tcp:1234 tcp:1234
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and we&amp;rsquo;re away! I can now open locally hosted sites on my Oculus! And I imagine I have also learned some stuff that will be useful for using my phone as a webcam or other such tricks, very excellent.&lt;/p&gt;
 &lt;h2 id=&#34;copying-code&#34;&gt;Copying Code&lt;/h2&gt;
 &lt;p&gt;I first try running some of the &lt;a href=&#34;https://threejs.org/docs/#manual/en/introduction/How-to-create-VR-content&#34;&gt;ThreeJS examples&lt;/a&gt; locally, then I pick &lt;a href=&#34;https://threejs.org/examples/#webxr_vr_paint&#34;&gt;the one I want&lt;/a&gt;, refactor it (I hate HTTP and JS in one document, and I tend to backup all the ThreeJS files I am using in my own src file to avoid too much dependency hell when building), and commit it to my new &lt;a href=&#34;https://github.com/FergusFettes/javascript-playground&#34;&gt;javascript playground&lt;/a&gt;.&lt;/p&gt;
@@ -118,6 +118,31 @@ targetRayMode: &amp;quot;tracked-pointer&amp;quot;
 &lt;li&gt;how to reverse engineer files from .maps&lt;/li&gt;
 &lt;li&gt;more about building/packaing etc (still trying to use parcel for everything since it is nice and minimal)&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Streaming Oculus</title>
+      <link>https://www.fergusfettes.com/posts/oculus-streaming/</link>
+      <pubDate>Sat, 06 Feb 2021 23:10:29 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/posts/oculus-streaming/</guid>
+      <description>&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Oculus streaming is still a bit of a shitshow. Or, maybe thats unfair, but its very facebook. Streaming works where they want it to work (eg. your newsfeed).&lt;/p&gt;
+&lt;p&gt;I want to stream to radio.schau-wien.at, where I am experimenting with livestreaming/broadcasting.&lt;/p&gt;
+&lt;p&gt;So lets get back into android development!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m on a different laptop now so I have to relearn everything from last time. My devices are gone, my permsission are gone. Lets see.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ adb devices
+List of devices attached
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;:sad:&lt;/p&gt;
+&lt;p&gt;Okay, turns out to become an android developer you literally have to &lt;em&gt;tap the build number of your phone seven times&lt;/em&gt;. It even gives you little hints like &amp;lsquo;you are now 4 steps from becoming a developer!&#39;. Nice little easter-egg.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ adb devices
+List of devices attached
+21525d14        device
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Okay and heres I one-liner a ran directly from SO:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;adb exec-out screenrecord --output-format=h264 - |
+   ffplay -framerate 60 -probesize 32 -sync video  -
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Daamn that was easy.&lt;/p&gt;
 </description>
     </item>
     
