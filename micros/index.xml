@@ -6,10 +6,20 @@
     <description>Recent content in Micros on Website of Fergus Fettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Feb 2021 21:55:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Apr 2021 17:45:27 +0100</lastBuildDate>
     
 	<atom:link href="https://www.fergusfettes.com/micros/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Book Reviews 2021</title>
+      <link>https://www.fergusfettes.com/micros/reviews2021/</link>
+      <pubDate>Sun, 18 Apr 2021 17:45:27 +0100</pubDate>
+      
+      <guid>https://www.fergusfettes.com/micros/reviews2021/</guid>
+      <description>I have started reading again. Wonderful.
+I am going to disregard the shameful reading of 2020. 2020 I read Marginal Revolution, Hacker News, listened to podcasts, watched YouTube videos, and browsed instagram.</description>
+    </item>
     
     <item>
       <title>Organization and Archiving</title>
