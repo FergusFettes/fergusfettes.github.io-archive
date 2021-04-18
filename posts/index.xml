@@ -358,7 +358,7 @@ hyperdrive seed /home/ffettes/Hyperdrive/some_random_name
 &lt;p&gt;You can also look at a copy-paste of the terminal &lt;a href=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face.txt&#34;&gt;here&lt;/a&gt; to prove that it really is ASCII output.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Zooming out, the resolution becomes better and better (&lt;a href=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face_large.txt&#34;&gt;text&lt;/a&gt;), but it starts to jitter quite badly at a certain size.
-&lt;img src=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face_large.png&#34; alt=&#34;large face&#34; title=&#34;Closeup of face&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://www.fergusfettes.com/alacritty-ascii/still_face_large.png&#34; alt=&#34;large face&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I thought the ssh connection might be a bottleneck, so I went to the computer to try it on one machine. I had that slightly haunted feeling that the magic might disappear, and when I entered the terminal I suddenly wondered&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;How will I get it to work here? If I run &lt;code&gt;vlc -I dummy ~/filmes/Crash.mkv&lt;/code&gt; I&amp;rsquo;ll just get a window.&lt;/p&gt;
