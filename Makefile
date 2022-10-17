@@ -2,8 +2,9 @@ local:
 	hexo server
 
 deploy:
-	rm -rf public/*
+	hexo clean
 	hexo generate
+	echo "www.fergusfettes.com" > public/CNAME
 	git add .
 	git commit -m "update"
 	git push
