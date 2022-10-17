@@ -3,3 +3,4 @@ package*.json
 ./**/package*.json
 .cache/
 dist/
+.tags
