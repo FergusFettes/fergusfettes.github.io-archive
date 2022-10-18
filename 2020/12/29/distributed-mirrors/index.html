@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        hexo-theme-suka © SukkaW
+        GitHub: https://github.com/SukkaW/hexo-theme-suka
+    -->
+
+    <!-- ### Resource Hint ### -->
+
+    <!-- ## DNS Prefetch ## -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- busuanzi -->
+
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
+
+
+<!-- comment -->
+
+
+
+
+
+
+
+<!-- analytics -->
+
+
+
+
+
+
+
+    <!-- ## Preload ## -->
+    
+    <!-- Busuanzi -->
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" as="script">
+
+
+
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+    <meta name="renderer" content="webkit">
+
+    <!-- Title -->
+    <title>Mirroring in the Hyperspace and the IPFS | Fergus Fettes</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image&#x2F;ico" href="/img/suka-favicon.ico">
+
+    <!-- ### Import File ### -->
+    <link rel="stylesheet" href="/lib/spectre/spectre.min.css"><style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    a, a:visited {
+        color: #0070ff;
+    }
+
+    a:active, a:focus, a:hover {
+        color: #0070ff;
+        opacity: .75;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #005eb9;
+        opacity: 1;
+    }
+
+    
+
+    .post-entry .card-body a {
+        color: #0070ff;
+    }
+
+    .avatar {
+        background: #444;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #0070ff;
+    }
+
+    .navbar-link:hover {
+        color: #0070ff;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #727e96;
+        border-color: #727e96;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #727e96;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #f8f9fa;
+        opacity: .85;
+    }
+</style><link rel="stylesheet" href="/css/style.min.css">
+
+
+
+
+
+
+
+
+    <!-- Prettify Theme -->
+    
+    <link rel="preload" href="/css/highlight/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/highlight/github.min.css"></noscript>
+
+
+
+
+
+<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+</script>
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Fergus Fettes"><meta name="msapplication-starturl" content="http://www.fergusfettes.com"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Fergus Fettes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="Mirroring in the Hyperspace and the IPFS | Fergus Fettes"><meta property="og:site_name" content="Fergus Fettes"><meta property="og:type" content="article"><meta property="og:url" content="http://www.fergusfettes.com/2020/12/29/distributed-mirrors/"><meta property="og:locale" content="en"><meta name="description" content="I’m going to mirror my blog in Hyperspace (aka the backend of the Beaker browser, if you don’t know about it I suggest you check that out first). To do this, I’m going to try setting up my free micro  - Fergus Fettes - Fergus Fettes"><meta property="og:image" content="https://storage.googleapis.com/schau-wien-images/fergus/beaker_screenshot.png"><meta property="article:published_time" content="2020-12-29T17:03:06.000Z"><meta property="article:modified_time" content="2022-10-15T22:17:08.288Z"><meta property="og:updated_time" content="2022-10-15T22:17:08.288Z"><meta property="article:author" content="Fergus Fettes"><meta name="twitter:card" content="summary">
+
+    
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="http://www.fergusfettes.com/2020/12/29/distributed-mirrors/">
+
+    <meta name="generator" content="Hexo 6.3.0">
+
+    <!-- ### Analytics ### -->
+    
+
+
+
+
+
+
+
+    <!-- ### Structured Data ### -->
+    
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "url": "http://www.fergusfettes.com/2020/12/29/distributed-mirrors/",
+    "@type": "BlogPosting",
+    "logo": "http://www.fergusfettes.com/img/suka-favicon.ico",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.fergusfettes.com/2020/12/29/distributed-mirrors/"
+    },
+    "headline": "Mirroring in the Hyperspace and the IPFS | Fergus Fettes",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://www.fergusfettes.com/img/suka-favicon.ico"
+    },
+    
+    "datePublished": "2020-12-29T17:03:06.000Z",
+    "dateModified": "2022-10-15T22:17:08.288Z",
+    "author": {
+        "@type": "Person",
+        "name": "Fergus Fettes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://www.fergusfettes.com/img/default_avatar.png"
+        },
+        "description": "An Experimental Account of What Was Known, Seen, and Met by Mr Fergus Fettes in His Travels"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Fergus Fettes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://www.fergusfettes.com/img/suka-favicon.ico"
+        }
+    },
+    
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "http://www.fergusfettes.com/search?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    
+    "keywords": "",
+    "description": "I’m going to mirror my blog in Hyperspace (aka the backend of the Beaker browser, if you don’t know about it I suggest you check that out first). To do this, I’m going to try setting up my free micro  - Fergus Fettes - Fergus Fettes"
+}
+</script>
+
+
+
+    <!-- ### Custom Head ### -->
+    
+</head>
+
+    <body>
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <h1 class="header-title text-center"><a href="/">Fergus Fettes</a></h1>
+
+    <p class="text-center header-slogan">
+        
+            
+                An Experimental Account of What Was Known, Seen, and Met by Mr Fergus Fettes in His Travels
+            
+        
+    </p>
+
+    <nav class="navbar-section text-center">
+    
+        <a href="/" class="navbar-link">Home</a>
+    
+    
+        <a href="/archives/" class="navbar-link">Archives</a>
+    
+    
+        <a href="/search" class="navbar-link">Search</a>
+    
+    
+    
+        <div class="dropdown dropdown-right">
+    <a class="navbar-link dropdown-toggle" tabindex="0">Share</a>
+    <ul class="menu share-menu">
+
+        <!-- Share Weibo -->
+        
+        <li class="menu-item">
+            <a href="http://service.weibo.com/share/share.php?appkey=&title=Fergus Fettes&url=http://www.fergusfettes.com&pic=http://www.fergusfettes.com/img/suka-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+        </li>
+        
+
+        <!-- Share Twitter -->
+        
+        <li class="menu-item">
+            <a href="https://twitter.com/intent/tweet?text=Fergus Fettes&url=http://www.fergusfettes.com&via=Fergus Fettes" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
+        </li>
+        
+
+        <!-- Share Facebook -->
+        
+        <li class="menu-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.fergusfettes.com" target="_blank" rel="external noopener noreferrer nofollow">Share to Facebook</a>
+        </li>
+        
+
+        <!-- Share Google+ -->
+        
+        <li class="menu-item">
+            <a href="https://plus.google.com/share?url=http://www.fergusfettes.com" target="_blank" rel="external noopener noreferrer nofollow">Share to Google+</a>
+        </li>
+        
+
+        <!-- Share LinkedIn -->
+        
+        <li class="menu-item">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.fergusfettes.com&title=Mirroring in the Hyperspace and the IPFS" target="_blank" rel="external noopener noreferrer nofollow">Share to LinkedIn</a>
+        </li>
+        
+
+        <!-- Share QQ -->
+        
+        <li class="menu-item">
+            <a href="http://connect.qq.com/widget/shareqq/index.html?site=Fergus Fettes&title=Mirroring in the Hyperspace and the IPFS&summary=&pics=http://www.fergusfettes.com/img/suka-favicon.ico&url=http://www.fergusfettes.com" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+        </li>
+        
+
+        <!-- Share Telegram -->
+        
+        <li class="menu-item">
+            <a href="https://t.me/share/url?url=http://www.fergusfettes.com&text=Mirroring in the Hyperspace and the IPFS" target="_blank" rel="external noopener noreferrer nofollow">Share to Telegram</a>
+        </li>
+        
+
+        <!-- QRCode -->
+        
+        <li class="menu-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAAB5ElEQVR42u3azW7DIBBFYb//S7fbKII7h9gLGB9vqjYO/iphfu5w/W14XaJEiRI1QF3hig18fD763ncb5Dmi+qDIQ0f3ju6ZtYmeI6oVatRRvzts9eBRO/Q5ot6FGg2G6QWYfV+UqGqATJNuGoBFvQOVOioZNGefp5dBVF9UWtA/+fOx3YyorVFl6BAGu9nvaRJ/JHURtTUqdUQ60aZNBmlfVC8U2YjOGqYvRRWgieqFIqDZAEmCW7IhEdUL9cvEnEJaErzdXuSJOgJFAggSfFTFgVhUEtUGlQBpMCWD6qitaegmqgWKLOJIGLtaFBj+XVQLVFVoJB22eiB5SUT1Qt1pnHT42YQ8DfdFHY2iISspFKUCQRWuieqDokVqGtySA4NLI7qo41BViF+FEythW/pnRfVBVZNmmlirgKMqMInqiSKBxeoGY2XD8dMqQdT2qKoQTQ9SEEDcyIpqhSIbB3LvVVw4iBV1PIqGsTgAgwdvRPVD0YI2LSStFDFvHz4VtSVqZaAj4f9KIQmdChJ1JGrWwSsQLTClInq5ShB1LIp2zCpopYu+MuAQ9QoUObxF2igPdYl6DYoEs6ngnSZjUf1Q5PBEtUijBypuL/JEbY+im8mVjkuL3qL6oXa6RIkSJerj+geos3FAhqpp2QAAAABJRU5ErkJggg==" alr="QRCode">
+        </li>
+        
+
+    </ul>
+</div>
+    
+    
+</nav>
+</header>
+
+            
+    <!-- ## Post ## -->
+    <div class="post-container">
+    <div id="post-card" class="card">
+        
+        <div class="card-item-container">
+            <div class="card-inner-cell">
+                <!-- # Post Header Info # -->
+                <div class="card-header">
+                    
+    <h1 class="card-title h3 mb-2">Mirroring in the Hyperspace and the IPFS</h1>
+
+
+
+
+<div class="post-header-info">
+    <p class="post-header-info-left text-gray">
+        <img class="author-thumb lazyload" data-src="/img/default_avatar.png" src="/img/suka-lazyload.gif" alt="Fergus Fettes's Avatar">
+        <span>2020-12-29</span>
+        
+        
+            <!-- Busuanzi Post Views -->
+<span id="busuanzi_container_page_pv" hidden>
+    <span class="suka-devide-dot"></span>
+    <span></span>
+    <span id="busuanzi_value_page_pv"></span>
+    <span>Views</span>
+</span>
+        
+        
+    </p>
+    <div class="post-header-info-right">
+        
+            <div class="dropdown dropdown-right">
+<a class="dropdown-toggle" tabindex="0">Share the post</a>
+<ul class="menu share-menu">
+    <!-- Share Weibo -->
+    
+    <li class="menu-item">
+        <a href="http://service.weibo.com/share/share.php?appkey=&title=Mirroring in the Hyperspace and the IPFS&url=http://www.fergusfettes.com/2020/12/29/distributed-mirrors/&pic=http://www.fergusfettes.com/img/suka-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+    </li>
+    
+
+    <!-- Share Twitter -->
+    
+    <li class="menu-item">
+        <a href="https://twitter.com/intent/tweet?text=Mirroring in the Hyperspace and the IPFS&url=http://www.fergusfettes.com/2020/12/29/distributed-mirrors/&via=Fergus Fettes" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
+    </li>
+    
+
+    <!-- Share Facebook -->
+    
+    <li class="menu-item">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.fergusfettes.com/2020/12/29/distributed-mirrors/" target="_blank" rel="external noopener noreferrer nofollow">Share to Facebook</a>
+    </li>
+    
+
+    <!-- Share Google+ -->
+    
+    <li class="menu-item">
+        <a href="https://plus.google.com/share?url=http://www.fergusfettes.com/2020/12/29/distributed-mirrors/" target="_blank" rel="external noopener noreferrer nofollow">Share to Google+</a>
+    </li>
+    
+
+    <!-- Share LinkedIn -->
+    
+    <li class="menu-item">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.fergusfettes.com/2020/12/29/distributed-mirrors/&title=Fergus Fettes" target="_blank" rel="external noopener noreferrer nofollow">Share to LinkedIn</a>
+    </li>
+    
+
+    <!-- Share QQ -->
+    
+    <li class="menu-item">
+        <a href="http://connect.qq.com/widget/shareqq/index.html?site=Fergus Fettes&title=Fergus Fettes&summary=&pics=http://www.fergusfettes.com/img/suka-favicon.ico&url=http://www.fergusfettes.com/2020/12/29/distributed-mirrors/" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+    </li>
+    
+
+    <!-- Share Telegram -->
+    
+    <li class="menu-item">
+        <a href="https://t.me/share/url?url=http://www.fergusfettes.com/2020/12/29/distributed-mirrors/&text=Fergus Fettes" target="_blank" rel="external noopener noreferrer nofollow">Share to Telegram</a>
+    </li>
+    
+
+    <!-- QRCode -->
+    
+    <li class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAAB5ElEQVR42u3azW7DIBBFYb//S7fbKII7h9gLGB9vqjYO/iphfu5w/W14XaJEiRI1QF3hig18fD763ncb5Dmi+qDIQ0f3ju6ZtYmeI6oVatRRvzts9eBRO/Q5ot6FGg2G6QWYfV+UqGqATJNuGoBFvQOVOioZNGefp5dBVF9UWtA/+fOx3YyorVFl6BAGu9nvaRJ/JHURtTUqdUQ60aZNBmlfVC8U2YjOGqYvRRWgieqFIqDZAEmCW7IhEdUL9cvEnEJaErzdXuSJOgJFAggSfFTFgVhUEtUGlQBpMCWD6qitaegmqgWKLOJIGLtaFBj+XVQLVFVoJB22eiB5SUT1Qt1pnHT42YQ8DfdFHY2iISspFKUCQRWuieqDokVqGtySA4NLI7qo41BViF+FEythW/pnRfVBVZNmmlirgKMqMInqiSKBxeoGY2XD8dMqQdT2qKoQTQ9SEEDcyIpqhSIbB3LvVVw4iBV1PIqGsTgAgwdvRPVD0YI2LSStFDFvHz4VtSVqZaAj4f9KIQmdChJ1JGrWwSsQLTClInq5ShB1LIp2zCpopYu+MuAQ9QoUObxF2igPdYl6DYoEs6ngnSZjUf1Q5PBEtUijBypuL/JEbY+im8mVjkuL3qL6oXa6RIkSJerj+geos3FAhqpp2QAAAABJRU5ErkJggg==" alt="QRCode">
+    </li>
+    
+
+</ul>
+</div>
+        
+    </div>
+</div>
+                </div>
+                <div class="card-body">
+                    
+                        
+                        
+                            <div id="post-toc"><ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Hyperdrive-Host"><span class="post-toc-number">1.</span> <span class="post-toc-text">Hyperdrive Host</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#IPFS-Host"><span class="post-toc-number">2.</span> <span class="post-toc-text">IPFS Host</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Conculsions"><span class="post-toc-number">3.</span> <span class="post-toc-text">Conculsions</span></a></li></ol></div>
+                        
+                    
+                    <article id="post-content">
+                        <p>I’m going to mirror my blog in <a target="_blank" rel="noopener" href="https://github.com/hyperspace-org/hyperdrive-service">Hyperspace</a> (aka the backend of the <a target="_blank" rel="noopener" href="https://beakerbrowser.com/">Beaker browser</a>, if you don’t know about it I suggest you check that out first).</p>
+<p>To do this, I’m going to try setting up my free micro instance[^micro] in the gcloud as a hyperdrive host.</p>
+<h1 id="Hyperdrive-Host"><a href="#Hyperdrive-Host" class="headerlink" title="Hyperdrive Host"></a>Hyperdrive Host</h1><p>I’ve had trouble doing big installs on a micro instance before. For reference, here are the specs of a micro instance:</p>
+<table>
+<thead>
+<tr>
+<th>RAM</th>
+<th>Cores</th>
+<th>Mem</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0.6GB</td>
+<td>0.2 (aka a shared core!)</td>
+<td>32GB</td>
+</tr>
+</tbody></table>
+<p>I run my <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/FergusFettes/dotfiles/master/scripts/new_laptop_installation.yaml">ansible script</a> against it, and it dies. I try to install and run a docker image, it dies. It is not made for grand works. Or even minor works.</p>
+<p>So in order to get everything nicely installed and prepared I decided to make a ‘<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/FergusFettes/dotfiles/master/scripts/gcloud/small-computer.sh">standard simple computer</a>‘. This is a decently-proportioned machine I can run in the cloud for generating snapshots that can be used as the base image for smaller, gentler machines. It does all the installations without crashing.</p>
+<p>I also used the opportunity to try out a preemptible instance. This is an instance that google can kill whenever, and is about 3x cheaper than a normal machine. Since I am just running this machine to do little tasks in the cloud, I don’t care if it gets killed sometimes. However, I didn’t realise that my free cloud credits can’t be used for preemptible instances, I only found this out after. This means– shock horror! I will actually get billed for this usage. Lets see how much.</p>
+<table>
+<thead>
+<tr>
+<th>SKU</th>
+<th>Service</th>
+<th>Usage</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Preemptible E2 Instance Core running in Americas</td>
+<td>Compute Engine</td>
+<td>1.63 hour</td>
+<td>€0.01</td>
+</tr>
+<tr>
+<td>Preemptible E2 Instance Ram running in Americas</td>
+<td>Compute Engine</td>
+<td>6.5 gibibyte hour</td>
+<td>€0.00</td>
+</tr>
+</tbody></table>
+<p>Okay not too terrible.</p>
+<p>So now I have a snapshot with some basic things installed, I can try running a hyperdrive host. Obviously I don’t need all my command-line tools and everything to really run it, but its nice to have this snapshot available for future machines. And when I get it all running stably, I can create a minimal snapshot with only the server I want so it runs more smoothly.</p>
+<p>To make my hyperdrive, I’m just going to open up the Beaker browser and see how it is these days, it’s been almost six months since I used it and it’s developing rapidly. Oh! They have a ‘create hyperdrive from git repo’ button now! This gets better and better.</p>
+<p>So I’m now hosted on the Beaker network. <a href="hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/">URL</a>.</p>
+<p>Okay so it seems the way Hugo generates sites, based on the CNAME that I supplied, means that all the links from the frontpage on beaker go straight to the clearnet version at <a href="http://www.fergusfettes.com/">www.fergusfettes.com</a>. This is slightly annoying but I’ll not work on it now, since all the rest of the stuff is actually there, it just isn’t linked correctly. <a href="hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/posts/distributed-mirrors/">This post</a> on the hyperspace, for example.</p>
+<p>Another thing to note, is I would need to host all the images in hyperspace too to be really complete. However, as it is now, it is a great demonstration of how nicely the hyper protocol interacts with http.</p>
+<p>So now I’m restarting my micro instance with the hyperdrive installed. Starting hyperspace (<code>hyperspace start</code>), and hyperdrive (<code>hyperdrive start</code>). Playing around with the hyperdrive cli, I can get info about my local hyperdrvie once I have cd’ed into it: <code>cd Hyperdrive; hyperdrive info --root</code>. </p>
+<p>Now I’ll try mounting the hyperdrive that was created on my laptop by the Beaker browser. I copy the <a href="hyper://cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737/">URL</a> ID (aka. without the ‘hyper:&#x2F;&#x2F;‘) and serve it with</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hyperdrive mount cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737</span><br><span class="line">hyperdrive seed /home/ffettes/Hyperdrive/cb8bb0fdb843f78267df2dce7c4dd3cb4fd89a9b16c4454912691a73e5d1c737</span><br></pre></td></tr></table></figure>
+<p>(after the mount there is handy output telling you what to do next :D).</p>
+<p>Having a look around the <a target="_blank" rel="noopener" href="https://userlist.beakerbrowser.com/">beaker user list</a>, I found my first attempt at a beaker blog is still being hosted (I’m @frgnym)! I feel so touched! Someone out there is still on my website! I’ll seed it too:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hyperdrive mount c2b2403c8aa02cfdff740614ffc437cd09f243d98f84ebe0eb37a86eedf677bb</span><br><span class="line">hyperdrive seed /home/ffettes/Hyperdrive/c2b2403c8aa02cfdff740614ffc437cd09f243d98f84ebe0eb37a86eedf677bb</span><br></pre></td></tr></table></figure>
+
+<p>Okay awesome. I’m not only newly mirrored on the hyper network, my old website is still on there. So great. That was incredibly easy. Maybe I’ll start using the beaker browser as my primary browser. (I always say that.)</p>
+<p>So now my old website is hosted in three places, whoever was hosting it before, my micro instance, and the browser I am currently viewing it from. See the little three in the top right:<br><img src="https://storage.googleapis.com/schau-wien-images/fergus/beaker_screenshot.png" alt="First Beaker Blog Attempt"></p>
+<p>And now this blog is hosted there too! Excellent. Now lets see how the IPFS fares!</p>
+<p>UPDATE: It was obviously <a href="hyper://25c225f019a7f93ec8aa52799a0d428925c1f82f4ad012bcf9f75c3a64052de1">Kicks Condor</a> who was hosting it before, so I’m hosting their drive now too.</p>
+<p>UPDATE2: So, the micro host wasn’t actually working. I ran a couple tests, turns out I used the complete wrong command. I should have used the following:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hyperdrive mount some_random_name c2b2403c8aa02cfdff740614ffc437cd09f243d98f84ebe0eb37a86eedf677bb</span><br><span class="line">hyperdrive seed /home/ffettes/Hyperdrive/some_random_name</span><br></pre></td></tr></table></figure>
+
+<p>The random name doesn’t seen to affect the seeded drive. ‘hyperdrive mount X’ creates a new drive called x and creates a new key for it, so I had folders named after all my old drives with new keys and no content.</p>
+<p>Anyway I fixed all the mounts and now I see the IP of my micro host in the top right under the hosts. In other news, this means that there were three people hosting my old blog before, and now there are 4!</p>
+<h1 id="IPFS-Host"><a href="#IPFS-Host" class="headerlink" title="IPFS Host"></a>IPFS Host</h1><p>Okay so I’ve started my small computer again and I’m going through the <a target="_blank" rel="noopener" href="https://docs.ipfs.io/how-to/command-line-quick-start/#prerequisites">Command-line quickstart</a>. Seems pretty straightforward.</p>
+<p>So I dumped the contents of <a target="_blank" rel="noopener" href="https://github.com/fergusfettes/dotfiles">my dotfiles</a> into my local IPFS node (<code>ipfs add -r ~/dotfiles</code>), and now I’m going to serve it and mount it. I ran the daemon (<code>ipfs daemon</code>) and set up an ssh tunnel to my small computer <code>ssh -fNL 5001:localhost:5001 small-computer</code> so I can see the IPFS dashboard at <code>localhost:5001</code>. Very snazzy! I can see the files I added too.</p>
+<p>Now I’ll get the browser <a target="_blank" rel="noopener" href="https://github.com/ipfs-shipyard/ipfs-companion#ipfs-companion">plugin</a> that lets me view IPFS files in Firefox. Actually since the install was so easy, I’ll run an IPFS node on my local laptop too. When I add my dotfiles locally, I notice that they have the same hashes as when I added them on the server. This is key to the coolest feature of the IPFS– since these files had already been added by me elsewhere, they didn’t get added again, and when I tried to add them locally the network determined this and just ‘pinned’ them as well, aka my local node automatically became a seeder of these same files. Network deduplication. This is a game-changer. Particularly in a world where things like the pypi and npm exist, where vast numbers of developer-hours are spent redoing work, it is easy to see how the notion of deduplication can be expanded to do more and more abstract kinds of energy-saving work. (Imagine writing tests for kinds of work you want code to do, and the code itself being mutable. If multiple people had done work that passed those tests, you could choose between them based on other factors like speed, efficiency etc.)</p>
+<p>So anyway. Now I go to my blog, and do <code>ipfs add -r public</code>[^git], and hey presto, my blog is <a target="_blank" rel="noopener" href="https://ipfs.io/ipfs/QmQuVuPJ4jSN4YZard6YK7nZ1MHWukk4AqA21XHtZz6EPY">in the IPFS</a>. Running on my local machine, that link redirects to the following:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://bafybeibgegkyol2e5txemzjuflbpjrsh6da2xxbyzzilahtilsp3jxxaa4.ipfs.localhost:8080/</span><br></pre></td></tr></table></figure>
+<p>so it just gets the file from the local folder nice and easy. However, when I go to the same link in Chrome (where I havent installed the plugin) it loads as well without a redirect (after some time). So I think the ipfs.io acts as a temporary node, grabbing the hash you request from the network and serving it over http. Aka, it came to my local node, got the file, then gave it back to me.</p>
+<p>Now, the blog in the IPFS has the same issue as the one in hyperspace– all the links point to the clearnet. However this is still fine for now, and still shows nicely how the two protocols interact.</p>
+<p>So now I just need to set up the host in my micro instance, and I’m done for the day. I’m going to take a risk and try to do it directly in my micro host. It’ll probably crash and die but lets see.</p>
+<p>I shut down some unnecessary services on the host. I’ve inited the ipfs node. And added the blog again. And started the daemon. And the node is still accessible. I shut down my local node and tried the URL again through the ipfs gateway and.. its there! I’m a little worried it’s just being cached by the ipfs gateway but I’ll check back tomorrow and see.</p>
+<p>Nice! I’m now mirrored on two decentralized internet protocols! I’m safe in the case of nuclear apocalypse! I’m part of the future!</p>
+<h1 id="Conculsions"><a href="#Conculsions" class="headerlink" title="Conculsions"></a>Conculsions</h1><p>Very cool to have finally actually used both of these protocols, I have been following and stanning them for ages now. They both exceed expectations in terms of user-friendliness and just-works-ness. Maybe thats just because I’m a programmer now so things are easier, but their install and setup instructions are really nice and clear and worked without a hitch in this case.</p>
+<p>Obviously there are still some things I need to sort out, and some things I want to try:</p>
+<ol>
+<li>Set up cronjobs to update all three of the hosts once per day with the latest content (I know I should use build pipelines but I have never used github pipelines and I think a little cronjob is fine for now).</li>
+<li>See if it is possible to have relative paths that work in all three hosts, so internal links work properly and always link within the same protocol.</li>
+<li>Have a look at hyper-ipfs inter-operability.</li>
+<li>Set up nodes on a raspberry pi and serve from home.</li>
+</ol>
+<p>In terms of updating, becaue I just dumped whatever blog I had at the time into the protocol, the version in hyper doesn’t have this post at all, and the version in IPFS has this post without the IPFS content. This needs to be fixed first. The other things will take more time and tweaking so I’ll put them on the back burner for now.</p>
+<p>So! Great success! I’m off to a New Years bonfire now. Lets burn the bad 2020-vibes away.</p>
+<p>[^micro]: With the Google Cloud Platform free developer package, you get a teeny little machine in the cloud for free forever.<br>[^git]: I made a point of checking if hidden files are added, they aren’t by default so the <code>.git</code> folder should be skipped.</p>
+
+                    </article>
+                    
+
+
+    <blockquote id="date-expire-notification" class="post-expired-notify">This article was last updated on <span id="date-expire-num"></span> days ago, and the information described in the article may have changed.</blockquote>
+    <script>
+    (function() {
+        var dateUpdate = Date.parse("2022-10-15");
+        var nowDate = new Date();
+        var a = nowDate.getTime();
+        var b = a - dateUpdate;
+        var daysUpdateExpire = Math.floor(b/(24*3600*1000));
+        if (daysUpdateExpire >= 120) {
+            document.getElementById('date-expire-num').innerHTML = daysUpdateExpire;
+        } else {
+            document.getElementById('date-expire-notification').style.display = 'none';
+        }
+    })();
+    </script>
+
+
+<p class="post-footer-info mb-0 pt-0">Published at&nbsp;<time datetime="2020-12-29T17:03:06.000Z" itemprop="datePublished">2020-12-29</time>
+
+    , Updated at&nbsp;<time datetime="2022-10-15T22:17:08.288Z" itemprop="dateModified">2022-10-15</time>
+
+</p>
+<p class="post-footer-info mb-0 pt-2">
+
+
+
+
+</p>
+
+                </div>
+                <div class="post-nav px-2 bg-gray">
+<ul class="pagination">
+    <!-- Prev Nav -->
+    
+        <li class="page-item page-prev">
+            <a href="/2021/02/06/oculus-streaming/" rel="prev">
+                <div class="page-item-title"><i class="icon icon-back" aria-hidden="true"></i></div>
+                <div class="page-item-subtitle">Streaming Oculus</div>
+            </a>
+        </li>
+    
+
+    <!-- Next Nav -->
+    
+        <li class="page-item page-next">
+            <a href="/2020/12/26/music-i-like/" rel="next">
+                <div class="page-item-title"><i class="icon icon-forward" aria-hidden="true"></i></div>
+                <div class="page-item-subtitle">Music-I-Like</div>
+            </a>
+        </li>
+    
+</ul>
+</div>
+
+                
+                    <!-- # Comment # -->
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    
+        <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span id="copyright-year"></span>
+            <a class="footer-copyright-a" href="http://www.fergusfettes.com">Fergus Fettes</a>
+        </p>
+
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
+    
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
+        
+    <!-- Busuanzi User Views -->
+    <span id="busuanzi_container_site_uv" hidden>
+        <span></span>
+        <span id="busuanzi_value_site_uv"></span>
+        <span>Viewers</span>
+        
+            <span>|</span>
+        
+    </span>
+
+
+
+
+        
+        Powered by&nbsp;<!--
+         --><a href="https://hexo.io" target="_blank" class="footer-develop-a" rel="external nofollow noopener noreferrer">Hexo</a><span class="footer-develop-divider"></span>Theme&nbsp;-&nbsp;<!--
+         --><a href="https://github.com/SukkaW/hexo-theme-suka" target="_blank" class="footer-develop-a" rel="external noopener">Suka</a>
+    </p>
+</footer>
+
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+
+    
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+document.getElementById('copyright-year').textContent = new Date().getFullYear();
+console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
+
+</script>
+
+<script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
+
+
+<!-- Offset -->
+
+
+
+
+<!-- Comment -->
+
+
+<!-- ### Custom Footer ### -->
+
+    </body>
+
+</html>
