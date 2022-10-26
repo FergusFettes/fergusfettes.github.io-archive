@@ -1,0 +1,235 @@
+---
+title: Spotify Data
+author: "Fergus Fettes"
+jupyter: python3
+toc: true       # Table of Contents
+reference-location: margin
+format:
+  html:
+    code-tools: true
+    code-fold: true
+---
+
+# Imports and Variables {.hidden}
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import datetime
+import os
+
+DATA_DIR = os.path.join(os.getcwd(), '/p/quarto/data')
+DATE_FORMAT = '%Y-%m-%dT%H:%M:%S.%fZ[UTC]'
+```
+
+# Preamble
+
+Spotify is my main source for music. I used it from 2011-2013, then I was using my mums account until about 2020, when I got my own. Since then I have been using it all the time, and I recently downloaded my data-- lets see how it looks.
+
+# Search History
+
+The first things that springs to my attention is the json file for the search history. It seems to contain a lot of half-complete or misspelled searchs, aka:
+
+>scalr
+scalrat
+scarlatti
+
+or
+
+> f
+fa
+fay
+faye
+faye
+faye
+f
+f
+fa
+fa
+fay
+faye
+faye
+faye
+
+Apparently I can't spell _[Scarlatti](W!)_? And, while I can spell _[Faye Wong's](W!)_ name, I can't write it very fast. I wonder what the timeout on this is.
+
+This dataset was actually surprisingly small. I'm not sure if they are keeping some of it back, or if I really don't search very often. In any case, here is a tag cloud of all the successful searches I had, aka searches that ended in me selecting something.
+
+```{python}
+#| column: page
+search_json = os.path.join(DATA_DIR, 'SearchQueries.json')
+
+search_df = pd.read_json(search_json)
+search_df['searchTime'] = pd.to_datetime(search_df['searchTime'], format=DATE_FORMAT)
+
+# Drop the 'platform' column, as it is always 'web'
+search_df.drop('platform', axis=1, inplace=True)
+
+# Select only columns with a non-empty list in 'searchInteractionURIs'
+search_df = search_df[search_df['searchInteractionURIs'].map(len) > 0]
+
+# Display as a tag cloud
+from wordcloud import WordCloud
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(' '.join(search_df['searchQuery']))
+plt.figure(figsize=(20,10))
+plt.imshow(wordcloud)
+plt.axis("off")
+plt.show()
+```
+
+Quite a funny cloud of nonsense-- I'll help you out with some gueses-- 'xiu' and 'xiux' are searches for _[XiuXiu](W!)_, 'pussy' was presumably just before _[Pussy Riot](W!)_ were in town and I was thinking of going to see them-- though I would say that, wouldn't I? 'Barber' is presumably _Caterina Barbieri_, though it could just as easily be the _Barber of Seville_ for all I know.
+
+All in all a rather sparse and uninteresting dataset. I do like the big 'lana' and 'faye' banners though-- unfortunately there is not enough repetition in the dataset for the sizes to be based on anything, so it's just order. I wish I listened to _Faye Wong_ and _Lana Del Ray_ so disproportionately though, that would be a better world.
+
+# Listening History
+
+The listening history looks more interesting.
+
+```{python}
+#| warning: false
+listening_json_0 = os.path.join(DATA_DIR, 'StreamingHistory0.json')
+listening_json_1 = os.path.join(DATA_DIR, 'StreamingHistory1.json')
+listening_json = [listening_json_0, listening_json_1]
+
+listening_df = pd.concat([pd.read_json(json) for json in listening_json])
+
+listening_df['endTime'] = pd.to_datetime(listening_df['endTime'])
+
+# Rename 'artistName' to 'Artist' and 'trackName' to 'Track'
+listening_df.rename(columns={'artistName': 'Artist', 'trackName': 'Track'}, inplace=True)
+
+# Drop entries with less than 5s of listening time
+listening_df = listening_df[listening_df['msPlayed'] > 5000]
+
+# Seperate podcasts into a seperate df
+podcasts = [
+  "80,000 Hours Podcast with Rob Wiblin",
+  "Conversations with Tyler",
+  "The Ezra Klein Show",
+  "Dan Carlin's Hardcore History",
+  "The Lunar Society",
+  "Lex Fridman Podcast",
+  "Sean Carroll's Mindscape: Science, Society, Philosophy, Culture, Arts, and Ideas",
+]
+podcast_df = listening_df[listening_df['Artist'].isin(podcasts)]
+listening_df = listening_df[~listening_df['Artist'].isin(podcasts)]
+
+# Group by artist
+
+def sort_df_by_artist_time(df):
+  # Group by by_
+  df = df.groupby(['Artist']).sum().reset_index()
+
+  # Sort by listening time
+  df.sort_values('msPlayed', ascending=False, inplace=True)
+
+  # Format the listening time
+  df['Time'] = df['msPlayed'].apply(lambda x: datetime.timedelta(seconds=round(x/1000)))
+  df['Time'] = df['Time'].apply(lambda x: f'{x.days*24 + x.seconds//3600}h:{x.seconds//60%60}m')
+
+  df.drop('msPlayed', axis=1, inplace=True)
+  return df
+
+def sort_df_by_track(df):
+  # Group by by_
+  df = df.groupby(['Artist', 'Track']).sum().reset_index()
+
+  # Sort by listening time
+  df.sort_values('msPlayed', ascending=False, inplace=True)
+
+  # Format the listening time
+  df['Time'] = df['msPlayed'].apply(lambda x: datetime.timedelta(seconds=round(x/1000)))
+  df['Time'] = df['Time'].apply(lambda x: f'{x.days*24 + x.seconds//3600}h:{x.seconds//60%60}m')
+
+  df.drop('msPlayed', axis=1, inplace=True)
+  return df
+```
+
+## Top Artists
+
+```{python}
+#| column: margin
+#| warning: false
+df = sort_df_by_artist_time(listening_df)
+df.head(100).style.hide_index()
+```
+
+Well there you go (sidebar ==>). It's actually quite different from what I expected. I mean I know I listen to a lot of solo piano music, but that is a little absurd. And how did John Cale get in there as second!
+
+The more I look at that list the more perplexing I find it. I guess I did download a lot of music this year and listen to it on my laptop, so the numbers are quite a bit skewed by that. But that still means that I have listened to 16h or the Polyrythmic Orchestra of Cotonou!
+
+The only thing I find totally unrealistic is the 12h of Brahms and the 8h of Beethoven-- they must both be from the [Menuhin Century](https://www.allmusic.com/album/the-menuhin-century-mw0002926727?1666723440528) album-- the 'Virtuoso and Landmark Recordings' CDs are full of Brahms and Beethoven, and I listen to it regularly. But in my defense I'm mostly in it for the Menuhin-- those two plus the Shostakovich-- and maybe even the Rachmaninoff? I think there are a few names on there because of that album.
+
+### Podcasts
+Here are the top podcast times:
+
+::: {.callout-note icon=false collapse=true}
+## Podcasts
+```{python}
+#| warning: false
+df = sort_df_by_artist_time(podcast_df)
+df.head(30).style.hide_index()
+```
+:::
+
+## Top Tracks
+
+::: {.callout-note icon=false collapse=true}
+## Top Tracks (All)
+```{python}
+#| warning: false
+df = sort_df_by_track(listening_df)
+
+# Show columns in the order 'Track', 'Artist', 'Time'
+df = df[['Track', 'Artist', 'Time']]
+df.head(30).style.hide_index()
+```
+:::
+
+Okay, now things are starting to fall into place. A lot of the hours that Liszt has racked up are due to the album 'Harmonies poétiques et religieuses', which, I have to admit, has failed to really hit home with me. I spent many hours with the album, as you can see, because I have had good luck with other long Liszt suites (such as the Annees), just by listening to them again and again until they start to sink in. But the Harmonies still haven't settled in, in fact I hardly remember them, which is why I was so surprised that Liszt was so high on the numbers for the last year.
+
+Lo-Pacific by the Sun City Girls is great, but is an entire album as a single track so is cheating a little bit.
+
+What is Kansas by Opinion? I have never heard of that. Apparently it is on a playlist I created though, so apparently I listened to it and liked it once upon a time-- or rather, 4 times upon a time, since it is 30 mins long. I'll drop it too.
+
+If I remove the classical stuff and Lo-Pacific, then the top tracks looks like this:
+
+::: {.callout-note icon=false collapse=false}
+## Top Tracks (Non-Classical)
+```{python}
+#| warning: false
+df = sort_df_by_track(listening_df)
+
+# Drop classical and Lo-Pacific
+drop_artists = [
+  "Franz Liszt",
+  "Fritz Kreisler",
+  "Giacinto Scelsi",
+  "Nikolai Medtner",
+  "Antonio Vivaldi",
+  "Karol Szymanowski",
+  "Maurice Ravel",
+  "Henryk Wieniawski",
+  "Niccolò Paganini",
+  "Johann Sebastian Bach",
+  "Ludwig van Beethoven",
+]
+
+drop_tracks = [
+  "Lo-Pacific",
+  "Kansas",
+]
+
+df = df[~df['Artist'].isin(drop_artists)]
+df = df[~df['Track'].isin(drop_tracks)]
+
+# Show columns in the order 'Track', 'Artist', 'Time'
+df = df[['Track', 'Artist', 'Time']]
+df.head(30).style.hide_index()
+```
+:::
+
+And there you have it! This list makes sense to me now-- a great South Korean psychedelic rock song, some voodoo music from Benin, _'Gun'_ by _John Cale_, some _Amara Touré_, some Ethiopian and Arab crooners. All good stuff.
+
+Apparently Spotify will be delivering my full listening history in all it's gory detail sometime soon. Lets see what I make of it when it gets here.

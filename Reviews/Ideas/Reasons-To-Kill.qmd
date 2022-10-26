@@ -1,0 +1,64 @@
+---
+title: Reasons to Kill
+date: 2022-10-18 11:42:55
+jupyter: python3
+toc: true       # Table of Contents
+format:
+  html:
+    code-tools: true
+    code-fold: true
+---
+
+In order to get a new perspective on [welfare](/Essays/Welfare), and taking a cue from [Butler](https://www.versobooks.com/books/3758-the-force-of-nonviolence)[^TODO], here I will review reasons to kill.
+
+TODO: make a set of metrics to judge these by, make a graph.
+
+# Sustenance [0.1]
+To kill for food?
+
+This justification dropped off a cliff during the agricultural revolution-- at least w.r.t land animals.
+
+For sea creatures I would argue that the justification for killing for eating continued at pace until the industrial revolution.
+
+The reason sea creatures still merit our violent attentions is that they harvest food from all over the ocean and bring it to the shore, where we can harvest it. It is in this role as transporters of food that they earn their violence.
+
+This also provides an interesting lens onto an ancient justification for hunting in general, before the majority of our environment was turned over to human activities-- imagining wild animals move in a Brownian fashion, if a hunter-gatherer band sits in one place on the map and captures all wild animals that come their way, they are effectively expanding the plant capture area-- especially considering wild animals often process food that is inedible for humans.
+
+However, the same could be said for land animals in certain communities. Eg. in agricultural communities, a diet supplemented with a bit of hunted and foraged food would be much richer than what agriculture alone could sustain.
+
+So this probably retained some validity until well into the modern era-- especially during eg. wartime periods.
+
+# Shelter [0.01]
+To kill for clothing?
+
+This has doubtless had some validity in certain places and times. It seems clear though that we can substitute very well for animal products in most places, since industrialization.
+
+# Preference [0.001] {#sec-preference}
+To kill for pleasure?
+
+Hard to justify, especially since the advent of writing. Even before that we had art and poetry-- there are other ways to entertain yourself.
+
+Note however the way preference interacts with eg. shelter-- wearing real furs, no longer necessary, has social cache because eg. wearing the richest furs would have been a symbol of wealth and power since the early days of humanity, esp. in colder regions. You can see many evolutionary adaptations playing out in fashion in places like Moscow.
+
+# Conflict [0.6]
+
+There are cases where the livelihood of animals is in direct conflict with the livelihood of persons[^excluding]. An obvious example would be mosquitoes-- whose livelihood is considered so irrelevant that we are seriously considering eliminating entire species. And we have successfully removed them en mass from eg. Taipei and other tropical cities where they would naturally thrive. Perhaps more interesting is the case of Seagulls and Pigeons, and other uneasy synanthropes-- they would doubtless thrive even better if we didn't build to exclude them, and aside from the corrosive effect of their shit, they don't seem to do much harm. Maybe opening up cities to birds again would be an easy win for 'wild animal' welfare.
+
+Who else do we compete with directly these days? We prefer our shipping routes to the welfare of whales, and many other such conveniences. But most of the conflicts we have with animals seem to be agricultural. See for example [Regenesis](W!) for a gloss of the research on wild animal-human encounters in national parks in Europe (w.r.t the question if we can't live in harmony with wolves or boars).
+
+# Research [???]
+
+We use animals for research. We use them to learn about the natural world, and to advance medicine in particular.
+
+This subject has been treated in some detail by researchers already. TODO: read some relevant papers.
+
+# Industry
+
+Animal products provide essential components in many industries. I think this topic would require the most careful scrutiny, as the question of relevant trade-offs in different cases might be quite nuanced. For example, if there is an animal product that is vastly more efficient to harvest than it takes to produce a substitute, how do we balance the choice?
+
+# Sport
+
+See @sec-preference
+
+[^excluding]: On a larger scale this includes most agriculture of course, but here we are talking even more directly.
+[^TODO]: read this
