@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        hexo-theme-suka © SukkaW
+        GitHub: https://github.com/SukkaW/hexo-theme-suka
+    -->
+
+    <!-- ### Resource Hint ### -->
+
+    <!-- ## DNS Prefetch ## -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- busuanzi -->
+
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
+
+
+<!-- comment -->
+
+
+
+
+
+
+
+<!-- analytics -->
+
+
+
+
+
+
+
+    <!-- ## Preload ## -->
+    
+    <!-- Busuanzi -->
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" as="script">
+
+
+
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+    <meta name="renderer" content="webkit">
+
+    <!-- Title -->
+    <title>Alacritty Ascii | Fergus Fettes</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image&#x2F;ico" href="/img/suka-favicon.ico">
+
+    <!-- ### Import File ### -->
+    <link rel="stylesheet" href="/lib/spectre/spectre.min.css"><style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    a, a:visited {
+        color: #0070ff;
+    }
+
+    a:active, a:focus, a:hover {
+        color: #0070ff;
+        opacity: .75;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #005eb9;
+        opacity: 1;
+    }
+
+    
+
+    .post-entry .card-body a {
+        color: #0070ff;
+    }
+
+    .avatar {
+        background: #444;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #0070ff;
+    }
+
+    .navbar-link:hover {
+        color: #0070ff;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #727e96;
+        border-color: #727e96;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #727e96;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #f8f9fa;
+        opacity: .85;
+    }
+</style><link rel="stylesheet" href="/css/style.min.css">
+
+
+
+
+
+
+
+
+    <!-- Prettify Theme -->
+    
+    <link rel="preload" href="/css/highlight/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/highlight/github.min.css"></noscript>
+
+
+
+
+
+<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+</script>
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Fergus Fettes"><meta name="msapplication-starturl" content="http://www.fergusfettes.com"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Fergus Fettes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="Alacritty Ascii | Fergus Fettes"><meta property="og:site_name" content="Fergus Fettes"><meta property="og:type" content="article"><meta property="og:url" content="http://www.fergusfettes.com/2020/12/10/alacritty-ascii/"><meta property="og:locale" content="en"><meta name="description" content="Alacritty is one of the many lovely developer tools that are springing up as the first flush in the Rust revolution. Its a fantastic terminal that I’m sure I will have more to say about in due time. A - Fergus Fettes - Fergus Fettes"><meta property="og:image" content="http://www.fergusfettes.com/alacritty-ascii/still_face.png"><meta property="og:image" content="http://www.fergusfettes.com/alacritty-ascii/still_face_large.png"><meta property="og:image" content="http://www.fergusfettes.com/alacritty-ascii/muscle_kid_small.png"><meta property="article:published_time" content="2020-12-10T20:56:02.000Z"><meta property="article:modified_time" content="2022-10-15T22:17:08.288Z"><meta property="og:updated_time" content="2022-10-15T22:17:08.288Z"><meta property="article:author" content="Fergus Fettes"><meta name="twitter:card" content="summary">
+
+    
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="http://www.fergusfettes.com/2020/12/10/alacritty-ascii/">
+
+    <meta name="generator" content="Hexo 6.3.0">
+
+    <!-- ### Analytics ### -->
+    
+
+
+
+
+
+
+
+    <!-- ### Structured Data ### -->
+    
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "url": "http://www.fergusfettes.com/2020/12/10/alacritty-ascii/",
+    "@type": "BlogPosting",
+    "logo": "http://www.fergusfettes.com/img/suka-favicon.ico",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.fergusfettes.com/2020/12/10/alacritty-ascii/"
+    },
+    "headline": "Alacritty Ascii | Fergus Fettes",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://www.fergusfettes.com/img/suka-favicon.ico"
+    },
+    
+    "datePublished": "2020-12-10T20:56:02.000Z",
+    "dateModified": "2022-10-15T22:17:08.288Z",
+    "author": {
+        "@type": "Person",
+        "name": "Fergus Fettes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://www.fergusfettes.com/img/default_avatar.png"
+        },
+        "description": "Hi, nice to meet you."
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Fergus Fettes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://www.fergusfettes.com/img/suka-favicon.ico"
+        }
+    },
+    
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "http://www.fergusfettes.com/search?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    
+    "keywords": "",
+    "description": "Alacritty is one of the many lovely developer tools that are springing up as the first flush in the Rust revolution. Its a fantastic terminal that I’m sure I will have more to say about in due time. A - Fergus Fettes - Fergus Fettes"
+}
+</script>
+
+
+
+    <!-- ### Custom Head ### -->
+    
+</head>
+
+    <body>
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <h1 class="header-title text-center"><a href="/">Fergus Fettes</a></h1>
+
+    <p class="text-center header-slogan">
+        
+            
+                Hi, nice to meet you.
+            
+        
+    </p>
+
+    <nav class="navbar-section text-center">
+    
+        <a href="/" class="navbar-link">Home</a>
+    
+    
+        <a href="/archives/" class="navbar-link">Archives</a>
+    
+    
+        <a href="/search" class="navbar-link">Search</a>
+    
+    
+    
+        <div class="dropdown dropdown-right">
+    <a class="navbar-link dropdown-toggle" tabindex="0">Share</a>
+    <ul class="menu share-menu">
+
+        <!-- Share Weibo -->
+        
+        <li class="menu-item">
+            <a href="http://service.weibo.com/share/share.php?appkey=&title=Fergus Fettes&url=http://www.fergusfettes.com&pic=http://www.fergusfettes.com/img/suka-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+        </li>
+        
+
+        <!-- Share Twitter -->
+        
+        <li class="menu-item">
+            <a href="https://twitter.com/intent/tweet?text=Fergus Fettes&url=http://www.fergusfettes.com&via=Fergus Fettes" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
+        </li>
+        
+
+        <!-- Share Facebook -->
+        
+        <li class="menu-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.fergusfettes.com" target="_blank" rel="external noopener noreferrer nofollow">Share to Facebook</a>
+        </li>
+        
+
+        <!-- Share Google+ -->
+        
+        <li class="menu-item">
+            <a href="https://plus.google.com/share?url=http://www.fergusfettes.com" target="_blank" rel="external noopener noreferrer nofollow">Share to Google+</a>
+        </li>
+        
+
+        <!-- Share LinkedIn -->
+        
+        <li class="menu-item">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.fergusfettes.com&title=Alacritty Ascii" target="_blank" rel="external noopener noreferrer nofollow">Share to LinkedIn</a>
+        </li>
+        
+
+        <!-- Share QQ -->
+        
+        <li class="menu-item">
+            <a href="http://connect.qq.com/widget/shareqq/index.html?site=Fergus Fettes&title=Alacritty Ascii&summary=&pics=http://www.fergusfettes.com/img/suka-favicon.ico&url=http://www.fergusfettes.com" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+        </li>
+        
+
+        <!-- Share Telegram -->
+        
+        <li class="menu-item">
+            <a href="https://t.me/share/url?url=http://www.fergusfettes.com&text=Alacritty Ascii" target="_blank" rel="external noopener noreferrer nofollow">Share to Telegram</a>
+        </li>
+        
+
+        <!-- QRCode -->
+        
+        <li class="menu-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAAB2ElEQVR42u3aQZKDMAxEUe5/6WSbctnqbsLCFp/NJCTBb6qELWRdnw2PCxQoUKAmqKs4fr8zvh7Pjb+bXUOOA6oNahp0k/MOtvqtGgdUL9QsUEeIGnh2HXccUO9CzYJ8NZGuPgMFanV+FdDuog7qPagqUGeoZfIf3Ayg+qKqIH3y72NPM6C2RqWBWwaqsYg/UnUBtTWqCsTVwOq9G+igeqOSIE8TOFVAA9UL5SZ27sI9K4pUC7yc0UEdiXICsirsr26CVeHNCnRQx6Oq4EyKYCr5KzeVQLVBqYHdDSOVKFY3Eag+qGqBdd+7E6y8OUC1QKlJ1J0g4wJZknmCOg7lJmFqAVeFM1k8AdUCpRq2ksacdCIG1RPlBryaINUEbDVYgGqDqoJQFTDcAodq+gLVB6UKqU4ToLNBpK4NqhdKPRAkBY2kwCEbcEAdi1IL6d3iWfJPguqHShM0Z9FNkkFQ/VDpRrXzgJo09oDqg3IaBVWBwi3yy4YMUC1QToLmFMvSSVY+jII6GuVuclcFDafZS+FA9UI5jaPpRoDTRHErSwB1PMoBOYuy3dQF6hUop2h25zt/BTqorVGq6FptWKrEz4WB6oNKkrTkpog3vUG1QO10gAIFCtTP8QU1APDAfuHf0wAAAABJRU5ErkJggg==" alr="QRCode">
+        </li>
+        
+
+    </ul>
+</div>
+    
+    
+</nav>
+</header>
+
+            
+    <!-- ## Post ## -->
+    <div class="post-container">
+    <div id="post-card" class="card">
+        
+        <div class="card-item-container">
+            <div class="card-inner-cell">
+                <!-- # Post Header Info # -->
+                <div class="card-header">
+                    
+    <h1 class="card-title h3 mb-2">Alacritty Ascii</h1>
+
+
+
+
+<div class="post-header-info">
+    <p class="post-header-info-left text-gray">
+        <img class="author-thumb lazyload" data-src="/img/default_avatar.png" src="/img/suka-lazyload.gif" alt="Fergus Fettes's Avatar">
+        <span>2020-12-10</span>
+        
+        
+            <!-- Busuanzi Post Views -->
+<span id="busuanzi_container_page_pv" hidden>
+    <span class="suka-devide-dot"></span>
+    <span></span>
+    <span id="busuanzi_value_page_pv"></span>
+    <span>Views</span>
+</span>
+        
+        
+    </p>
+    <div class="post-header-info-right">
+        
+            <div class="dropdown dropdown-right">
+<a class="dropdown-toggle" tabindex="0">Share the post</a>
+<ul class="menu share-menu">
+    <!-- Share Weibo -->
+    
+    <li class="menu-item">
+        <a href="http://service.weibo.com/share/share.php?appkey=&title=Alacritty Ascii&url=http://www.fergusfettes.com/2020/12/10/alacritty-ascii/&pic=http://www.fergusfettes.com/img/suka-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+    </li>
+    
+
+    <!-- Share Twitter -->
+    
+    <li class="menu-item">
+        <a href="https://twitter.com/intent/tweet?text=Alacritty Ascii&url=http://www.fergusfettes.com/2020/12/10/alacritty-ascii/&via=Fergus Fettes" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
+    </li>
+    
+
+    <!-- Share Facebook -->
+    
+    <li class="menu-item">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.fergusfettes.com/2020/12/10/alacritty-ascii/" target="_blank" rel="external noopener noreferrer nofollow">Share to Facebook</a>
+    </li>
+    
+
+    <!-- Share Google+ -->
+    
+    <li class="menu-item">
+        <a href="https://plus.google.com/share?url=http://www.fergusfettes.com/2020/12/10/alacritty-ascii/" target="_blank" rel="external noopener noreferrer nofollow">Share to Google+</a>
+    </li>
+    
+
+    <!-- Share LinkedIn -->
+    
+    <li class="menu-item">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.fergusfettes.com/2020/12/10/alacritty-ascii/&title=Fergus Fettes" target="_blank" rel="external noopener noreferrer nofollow">Share to LinkedIn</a>
+    </li>
+    
+
+    <!-- Share QQ -->
+    
+    <li class="menu-item">
+        <a href="http://connect.qq.com/widget/shareqq/index.html?site=Fergus Fettes&title=Fergus Fettes&summary=&pics=http://www.fergusfettes.com/img/suka-favicon.ico&url=http://www.fergusfettes.com/2020/12/10/alacritty-ascii/" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+    </li>
+    
+
+    <!-- Share Telegram -->
+    
+    <li class="menu-item">
+        <a href="https://t.me/share/url?url=http://www.fergusfettes.com/2020/12/10/alacritty-ascii/&text=Fergus Fettes" target="_blank" rel="external noopener noreferrer nofollow">Share to Telegram</a>
+    </li>
+    
+
+    <!-- QRCode -->
+    
+    <li class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAAAAABQV18IAAAB2ElEQVR42u3aQZKDMAxEUe5/6WSbctnqbsLCFp/NJCTBb6qELWRdnw2PCxQoUKAmqKs4fr8zvh7Pjb+bXUOOA6oNahp0k/MOtvqtGgdUL9QsUEeIGnh2HXccUO9CzYJ8NZGuPgMFanV+FdDuog7qPagqUGeoZfIf3Ayg+qKqIH3y72NPM6C2RqWBWwaqsYg/UnUBtTWqCsTVwOq9G+igeqOSIE8TOFVAA9UL5SZ27sI9K4pUC7yc0UEdiXICsirsr26CVeHNCnRQx6Oq4EyKYCr5KzeVQLVBqYHdDSOVKFY3Eag+qGqBdd+7E6y8OUC1QKlJ1J0g4wJZknmCOg7lJmFqAVeFM1k8AdUCpRq2ksacdCIG1RPlBryaINUEbDVYgGqDqoJQFTDcAodq+gLVB6UKqU4ToLNBpK4NqhdKPRAkBY2kwCEbcEAdi1IL6d3iWfJPguqHShM0Z9FNkkFQ/VDpRrXzgJo09oDqg3IaBVWBwi3yy4YMUC1QToLmFMvSSVY+jII6GuVuclcFDafZS+FA9UI5jaPpRoDTRHErSwB1PMoBOYuy3dQF6hUop2h25zt/BTqorVGq6FptWKrEz4WB6oNKkrTkpog3vUG1QO10gAIFCtTP8QU1APDAfuHf0wAAAABJRU5ErkJggg==" alt="QRCode">
+    </li>
+    
+
+</ul>
+</div>
+        
+    </div>
+</div>
+                </div>
+                <div class="card-body">
+                    
+                        
+                        
+                    
+                    <article id="post-content">
+                        <p><a target="_blank" rel="noopener" href="https://github.com/alacritty/alacritty">Alacritty</a> is one of the many lovely developer tools that are springing up as the first flush in the Rust revolution. Its a fantastic terminal that I’m sure I will have more to say about in due time.</p>
+<p>As <a href="/micros/alacritty-and-ascii/">noted</a>, I discovered something lovely while transferring some files the other day. I was moving my small film collection (currently stretching to 7 titles: &lt;INSERT FILMS&gt;) from one computer to another, and I just wanted to sanity check that the transfer had succeeded. So I sshed into the machine <code>ssh work</code> and ran <code>vlc -I dummy ~/films/Mullholland\ Dr.mkv</code>.</p>
+<p>Imagine my surprise to see the criterion logo appear, animated before me. Here is a nice still from another film to illustrate:<br><img src="/alacritty-ascii/still_face.png" alt="face closeup" title="Closeup of face"></p>
+<p>You can also look at a copy-paste of the terminal <a href="/alacritty-ascii/still_face.txt">here</a> to prove that it really is ASCII output.</p>
+<hr>
+<p>Zooming out, the resolution becomes better and better (<a href="/alacritty-ascii/still_face_large.txt">text</a>), but it starts to jitter quite badly at a certain size.<br><img src="/alacritty-ascii/still_face_large.png" alt="large face"></p>
+<p>I thought the ssh connection might be a bottleneck, so I went to the computer to try it on one machine. I had that slightly haunted feeling that the magic might disappear, and when I entered the terminal I suddenly wondered </p>
+<blockquote>
+<p>How will I get it to work here? If I run <code>vlc -I dummy ~/filmes/Crash.mkv</code> I’ll just get a window.</p>
+</blockquote>
+<p>but as soon as the thought was there I realised I could just start with <code>ssh localhost</code>. And it worked. I was watching the ‘Universal’ logo barge into my terminal.</p>
+<p>But things got even better. I noticed that my keystrokes were even getting sent back to vlc, so I could skip forward, pause and even quit the film (sometimes it gets stuck and I have to <code>killall vlc</code> but so it goes).</p>
+<p>After a little sleuthing, I notice that</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vlc -I dummy ~/films/film.choice</span><br></pre></td></tr></table></figure>
+<p>is interactive, but</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vlc ~/films/film.choice</span><br></pre></td></tr></table></figure>
+<p>is not. What is this dummy terminal doing after all? Well, the vlc wiki has a little info<a target="_blank" rel="noopener" href="https://wiki.videolan.org/Documentation:Modules/dummy/">^vlc dummy</a>, and they nicely point out that keystrokes are sent back. I find the terminology a little odd, since ‘dummy video output’ is just normal video output, but I think they are looking at it from a gui-makers perspective. And this seems to be the key– with the dummy interface, vlc streams the movie to a window. Alacritty is presumably pretending to be a screen or a window of some sort, in order to pass its work to the GPU, so VLC merrily dumps the video stream in there.</p>
+<p>What I would love to know, and I might take some time to investigate, is how is Alacritty mapping the video stream to ASCII? And why?</p>
+<hr>
+<p>I will leave this story here for now. I have two things in mind: one, to investigate further over at the Alacritty github and two, to have some people round for a film, run it through Alacritty-ASCII and run the audio through a digital soundcard or some synths, and make a little performance. I’ll update if either of these things transpire.</p>
+<p>In the meantime, if you want to try it yourself, I have uploaded a slightly rushed video of the effect in action (the size limit on asciinema was not made with 4k ASCII movies in mind, so no hard feelings). Asciinema cast attached<a target="_blank" rel="noopener" href="https://asciinema.org/a/378193">^cast</a>.</p>
+<p>And here is a final zoomed in still to admire. In the attached <a href="/alacritty-ascii/muscle_kid_small.txt">text</a> you can see how much of a difference the color makes, presumably a lot of the 8s have the same foreground and background color.</p>
+<p><img src="/alacritty-ascii/muscle_kid_small.png" alt="muscle kid" title="Kid with muscles"></p>
+
+                    </article>
+                    
+
+
+    <blockquote id="date-expire-notification" class="post-expired-notify">This article was last updated on <span id="date-expire-num"></span> days ago, and the information described in the article may have changed.</blockquote>
+    <script>
+    (function() {
+        var dateUpdate = Date.parse("2022-10-16");
+        var nowDate = new Date();
+        var a = nowDate.getTime();
+        var b = a - dateUpdate;
+        var daysUpdateExpire = Math.floor(b/(24*3600*1000));
+        if (daysUpdateExpire >= 120) {
+            document.getElementById('date-expire-num').innerHTML = daysUpdateExpire;
+        } else {
+            document.getElementById('date-expire-notification').style.display = 'none';
+        }
+    })();
+    </script>
+
+
+<p class="post-footer-info mb-0 pt-0">Published at&nbsp;<time datetime="2020-12-10T20:56:02.000Z" itemprop="datePublished">2020-12-10</time>
+
+    , Updated at&nbsp;<time datetime="2022-10-15T22:17:08.288Z" itemprop="dateModified">2022-10-16</time>
+
+</p>
+<p class="post-footer-info mb-0 pt-2">
+
+
+
+
+</p>
+
+                </div>
+                <div class="post-nav px-2 bg-gray">
+<ul class="pagination">
+    <!-- Prev Nav -->
+    
+        <li class="page-item page-prev">
+            <a href="/2020/12/26/music-i-like/" rel="prev">
+                <div class="page-item-title"><i class="icon icon-back" aria-hidden="true"></i></div>
+                <div class="page-item-subtitle">Music-I-Like</div>
+            </a>
+        </li>
+    
+
+    <!-- Next Nav -->
+    
+</ul>
+</div>
+
+                
+                    <!-- # Comment # -->
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    
+        <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span id="copyright-year"></span>
+            <a class="footer-copyright-a" href="http://www.fergusfettes.com">Fergus Fettes</a>
+        </p>
+
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
+    
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
+        
+    <!-- Busuanzi User Views -->
+    <span id="busuanzi_container_site_uv" hidden>
+        <span></span>
+        <span id="busuanzi_value_site_uv"></span>
+        <span>Viewers</span>
+        
+            <span>|</span>
+        
+    </span>
+
+
+
+
+        
+        Powered by&nbsp;<!--
+         --><a href="https://hexo.io" target="_blank" class="footer-develop-a" rel="external nofollow noopener noreferrer">Hexo</a><span class="footer-develop-divider"></span>Theme&nbsp;-&nbsp;<!--
+         --><a href="https://github.com/SukkaW/hexo-theme-suka" target="_blank" class="footer-develop-a" rel="external noopener">Suka</a>
+    </p>
+</footer>
+
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+
+    
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+document.getElementById('copyright-year').textContent = new Date().getFullYear();
+console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
+
+</script>
+
+<script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
+
+
+<!-- Offset -->
+
+
+
+
+<!-- Comment -->
+
+
+<!-- ### Custom Footer ### -->
+
+    </body>
+
+</html>
